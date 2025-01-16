@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Apricots1024</title>
-    <link>http://localhost:1313/ApricotsZone/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on Apricots1024</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/ApricotsZone/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FIB SEM测厚</title>
-      <link>http://localhost:1313/ApricotsZone/posts/fib-sem%E6%B5%8B%E5%8E%9A/</link>
+      <link>//localhost:1313/posts/fib-sem%E6%B5%8B%E5%8E%9A/</link>
       <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ApricotsZone/posts/fib-sem%E6%B5%8B%E5%8E%9A/</guid>
+      <guid>//localhost:1313/posts/fib-sem%E6%B5%8B%E5%8E%9A/</guid>
       <description>&lt;p&gt;绝对测量550μg/cm²靶厚，预估699nm&lt;/p&gt;
 &lt;h1 id=&#34;原子力显微镜afm类设备&#34;&gt;原子力显微镜AFM类设备&lt;/h1&gt;
 &lt;p&gt;700nm厚度样品固定在衬底上，厚度当作表面起伏测量。&lt;/p&gt;
@@ -51,16 +51,16 @@
     </item>
     <item>
       <title>半衰期与衰变数目计算</title>
-      <link>http://localhost:1313/ApricotsZone/posts/%E8%A1%B0%E5%8F%98%E6%95%B0%E7%9B%AE%E8%AE%A1%E7%AE%97/</link>
+      <link>//localhost:1313/posts/%E8%A1%B0%E5%8F%98%E6%95%B0%E7%9B%AE%E8%AE%A1%E7%AE%97/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ApricotsZone/posts/%E8%A1%B0%E5%8F%98%E6%95%B0%E7%9B%AE%E8%AE%A1%E7%AE%97/</guid>
+      <guid>//localhost:1313/posts/%E8%A1%B0%E5%8F%98%E6%95%B0%E7%9B%AE%E8%AE%A1%E7%AE%97/</guid>
       <description>不稳定核的衰变数目计算关系</description>
     </item>
     <item>
       <title>🤝 友链</title>
-      <link>http://localhost:1313/ApricotsZone/friends/</link>
+      <link>//localhost:1313/friends/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ApricotsZone/friends/</guid>
+      <guid>//localhost:1313/friends/</guid>
       <description>&lt;style type=&#34;text/css&#34;&gt;
     .friends {
         --link-count-per-row: 1;
