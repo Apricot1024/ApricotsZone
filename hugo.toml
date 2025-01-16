@@ -144,19 +144,19 @@ tocopen = false
   keys = [ "title", "permalink", "summary", "content" ]
 
   [[params.footerImages]]
-  src = "/images/Written-By-Human-Not-By-AI-Badge-white.png"
+  src = "/images/AI1.png"
   # alt = "Footer Image Description"
 
   [[params.footerImages]]
-  src = "/images/Written-By-Human-Not-By-AI-Badge-black.png"
+  src = "/images/AI2.png"
   # alt = "Footer Image Description"
 
   [[params.footerImages]]
-  src = "/images/Written-By-Human-Not-By-AI-Badge-white-en.png"
+  src = "/images/AI3.png"
   # alt = "Footer Image Description"
 
   [[params.footerImages]]
-  src = "/images/Written-By-Human-Not-By-AI-Badge-black-en.png"
+  src = "/images/AI4.png"
   # alt = "Footer Image Description"
 
 
