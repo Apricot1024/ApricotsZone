@@ -6,12 +6,53 @@
     <description>Recent content in Science on Apricots1024</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/tags/science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FIB SEM测厚</title>
+      <link>//localhost:1313/posts/fib-sem%E6%B5%8B%E5%8E%9A/</link>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/fib-sem%E6%B5%8B%E5%8E%9A/</guid>
+      <description>&lt;p&gt;绝对测量550μg/cm²靶厚，预估699nm&lt;/p&gt;
+&lt;h1 id=&#34;原子力显微镜afm类设备&#34;&gt;原子力显微镜AFM类设备&lt;/h1&gt;
+&lt;p&gt;700nm厚度样品固定在衬底上，厚度当作表面起伏测量。&lt;/p&gt;
+&lt;p&gt;测量样品上表面与衬底的高度差。&lt;/p&gt;
+&lt;p&gt;台阶仪 &amp;gt; AFM &amp;gt; 压电台机械臂&lt;/p&gt;
+&lt;p&gt;无损，精度受衬底影响。&lt;/p&gt;
+&lt;p&gt;AFM探针的精度是~10 nm，但是难点在于不增加高度的条件下固定样品。&lt;/p&gt;
+&lt;p&gt;低成本。&lt;/p&gt;
+&lt;h1 id=&#34;fib---sem-集成&#34;&gt;FIB - SEM 集成&lt;/h1&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;//localhost:1313/assets/FIB_SEM%E6%B5%8B%E5%8E%9A/2024-11-17-17-07-44.png&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;SEM对焦&lt;/li&gt;
+&lt;li&gt;旋转样品台与FIB源垂直&lt;/li&gt;
+&lt;li&gt;FIB切割截面&lt;/li&gt;
+&lt;li&gt;SEM观察，三角函数计算厚度&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;需要切割至少600*600nm的方形空间&lt;/p&gt;
+&lt;p&gt;切割与探测精度：10 nm&lt;/p&gt;
+&lt;p&gt;微纳尺度破坏，1-2 μm，包含离子注入污染范围。&lt;/p&gt;
+&lt;p&gt;报价2000/h，切割测量一片需要大约2min&lt;/p&gt;
+&lt;h1 id=&#34;只使用sem&#34;&gt;只使用SEM&lt;/h1&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;//localhost:1313/assets/FIB_SEM%E6%B5%8B%E5%8E%9A/2024-11-17-17-11-36.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;不开FIB聚焦离子束&lt;/p&gt;
+&lt;p&gt;只使用SEM升降样品台对焦。&lt;/p&gt;
+&lt;p&gt;样品尺寸最大不能超过0.8mm&lt;/p&gt;
+&lt;p&gt;探测精度同样为：10 nm
+需要进行宏观层面的破坏&lt;/p&gt;
+&lt;p&gt;需要注意破坏方法，直接剪开可能由于剪切造成金属延展。&lt;/p&gt;
+&lt;p&gt;只能测量边缘位置的厚度。&lt;/p&gt;
+&lt;p&gt;报价2000/h&lt;/p&gt;
+&lt;h1 id=&#34;联系&#34;&gt;联系&lt;/h1&gt;
+&lt;p&gt;中科院物理所，金爱子&lt;/p&gt;
+&lt;p&gt;82648198&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;mailto:azjin@iphy.ac.cn&#34;&gt;azjin@iphy.ac.cn&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;M楼超净间千级区&lt;/p&gt;</description>
+    </item>
     <item>
       <title>半衰期与衰变数目计算</title>
       <link>//localhost:1313/posts/%E8%A1%B0%E5%8F%98%E6%95%B0%E7%9B%AE%E8%AE%A1%E7%AE%97/</link>
-      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/posts/%E8%A1%B0%E5%8F%98%E6%95%B0%E7%9B%AE%E8%AE%A1%E7%AE%97/</guid>
       <description>不稳定核的衰变数目计算关系</description>
     </item>
