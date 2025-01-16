@@ -2,38 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/ApricotsZone/tags/activation/</loc>
+    <loc>//localhost:1313/tags/activation/</loc>
     <lastmod>2024-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ApricotsZone/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2024-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ApricotsZone/posts/fib-sem%E6%B5%8B%E5%8E%9A/</loc>
+    <loc>//localhost:1313/posts/fib-sem%E6%B5%8B%E5%8E%9A/</loc>
     <lastmod>2024-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ApricotsZone/posts/</loc>
+    <loc>//localhost:1313/posts/</loc>
     <lastmod>2024-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ApricotsZone/tags/science/</loc>
+    <loc>//localhost:1313/tags/science/</loc>
     <lastmod>2024-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ApricotsZone/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
     <lastmod>2024-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ApricotsZone/tags/concept/</loc>
+    <loc>//localhost:1313/tags/concept/</loc>
     <lastmod>2024-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ApricotsZone/posts/%E8%A1%B0%E5%8F%98%E6%95%B0%E7%9B%AE%E8%AE%A1%E7%AE%97/</loc>
+    <loc>//localhost:1313/posts/%E8%A1%B0%E5%8F%98%E6%95%B0%E7%9B%AE%E8%AE%A1%E7%AE%97/</loc>
     <lastmod>2024-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ApricotsZone/archives/</loc>
+    <loc>//localhost:1313/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/ApricotsZone/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/ApricotsZone/search/</loc>
+    <loc>//localhost:1313/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/ApricotsZone/series/</loc>
+    <loc>//localhost:1313/series/</loc>
   </url><url>
-    <loc>http://localhost:1313/ApricotsZone/friends/</loc>
+    <loc>//localhost:1313/friends/</loc>
   </url>
 </urlset>
