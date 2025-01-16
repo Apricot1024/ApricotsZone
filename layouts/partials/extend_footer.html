@@ -1,7 +1,9 @@
 {{ with .Site.Params.footerImages }}
-<div class="custom-footer-images" style="display: flex; justify-content: center; gap: 1px; margin-top: 1px; flex-wrap: wrap;">
+<div class="custom-footer-images" style="display: flex; justify-content: center; gap: 1px; margin-top: 0px; flex-wrap: wrap;">
     {{ range . }}
-    <img src="{{ .src }}" alt="{{ .alt }}" style="max-width: 150px; height: auto; object-fit: cover; border-radius: 0px;">
+    {{ with .src }}
+    <img src="{{ . }}" style="max-width: 150px; height: auto; object-fit: cover; border-radius: 0px;">
+    {{ end }}
     {{ end }}
 </div>
 {{ end }}
