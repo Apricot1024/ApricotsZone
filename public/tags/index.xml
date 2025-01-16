@@ -9,10 +9,17 @@
     <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Science/Concept</title>
-      <link>//localhost:1313/tags/science/concept/</link>
+      <title>Concept</title>
+      <link>//localhost:1313/tags/concept/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/science/concept/</guid>
+      <guid>//localhost:1313/tags/concept/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Science</title>
+      <link>//localhost:1313/tags/science/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/science/</guid>
       <description></description>
     </item>
   </channel>
