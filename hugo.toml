@@ -1,0 +1,185 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Apricots1024'
+
+pagerSize = 5
+theme = "PaperMod"
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentsUseClasses = true
+mainsections = ["posts"]
+
+[minify]
+disableXML = true
+# minifyOutput = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+
+[params]
+math = true
+env = "production" # to enable google analytics, opengraph, twitter-cards and schema.
+# title = "ExampleSite"
+description = "ExampleSite description"
+# keywords = [ "Blog", "Portfolio", "PaperMod" ]
+author = "Apricot"
+# author: ["Me", "You"] # multiple authors
+# images = [ "images/" ]
+# DateFormat = "January 2, 2006"
+defaultTheme = "auto" # dark, light
+disableThemeToggle = false
+
+ShowReadingTime = true
+ShowShareButtons = true
+# displaySpecial1stPost = true
+displayFullLangName = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+ShowAllPagesInArchive = true
+ShowPageNums = true
+ShowToc = true
+# UseHugoToc = true
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+# showtoc = false
+tocopen = false
+
+  [params.assets]
+  # disableHLJS: true # to disable highlight.js
+  # disableFingerprinting: true
+  favicon = "<link / abs url>"
+  favicon16x16 = "<link / abs url>"
+  favicon32x32 = "<link / abs url>"
+  apple_touch_icon = "<link / abs url>"
+  safari_pinned_tab = "<link / abs url>"
+
+  [params.label]
+  text = "ApricotsZone"
+  icon = "/apple-touch-icon.png"
+  iconHeight = 35
+
+  # [params.profileMode]
+  # enabled = false
+  # title = "ExampleSite"
+  # subtitle = "This is subtitle"
+  # imageUrl = "<img location>"
+  # imageWidth = 120
+  # imageHeight = 120
+  # imageTitle = "my image"
+
+  #   [[params.profileMode.buttons]]
+  #   name = "Posts"
+  #   url = "posts"
+
+  #   [[params.profileMode.buttons]]
+  #   name = "Tags"
+  #   url = "tags"
+
+  [params.homeInfoParams]
+  Title = "Hi there 👋"
+  Content = """
+  - I'm Apricot.
+
+  - 是魔怔人不是乐子人。
+
+  - NuclearAstroPhysics.
+
+  - en/zh_cn.
+  """
+
+    # [[params.socialIcons]]
+    # name = "x"
+    # url = "https://x.com/"
+
+    # [[params.socialIcons]]
+    # name = "stackoverflow"
+    # url = "https://stackoverflow.com"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/apricot1024"
+
+  [params.analytics.google]
+  SiteVerificationTag = "XYZabc"
+
+  [params.analytics.bing]
+  SiteVerificationTag = "XYZabc"
+
+  [params.analytics.yandex]
+  SiteVerificationTag = "XYZabc"
+
+  [params.cover]
+  hidden = true # hide everywhere but not in structured data
+  hiddenInList = true # hide on list pages and home
+  hiddenInSingle = true # hide on single page
+
+  [params.editPost]
+  URL = "https://github.com/<path_to_repo>/content"
+  Text = "Suggest Changes" # edit text
+  appendFilePath = true # to append file path to Edit link
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  limit = 10
+  keys = [ "title", "permalink", "summary", "content" ]
+
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses = true
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[[menu.main]]
+# identifier = "categories"
+name = "Archive"
+url = "archives"
+weight = 10
+
+[[menu.main]]
+# identifier = "tags"
+name = "Tags"
+url = "tags/"
+weight = 20
+
+[[menu.main]]
+# identifier = "tags"
+name = "Search"
+url = "search/"
+weight = 30
+
+[[menu.main]]
+name = "Friends"
+url = "friends/"
+weight = 40
+
+# [[menu.main]]
+# identifier = "example"
+# name = "example.org"
+# url = "https://example.org"
+# weight = 40
+
+[markup.highlight]
+noClasses = false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
