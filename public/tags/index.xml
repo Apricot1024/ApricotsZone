@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Apricots1024</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:1313/ApricotsZone/tags/</link>
     <description>Recent content in Tags on Apricots1024</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ApricotsZone/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Activation</title>
-      <link>http://localhost:1313/tags/activation/</link>
+      <link>http://localhost:1313/ApricotsZone/tags/activation/</link>
       <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/activation/</guid>
+      <guid>http://localhost:1313/ApricotsZone/tags/activation/</guid>
       <description></description>
     </item>
     <item>
       <title>Science</title>
-      <link>http://localhost:1313/tags/science/</link>
+      <link>http://localhost:1313/ApricotsZone/tags/science/</link>
       <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/science/</guid>
+      <guid>http://localhost:1313/ApricotsZone/tags/science/</guid>
       <description></description>
     </item>
     <item>
       <title>Concept</title>
-      <link>http://localhost:1313/tags/concept/</link>
+      <link>http://localhost:1313/ApricotsZone/tags/concept/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/concept/</guid>
+      <guid>http://localhost:1313/ApricotsZone/tags/concept/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,4 +1,5 @@
-baseURL = 'https://apricot1024.github.io'
+baseURL = "https://apricot1024.github.io/ApricotsZone/"
+# baseURL = "/"
 languageCode = 'en-us'
 title = 'Apricots1024'
 
@@ -144,7 +145,7 @@ tocopen = false
   keys = [ "title", "permalink", "summary", "content" ]
 
   [[params.footerImages]]
-  src = "/static/images/AI1.png"
+  src = "/images/AI1.png"
   # alt = "Footer Image Description"
 
   [[params.footerImages]]
