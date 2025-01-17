@@ -2,7 +2,7 @@
 date = '2021-09-05'
 draft = false
 title = '增肌笔记'
-tags = ['life', 'fit']
+tags = ['Life', 'Fit']
 +++
 
 1.三个要素：抗阻力训练、足够的营养、休息时间

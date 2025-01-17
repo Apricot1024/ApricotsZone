@@ -2,7 +2,7 @@
 date = '2021-06-13'
 draft = false
 title = '健身动作总结'
-tags = ['life', 'fit']
+tags = ['Life', 'Fit']
 +++
 
 > 后编：感谢hit健身社团组织的200元学长一对一包终身的健身学习，让我从小白开始健身。
