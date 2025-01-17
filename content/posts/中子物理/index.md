@@ -2,14 +2,8 @@
 date = '2022-11-17'
 draft = false
 title = '中子物理'
+tags = ['Science', 'Neutron']
 +++
----
-title: "中子物理"
-type: science-note
-# tags: no_tag
-alias: 中子物理
----
-#Science/Neutron
 
 - 考试复习
 - # 第一章:绪论
