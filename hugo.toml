@@ -149,7 +149,7 @@ tocopen = false
   # alt = "Footer Image Description"
 
   [[params.footerImages]]
-  src = "/ApricotsZone/images/AI2.png"
+  src = "/images/AI2.png"
   # alt = "Footer Image Description"
 
   [[params.footerImages]]
