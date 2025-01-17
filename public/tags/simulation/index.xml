@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Simulation on Apricots1024</title>
+    <link>http://localhost:1313/tags/simulation/</link>
+    <description>Recent content in Simulation on Apricots1024</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/simulation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Geant4常用信息</title>
+      <link>http://localhost:1313/posts/geant4%E5%B8%B8%E7%94%A8%E4%BF%A1%E6%81%AF/</link>
+      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/geant4%E5%B8%B8%E7%94%A8%E4%BF%A1%E6%81%AF/</guid>
+      <description>&lt;p&gt;获取一些粒子蒙卡输运step中的常用信息&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;G4StepPoint*  preStepPoint = step-&amp;gt;GetPreStepPoint();//step的前端点
+G4StepPoint* postStepPoint = step-&amp;gt;GetPostStepPoint();//step的后端点
+G4String particleID = step-&amp;gt;GetTrack()-&amp;gt;GetParticleDefinition()-&amp;gt;GetParticleName();//获取粒子名称
+//printf(&amp;#34;%s\n&amp;#34;, particleID.c_str());//在终端实时打印粒子名称
+
+if (preStepPoint-&amp;gt;GetStepStatus() == fGeomBoundary){
+G4double xStep = step-&amp;gt;GetPreStepPoint()-&amp;gt;GetPosition().x();//x坐标
+G4double yStep = step-&amp;gt;GetPreStepPoint()-&amp;gt;GetPosition().y();//y坐标
+G4double zStep = step-&amp;gt;GetPreStepPoint()-&amp;gt;GetPosition().z();//z坐标
+    G4double energy = step-&amp;gt;GetTrack()-&amp;gt;GetDynamicParticle()-&amp;gt;GetKineticEnergy();//粒子动能
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;step‐&amp;gt;GetPreStepPoint()‐&amp;gt;GetGlobalTime();  
+// get current track information  
+G4Track* track = step‐&amp;gt;GetTrack();
+/* some examples of track information */  
+track‐&amp;gt;GetParticleDefinition() 
+// ‐&amp;gt; Get Particle informations  
+track‐&amp;gt;GetTrackID();  
+track‐&amp;gt;GetParentID();  
+track‐&amp;gt;GetCurrentStepNumber();  
+track‐&amp;gt;GetKineticEnergy();
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;G4int eventID = (G4EventManager::GetEventManager())-&amp;gt;GetConstCurrentEvent()-&amp;gt;GetEventID();
+// 因为在step里面，我使用EventManager这个类去获取EventID
+G4int trackID = step-&amp;gt;GetTrack()-&amp;gt;GetTrackID();
+
+G4String particleName =  step-&amp;gt;GetTrack()-&amp;gt;GetDefinition()-&amp;gt;GetParticleName();
+
+G4String postProcessName = step-&amp;gt;GetPostStepPoint()-&amp;gt;GetProcessDefinedStep()-&amp;gt;GetProcessName();
+
+G4String preName = step-&amp;gt;GetPreStepPoint()-&amp;gt;GetTouchableHandle()-&amp;gt;GetVolume()-&amp;gt;GetName();
+
+G4double postKE = step-&amp;gt;GetPostStepPoint()-&amp;gt;GetKineticEnergy();
+G4double preKE = step-&amp;gt;GetPreStepPoint()-&amp;gt;GetKineticEnergy();
+
+G4double edepStep = step-&amp;gt;GetTotalEnergyDeposit();
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;G4String creatorName;
+if (trackID==1)  creatorName=&amp;#34;primary&amp;#34;;
+else creatorName = step-&amp;gt;GetTrack()-&amp;gt;GetCreatorProcess()-&amp;gt;GetProcessName();
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;G4String postName;
+if (step-&amp;gt;GetPostStepPoint()-&amp;gt;GetStepStatus() == fWorldBoundary) postName=&amp;#34;out&amp;#34;;
+else postName = step-&amp;gt;GetPostStepPoint()-&amp;gt;GetTouchableHandle()-&amp;gt;GetVolume()-&amp;gt;GetName();
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+  </channel>
+</rss>

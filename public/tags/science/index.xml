@@ -50,11 +50,153 @@
 &lt;p&gt;M楼超净间千级区&lt;/p&gt;</description>
     </item>
     <item>
+      <title>SummerSchool2024Tongliao</title>
+      <link>http://localhost:1313/posts/summerschool2024tongliao/</link>
+      <pubDate>Sat, 27 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/summerschool2024tongliao/</guid>
+      <description>&lt;h1 id=&#34;柳卫平&#34;&gt;柳卫平&lt;/h1&gt;
+&lt;p&gt;次级束流线  7Li 电荷交换    老回旋的分析磁铁和四级透镜&lt;/p&gt;
+&lt;p&gt;壳模型对中重核参数空间大，不好算&lt;/p&gt;
+&lt;p&gt;电离室，反应气体靶&lt;/p&gt;
+&lt;p&gt;加速器MW功率：mA * GeV&lt;/p&gt;
+&lt;h1 id=&#34;周小红&#34;&gt;周小红&lt;/h1&gt;
+&lt;p&gt;HIAF兰州、惠州&lt;/p&gt;
+&lt;h1 id=&#34;张玉虎&#34;&gt;张玉虎&lt;/h1&gt;
+&lt;p&gt;评论：实验与理论的人数比较——资金投入问题&lt;/p&gt;
+&lt;p&gt;储存环-等时性质谱术
+短寿命核结构-质量&lt;/p&gt;
+&lt;p&gt;核素分类：未知核 - 已合成 - 已知质量 -
+质量测量：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;penniana Trap&lt;/li&gt;
+&lt;li&gt;B\ro - ToF&lt;/li&gt;
+&lt;li&gt;Strorage Ring&lt;/li&gt;
+&lt;li&gt;多反射ToF&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;通过环上周期定质量&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;根据周期性波形和已知核质量，以及MC模拟进行粒子鉴别&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;应用&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;质量面 考虑成 结合能
+&lt;ul&gt;
+&lt;li&gt;微分 - 分离能 - 对能&lt;/li&gt;
+&lt;li&gt;微分 - 质子晕&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;马余刚-核物理若干前沿物理问题&#34;&gt;马余刚 核物理若干前沿物理问题&lt;/h1&gt;
+&lt;p&gt;更热、更密、更奇、更重&lt;/p&gt;
+&lt;p&gt;奇异核，团簇&lt;/p&gt;
+&lt;p&gt;上海光源22MeV&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;巨共振&lt;/li&gt;
+&lt;li&gt;敲出核子&lt;/li&gt;
+&lt;li&gt;天体物理逆过程&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;唐靖宇-back-n-白光中子源&#34;&gt;唐靖宇 Back-n 白光中子源&lt;/h1&gt;
+&lt;p&gt;反角白光&lt;/p&gt;
+&lt;p&gt;白光：直接从靶上引出&lt;/p&gt;
+&lt;p&gt;解谱获取数据&lt;/p&gt;
+&lt;p&gt;王强师兄川大实验中子源是p打51V&lt;/p&gt;
+&lt;p&gt;质子束偏转15度后打靶，中子直线反角引出&lt;/p&gt;
+&lt;p&gt;关于聚焦：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MeV能区可以利用中子磁矩进行弱聚焦&lt;/li&gt;
+&lt;li&gt;主要靠狭缝聚焦&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;陈永寿-嫦娥6号月背采样&#34;&gt;陈永寿 嫦娥6号月背采样&lt;/h1&gt;
+&lt;p&gt;26Al 宇宙线产生，不稳定核&lt;/p&gt;
+&lt;p&gt;22Na 宇宙线强度探针，表征宇宙线产生率&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>半衰期与衰变数目计算</title>
       <link>http://localhost:1313/posts/%E8%A1%B0%E5%8F%98%E6%95%B0%E7%9B%AE%E8%AE%A1%E7%AE%97/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/%E8%A1%B0%E5%8F%98%E6%95%B0%E7%9B%AE%E8%AE%A1%E7%AE%97/</guid>
       <description>不稳定核的衰变数目计算关系</description>
+    </item>
+    <item>
+      <title>Number_densities</title>
+      <link>http://localhost:1313/posts/number_densities/</link>
+      <pubDate>Sat, 01 Jun 2024 10:50:04 +0800</pubDate>
+      <guid>http://localhost:1313/posts/number_densities/</guid>
+      <description>&lt;p&gt;Number density is a useful concept for thinking about macroscopic samples in a microscopic way.  &lt;strong&gt;Number density can be thought of as the number of particles that are present in a particular volume.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The number density (symbol: n or ρN) is an intensive quantity used to describe the degree of concentration of countable objects (particles, molecules, phonons, cells, galaxies, etc.) in physical space: three-dimensional volumetric number density, two-dimensional areal number density, or one-dimensional linear number density.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LSB_resolution</title>
+      <link>http://localhost:1313/posts/lsb_resolution/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/lsb_resolution/</guid>
+      <description>&lt;p&gt;Least Significant Bit, 模数转换，
+主要参考&lt;a href=&#34;https://masteringelectronicsdesign.com/an-adc-and-dac-least-significant-bit-lsb/&#34;&gt;以下内容&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;What is an LSB? The LSB is the smallest level that an ADC can convert, or is the smallest increment a DAC outputs.&lt;/p&gt;
+&lt;p&gt;The ADC needs a voltage reference to convert an analog signal into a digital word.  Depending on the number of bits it has, the ADC divides the voltage reference in small levels called counts.  For example, if this is an 8-bit ADC, the counts will look like those in Figure 1.  In an 8-bit ADC there are 28 = 256 counts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reaction_rate</title>
+      <link>http://localhost:1313/posts/reaction_rate/</link>
+      <pubDate>Sat, 27 May 2023 10:52:39 +0800</pubDate>
+      <guid>http://localhost:1313/posts/reaction_rate/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;$$ r_{1,2}=N_{1} N_{2} \int_{0}^{\infty} v \sigma(E) P(E) \mathrm{d} E $$&lt;/li&gt;
+&lt;li&gt;where N1 and N1 are the &lt;a href=&#34;../number_densities/index.md&#34;&gt;number densities&lt;/a&gt; of the two reacting particles in the plasma, v and E are, respectively, the relative velocity and energy of the particles, P (E)is the energy distribution and σ(E) is the cross section of the reaction as a function of the interaction energy.&lt;/li&gt;
+&lt;li&gt;At typical stellar conditions the energy distribution of the interacting particles can be well approximated by a &lt;strong&gt;Maxwell-Boltzmann distribution&lt;/strong&gt;. So:&lt;/li&gt;
+&lt;li&gt;$$r_{1,2}=N_{1} N_{2}\left(\frac{8}{\pi \mu}\right)^{1 / 2} \frac{1}{k T^{3 / 2}} \int_{0}^{\infty} E \sigma(E) e^{-E / k T} \mathrm{~d} E$$&lt;/li&gt;
+&lt;li&gt;Here T is the plasma temperature and μ is the reduced mass of the reacting particles.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在核天体物理中是联系微观和宏观的重要物理量，其截面(库仑势垒穿透系数)和粒子能量(麦克斯韦分布)分布预示着[[Gamow window]]，可以直接用于进行下一步天体环境发展的计算。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Geant4常用信息</title>
+      <link>http://localhost:1313/posts/geant4%E5%B8%B8%E7%94%A8%E4%BF%A1%E6%81%AF/</link>
+      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/geant4%E5%B8%B8%E7%94%A8%E4%BF%A1%E6%81%AF/</guid>
+      <description>&lt;p&gt;获取一些粒子蒙卡输运step中的常用信息&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;G4StepPoint*  preStepPoint = step-&amp;gt;GetPreStepPoint();//step的前端点
+G4StepPoint* postStepPoint = step-&amp;gt;GetPostStepPoint();//step的后端点
+G4String particleID = step-&amp;gt;GetTrack()-&amp;gt;GetParticleDefinition()-&amp;gt;GetParticleName();//获取粒子名称
+//printf(&amp;#34;%s\n&amp;#34;, particleID.c_str());//在终端实时打印粒子名称
+
+if (preStepPoint-&amp;gt;GetStepStatus() == fGeomBoundary){
+G4double xStep = step-&amp;gt;GetPreStepPoint()-&amp;gt;GetPosition().x();//x坐标
+G4double yStep = step-&amp;gt;GetPreStepPoint()-&amp;gt;GetPosition().y();//y坐标
+G4double zStep = step-&amp;gt;GetPreStepPoint()-&amp;gt;GetPosition().z();//z坐标
+    G4double energy = step-&amp;gt;GetTrack()-&amp;gt;GetDynamicParticle()-&amp;gt;GetKineticEnergy();//粒子动能
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;step‐&amp;gt;GetPreStepPoint()‐&amp;gt;GetGlobalTime();  
+// get current track information  
+G4Track* track = step‐&amp;gt;GetTrack();
+/* some examples of track information */  
+track‐&amp;gt;GetParticleDefinition() 
+// ‐&amp;gt; Get Particle informations  
+track‐&amp;gt;GetTrackID();  
+track‐&amp;gt;GetParentID();  
+track‐&amp;gt;GetCurrentStepNumber();  
+track‐&amp;gt;GetKineticEnergy();
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;G4int eventID = (G4EventManager::GetEventManager())-&amp;gt;GetConstCurrentEvent()-&amp;gt;GetEventID();
+// 因为在step里面，我使用EventManager这个类去获取EventID
+G4int trackID = step-&amp;gt;GetTrack()-&amp;gt;GetTrackID();
+
+G4String particleName =  step-&amp;gt;GetTrack()-&amp;gt;GetDefinition()-&amp;gt;GetParticleName();
+
+G4String postProcessName = step-&amp;gt;GetPostStepPoint()-&amp;gt;GetProcessDefinedStep()-&amp;gt;GetProcessName();
+
+G4String preName = step-&amp;gt;GetPreStepPoint()-&amp;gt;GetTouchableHandle()-&amp;gt;GetVolume()-&amp;gt;GetName();
+
+G4double postKE = step-&amp;gt;GetPostStepPoint()-&amp;gt;GetKineticEnergy();
+G4double preKE = step-&amp;gt;GetPreStepPoint()-&amp;gt;GetKineticEnergy();
+
+G4double edepStep = step-&amp;gt;GetTotalEnergyDeposit();
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;G4String creatorName;
+if (trackID==1)  creatorName=&amp;#34;primary&amp;#34;;
+else creatorName = step-&amp;gt;GetTrack()-&amp;gt;GetCreatorProcess()-&amp;gt;GetProcessName();
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;G4String postName;
+if (step-&amp;gt;GetPostStepPoint()-&amp;gt;GetStepStatus() == fWorldBoundary) postName=&amp;#34;out&amp;#34;;
+else postName = step-&amp;gt;GetPostStepPoint()-&amp;gt;GetTouchableHandle()-&amp;gt;GetVolume()-&amp;gt;GetName();
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
 </rss>

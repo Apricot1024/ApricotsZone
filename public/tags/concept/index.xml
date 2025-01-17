@@ -15,5 +15,37 @@
       <guid>http://localhost:1313/posts/%E8%A1%B0%E5%8F%98%E6%95%B0%E7%9B%AE%E8%AE%A1%E7%AE%97/</guid>
       <description>不稳定核的衰变数目计算关系</description>
     </item>
+    <item>
+      <title>Number_densities</title>
+      <link>http://localhost:1313/posts/number_densities/</link>
+      <pubDate>Sat, 01 Jun 2024 10:50:04 +0800</pubDate>
+      <guid>http://localhost:1313/posts/number_densities/</guid>
+      <description>&lt;p&gt;Number density is a useful concept for thinking about macroscopic samples in a microscopic way.  &lt;strong&gt;Number density can be thought of as the number of particles that are present in a particular volume.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The number density (symbol: n or ρN) is an intensive quantity used to describe the degree of concentration of countable objects (particles, molecules, phonons, cells, galaxies, etc.) in physical space: three-dimensional volumetric number density, two-dimensional areal number density, or one-dimensional linear number density.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LSB_resolution</title>
+      <link>http://localhost:1313/posts/lsb_resolution/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/lsb_resolution/</guid>
+      <description>&lt;p&gt;Least Significant Bit, 模数转换，
+主要参考&lt;a href=&#34;https://masteringelectronicsdesign.com/an-adc-and-dac-least-significant-bit-lsb/&#34;&gt;以下内容&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;What is an LSB? The LSB is the smallest level that an ADC can convert, or is the smallest increment a DAC outputs.&lt;/p&gt;
+&lt;p&gt;The ADC needs a voltage reference to convert an analog signal into a digital word.  Depending on the number of bits it has, the ADC divides the voltage reference in small levels called counts.  For example, if this is an 8-bit ADC, the counts will look like those in Figure 1.  In an 8-bit ADC there are 28 = 256 counts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reaction_rate</title>
+      <link>http://localhost:1313/posts/reaction_rate/</link>
+      <pubDate>Sat, 27 May 2023 10:52:39 +0800</pubDate>
+      <guid>http://localhost:1313/posts/reaction_rate/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;$$ r_{1,2}=N_{1} N_{2} \int_{0}^{\infty} v \sigma(E) P(E) \mathrm{d} E $$&lt;/li&gt;
+&lt;li&gt;where N1 and N1 are the &lt;a href=&#34;../number_densities/index.md&#34;&gt;number densities&lt;/a&gt; of the two reacting particles in the plasma, v and E are, respectively, the relative velocity and energy of the particles, P (E)is the energy distribution and σ(E) is the cross section of the reaction as a function of the interaction energy.&lt;/li&gt;
+&lt;li&gt;At typical stellar conditions the energy distribution of the interacting particles can be well approximated by a &lt;strong&gt;Maxwell-Boltzmann distribution&lt;/strong&gt;. So:&lt;/li&gt;
+&lt;li&gt;$$r_{1,2}=N_{1} N_{2}\left(\frac{8}{\pi \mu}\right)^{1 / 2} \frac{1}{k T^{3 / 2}} \int_{0}^{\infty} E \sigma(E) e^{-E / k T} \mathrm{~d} E$$&lt;/li&gt;
+&lt;li&gt;Here T is the plasma temperature and μ is the reduced mass of the reacting particles.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在核天体物理中是联系微观和宏观的重要物理量，其截面(库仑势垒穿透系数)和粒子能量(麦克斯韦分布)分布预示着[[Gamow window]]，可以直接用于进行下一步天体环境发展的计算。&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

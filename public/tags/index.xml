@@ -23,10 +23,31 @@
       <description></description>
     </item>
     <item>
+      <title>Conferences</title>
+      <link>http://localhost:1313/tags/conferences/</link>
+      <pubDate>Sat, 27 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/conferences/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Concept</title>
       <link>http://localhost:1313/tags/concept/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/concept/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Code</title>
+      <link>http://localhost:1313/tags/code/</link>
+      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Simulation</title>
+      <link>http://localhost:1313/tags/simulation/</link>
+      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/simulation/</guid>
       <description></description>
     </item>
   </channel>

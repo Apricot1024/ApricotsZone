@@ -50,11 +50,458 @@
 &lt;p&gt;M楼超净间千级区&lt;/p&gt;</description>
     </item>
     <item>
+      <title>SummerSchool2024Tongliao</title>
+      <link>http://localhost:1313/posts/summerschool2024tongliao/</link>
+      <pubDate>Sat, 27 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/summerschool2024tongliao/</guid>
+      <description>&lt;h1 id=&#34;柳卫平&#34;&gt;柳卫平&lt;/h1&gt;
+&lt;p&gt;次级束流线  7Li 电荷交换    老回旋的分析磁铁和四级透镜&lt;/p&gt;
+&lt;p&gt;壳模型对中重核参数空间大，不好算&lt;/p&gt;
+&lt;p&gt;电离室，反应气体靶&lt;/p&gt;
+&lt;p&gt;加速器MW功率：mA * GeV&lt;/p&gt;
+&lt;h1 id=&#34;周小红&#34;&gt;周小红&lt;/h1&gt;
+&lt;p&gt;HIAF兰州、惠州&lt;/p&gt;
+&lt;h1 id=&#34;张玉虎&#34;&gt;张玉虎&lt;/h1&gt;
+&lt;p&gt;评论：实验与理论的人数比较——资金投入问题&lt;/p&gt;
+&lt;p&gt;储存环-等时性质谱术
+短寿命核结构-质量&lt;/p&gt;
+&lt;p&gt;核素分类：未知核 - 已合成 - 已知质量 -
+质量测量：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;penniana Trap&lt;/li&gt;
+&lt;li&gt;B\ro - ToF&lt;/li&gt;
+&lt;li&gt;Strorage Ring&lt;/li&gt;
+&lt;li&gt;多反射ToF&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;通过环上周期定质量&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;根据周期性波形和已知核质量，以及MC模拟进行粒子鉴别&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;应用&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;质量面 考虑成 结合能
+&lt;ul&gt;
+&lt;li&gt;微分 - 分离能 - 对能&lt;/li&gt;
+&lt;li&gt;微分 - 质子晕&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;马余刚-核物理若干前沿物理问题&#34;&gt;马余刚 核物理若干前沿物理问题&lt;/h1&gt;
+&lt;p&gt;更热、更密、更奇、更重&lt;/p&gt;
+&lt;p&gt;奇异核，团簇&lt;/p&gt;
+&lt;p&gt;上海光源22MeV&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;巨共振&lt;/li&gt;
+&lt;li&gt;敲出核子&lt;/li&gt;
+&lt;li&gt;天体物理逆过程&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;唐靖宇-back-n-白光中子源&#34;&gt;唐靖宇 Back-n 白光中子源&lt;/h1&gt;
+&lt;p&gt;反角白光&lt;/p&gt;
+&lt;p&gt;白光：直接从靶上引出&lt;/p&gt;
+&lt;p&gt;解谱获取数据&lt;/p&gt;
+&lt;p&gt;王强师兄川大实验中子源是p打51V&lt;/p&gt;
+&lt;p&gt;质子束偏转15度后打靶，中子直线反角引出&lt;/p&gt;
+&lt;p&gt;关于聚焦：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MeV能区可以利用中子磁矩进行弱聚焦&lt;/li&gt;
+&lt;li&gt;主要靠狭缝聚焦&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;陈永寿-嫦娥6号月背采样&#34;&gt;陈永寿 嫦娥6号月背采样&lt;/h1&gt;
+&lt;p&gt;26Al 宇宙线产生，不稳定核&lt;/p&gt;
+&lt;p&gt;22Na 宇宙线强度探针，表征宇宙线产生率&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>半衰期与衰变数目计算</title>
       <link>http://localhost:1313/posts/%E8%A1%B0%E5%8F%98%E6%95%B0%E7%9B%AE%E8%AE%A1%E7%AE%97/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/%E8%A1%B0%E5%8F%98%E6%95%B0%E7%9B%AE%E8%AE%A1%E7%AE%97/</guid>
       <description>不稳定核的衰变数目计算关系</description>
+    </item>
+    <item>
+      <title>Number_densities</title>
+      <link>http://localhost:1313/posts/number_densities/</link>
+      <pubDate>Sat, 01 Jun 2024 10:50:04 +0800</pubDate>
+      <guid>http://localhost:1313/posts/number_densities/</guid>
+      <description>&lt;p&gt;Number density is a useful concept for thinking about macroscopic samples in a microscopic way.  &lt;strong&gt;Number density can be thought of as the number of particles that are present in a particular volume.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The number density (symbol: n or ρN) is an intensive quantity used to describe the degree of concentration of countable objects (particles, molecules, phonons, cells, galaxies, etc.) in physical space: three-dimensional volumetric number density, two-dimensional areal number density, or one-dimensional linear number density.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LSB_resolution</title>
+      <link>http://localhost:1313/posts/lsb_resolution/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/lsb_resolution/</guid>
+      <description>&lt;p&gt;Least Significant Bit, 模数转换，
+主要参考&lt;a href=&#34;https://masteringelectronicsdesign.com/an-adc-and-dac-least-significant-bit-lsb/&#34;&gt;以下内容&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;What is an LSB? The LSB is the smallest level that an ADC can convert, or is the smallest increment a DAC outputs.&lt;/p&gt;
+&lt;p&gt;The ADC needs a voltage reference to convert an analog signal into a digital word.  Depending on the number of bits it has, the ADC divides the voltage reference in small levels called counts.  For example, if this is an 8-bit ADC, the counts will look like those in Figure 1.  In an 8-bit ADC there are 28 = 256 counts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reaction_rate</title>
+      <link>http://localhost:1313/posts/reaction_rate/</link>
+      <pubDate>Sat, 27 May 2023 10:52:39 +0800</pubDate>
+      <guid>http://localhost:1313/posts/reaction_rate/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;$$ r_{1,2}=N_{1} N_{2} \int_{0}^{\infty} v \sigma(E) P(E) \mathrm{d} E $$&lt;/li&gt;
+&lt;li&gt;where N1 and N1 are the &lt;a href=&#34;../number_densities/index.md&#34;&gt;number densities&lt;/a&gt; of the two reacting particles in the plasma, v and E are, respectively, the relative velocity and energy of the particles, P (E)is the energy distribution and σ(E) is the cross section of the reaction as a function of the interaction energy.&lt;/li&gt;
+&lt;li&gt;At typical stellar conditions the energy distribution of the interacting particles can be well approximated by a &lt;strong&gt;Maxwell-Boltzmann distribution&lt;/strong&gt;. So:&lt;/li&gt;
+&lt;li&gt;$$r_{1,2}=N_{1} N_{2}\left(\frac{8}{\pi \mu}\right)^{1 / 2} \frac{1}{k T^{3 / 2}} \int_{0}^{\infty} E \sigma(E) e^{-E / k T} \mathrm{~d} E$$&lt;/li&gt;
+&lt;li&gt;Here T is the plasma temperature and μ is the reduced mass of the reacting particles.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在核天体物理中是联系微观和宏观的重要物理量，其截面(库仑势垒穿透系数)和粒子能量(麦克斯韦分布)分布预示着[[Gamow window]]，可以直接用于进行下一步天体环境发展的计算。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>中子物理</title>
+      <link>http://localhost:1313/posts/%E4%B8%AD%E5%AD%90%E7%89%A9%E7%90%86/</link>
+      <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E4%B8%AD%E5%AD%90%E7%89%A9%E7%90%86/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;title: &amp;ldquo;中子物理&amp;rdquo;
+type: science-note&lt;/p&gt;
+&lt;h1 id=&#34;tags-no_tag&#34;&gt;tags: no_tag&lt;/h1&gt;
+&lt;h2 id=&#34;alias-中子物理&#34;&gt;alias: 中子物理&lt;/h2&gt;
+&lt;p&gt;#Science/Neutron&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;考试复习&lt;/li&gt;
+&lt;li&gt;
+&lt;h1 id=&#34;第一章绪论&#34;&gt;第一章:绪论&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;1.了解中子发现的历史,Chadwick通过什么样的实验发现了中子?
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;在电离室里充不同的气体,利用alpha打Be靶产生的射线去打不同的物质,根据产生的反冲能量,准确推出射线的质量为接近于质子的质量(1.008倍质子的质量),从而确定了中子的存在。&lt;/p&gt;
+&lt;p&gt;自此,人类认识到原子核中心有核,是由质子和中子组成的,核外是电子。&lt;br&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E4%B8%AD%E5%AD%90%E7%89%A9%E7%90%86/assets/%E4%B8%AD%E5%AD%90%E7%89%A9%E7%90%86-%E9%98%AE%E9%94%A1%E8%B6%85/2024-01-30-07-38-36.png&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1932年,英国物理学家J. Chadwick发现中子;
+1920年,卢瑟福预言中子的存在:如果原子核里只有质子,则核电荷数与核外电子不符,预研存在中性粒子-中子;&lt;br&gt;
+1930年,柏林德国皇家物理技术研究所的玻特(W. Bothe)和巴黎居里镭学研&lt;br&gt;
+究所的伊伦.居里和约里奥利用alpha打Be靶,发现了穿透力很强的辐射,他们都认为是伽马;伊伦.居里和约里奥还利用alpha打Be靶产生的中子打石蜡,获得了质子束(反冲质子),可惜没有想到是中子;&lt;br&gt;
+1930年,柏林德国皇家物理技术研究所的玻特(W. Bothe)和巴黎居里镭学研&lt;br&gt;
+究所的伊伦.居里和约里奥利用alpha打Be靶,发现了穿透力很强的辐射,他们都认为是伽马;伊伦.居里和约里奥还利用alpha打Be靶产生的中子打石蜡,获得了质子束(反冲质子),可惜没有想到是中子;&lt;br&gt;
+1932年, J. Chadwick根据前人的成果,经过自己的实验,判断alpha打Be靶产生的射线是中子;&lt;br&gt;
+1935年获得诺贝尔奖;&lt;br&gt;
+中子的发现深刻改变了核物理的发展,也改变了世界。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2.重点了解中子的基本性质:质量、自旋、磁矩、寿命等
+&lt;ul&gt;
+&lt;li&gt;质量 $m_n=1.008664924\mathrm{u}=1.674953\times 10^{-24}\mathrm{g}=939.6\mathrm{MeV}$&lt;/li&gt;
+&lt;li&gt;自旋 $\sigma = \frac12$&lt;/li&gt;
+&lt;li&gt;磁矩 $\mu_n=-1.91304275\mu_N$&lt;/li&gt;
+&lt;li&gt;寿命 $\tau_n=896\pm 10\mathrm{s}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1 id=&#34;第二章中子源物理&#34;&gt;第二章：中子源物理&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;1.给定一些参数(如反应截面、靶参数等),知道如何计算中子强度和产额。
+&lt;ul&gt;
+&lt;li&gt;原子数
+$$N=\frac mMN_A$$&lt;/li&gt;
+&lt;li&gt;中子产额：单位入射粒子所能产生的中子数,跟反应截面及靶物质量有关
+$$Y=\sigma_{a,n}N_vd$$ 	&lt;br&gt;
+$N_v$ 是单位体积的靶核数,则 $N_vd$ 即为单位面积的靶核数&lt;/li&gt;
+&lt;li&gt;中子强度：单位时间内产生的中子数,单位:n/s，从入射粒子强度 $I_a$ 可求出种子强度
+$$I=I_aY$$&lt;/li&gt;
+&lt;li&gt;如:一个氘-氚反应中子源,入射氘能量2.5 MeV,平均束流强度1微安,氚钛靶的质量厚度为1 mg/cm^2(钛的质量厚度),氚/钛比为1.5(每个钛原子可吸附1.5个氚原子),氘氚反应截面为 $\sigma$ mb,求该中子源的强度,如果0度角的微分截面为 $\sigma_0$  mb/sr,则在0度角方向离该中子源10 cm处的中子注量率是多少?(假设Ti的原子量为48)
+&lt;ul&gt;
+&lt;li&gt;本题：
+$$1.5\times N_vd=1.5\times \frac{1\times 10^{-3} \mathrm{g/cm^2}}{48 \mathrm{u}}\times N_A$$	
+$$Y=\sigma \times 10^{-27}\times N_vd$$
+$$I_a=\frac{1\times 10^{-6}\mathrm{A}}{1.6\times 10^{-19}}$$ 	&lt;br&gt;
+此处 $I_a$ 需要根据入射粒子电荷数进一步换算&lt;br&gt;
+$$I=I_aY$$
+$$\phi=\frac{I_a\sigma_0N_vd}{R^2}$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2.同位素、加速器及反应堆中子源各自的特点。可从中子源的主要指标着手去分析。
+collapsed:: true
+&lt;ul&gt;
+&lt;li&gt;中子源的主要指标有:
+1)能量(能谱);&lt;br&gt;
+2)强度和产额;&lt;br&gt;
+3)角分布;&lt;br&gt;
+4)伴生伽马本底。&lt;/li&gt;
+&lt;li&gt;同位素中子源：强度弱 $&amp;lt;10^7$ ，各向同性，伽玛本底强
+加速器中子源：能谱分布广，各向异性，伽玛本底弱&lt;br&gt;
+反应堆中子源：热中子 能量高，注量率高，各向同性，伽玛本底强&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3.为什么8-14 MeV能区单能中子源是难点?如何获得8—14MeV能区单能中子源?
+collapsed:: true
+&lt;ul&gt;
+&lt;li&gt;常用的中子源(如d-D,p-T反应),入射粒子能量达到一定时,三体反应发生(如D(d,pn)D),出射的中子不再是单能的,而是在低能段有破裂中子的干扰。&lt;/li&gt;
+&lt;li&gt;重离子打氢：一些常用的H(Hi,n)反应中子源,根据运动学计算,这类中子源通常有两组能量的中子,当低能中子所占份额很少时,可认为是单能中子。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;4.什么是白光中子源?主要由哪些反应产生白光中子源?
+collapsed:: true
+&lt;ul&gt;
+&lt;li&gt;离子驱动:如氘束打厚7Li或Be靶,质子束打厚7Li或Be靶等,入射粒子能量通常几十MeV,追求大流强(mA)量级,可以达到很高的中子产额;&lt;/li&gt;
+&lt;li&gt;电子驱动:几十至几百MeV的电子书打重靶(Ta、W、U等),通过光核反应产生从热中子到约10 MeV的白光中子;&lt;/li&gt;
+&lt;li&gt;散裂中子源:高能强流质子束打重靶(Pb、W、Hg等),通过散裂反应产生从热中子到几百甚至GeV的白光中子。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1 id=&#34;第三章中子与原子核的相互作用&#34;&gt;第三章:中子与原子核的相互作用&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;1.截面、微分截面及角分布的概念。
+&lt;ul&gt;
+&lt;li&gt;截面:反应入射粒子与原子核发生相互作用概率的重要物理量
+$$\sigma = \frac{K}{I\times N}$$ 	
+K:反应率(r/s)或反应数(r);&lt;br&gt;
+I:入射粒子强度(n/s,n),注量率或注量(n/cm2/s或n/cm2);&lt;br&gt;
+N:靶核原子数或单位面积的靶核原子数(N/cm2或N)。&lt;/li&gt;
+&lt;li&gt;单位:巴(b),豪巴(mb)， $1\mathrm{b}=1\times 10^{-24}\mathrm{cm^2}$&lt;/li&gt;
+&lt;li&gt;计算时注意:
+I为注量或注量率时(面积量纲),N为靶核数(无面积量纲)&lt;br&gt;
+I为无面积量纲时,N为单位面积的靶核数(面积量纲)&lt;/li&gt;
+&lt;li&gt;微分截面:出射粒子的几率与出射角有关,沿某一个角度出射粒子的几率称为微分截面,单位: b/sr或mb/sr
+$$\mathrm{d}n\left(\theta\right)=\sigma(\theta)\cdot I\cdot N\cdot\mathrm{d}\Omega(\theta)$$&lt;/li&gt;
+&lt;li&gt;角分布:微分截面随角度变化的关系&lt;/li&gt;
+&lt;li&gt;以中子与靶核的弹性散射为例,弹性散射截面可通过微分截面角分布积分获得
+$$\sigma_{el}=\int\sigma_{el}\left(\theta\right)\mathrm d\Omega=2\pi\int_0^\pi\sigma_{el}\left(\theta\right)\sin\theta\mathrm d\theta$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2.中子与原子核会发生哪些主要反应?中子反应截面有哪些特点?
+&lt;ul&gt;
+&lt;li&gt;散射：弹性散射、非弹性散射&lt;/li&gt;
+&lt;li&gt;中子吸收：(n, g) (n, xn) (n, z) (n, f)&lt;/li&gt;
+&lt;li&gt;反应截面：
+$$\sigma_t=\sigma_s+\sigma_a=\left(\sigma_{el}+\sigma_{inel}\right)+(\sigma_c+\sigma_f)$$&lt;/li&gt;
+&lt;li&gt;中子反应截面呈现非常复杂的特性,f分为1/v取，共振取和快区，反应截面与能量和角度有关&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3.简述核反应经历哪些阶段?有哪些作用机制?不同机制时其出射粒子的能谱角分布有何特点?
+&lt;ul&gt;
+&lt;li&gt;独立粒子阶段：
+入射中子入射到靶核上&lt;br&gt;
+1)被散射—弹性散射或势散射;&lt;br&gt;
+2)被吸收。&lt;/li&gt;
+&lt;li&gt;复合核形成阶段
+1)直接作用:&lt;br&gt;
+(1)入射粒子将能量转移给一个或少数几个核子,然后逃逸;&lt;br&gt;
+(2)入射粒子经过多次碰撞并发射出来;&lt;br&gt;
+(3)入射粒子部分能量转给靶核后发射出来,靶核被集体激发(转动、振动)&lt;br&gt;
+2)入射粒子经过多次碰撞后达到平衡,形成复合核,入射粒子不再可分辨;&lt;/li&gt;
+&lt;li&gt;最后阶段—复合核衰变&lt;/li&gt;
+&lt;li&gt;预平衡:介于直接过程与复合核过程的状态&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;1)在截面的低能部分，复合核机制是主要的，但随着入射能量的增加直接反应的贡献上升以至成为主要的，而复合核的贡献随能量增加而减少，逐渐变得可以忽略
+2出射粒子能谱的低能部分主要是来自复合核的贡献，并且呈 Maxwell类型分布，称为蒸发谱；高能量的出射粒子主要来自直接反应机制，且剩余核处在较低的激发能级上。在这两部分之间的连续区，预平衡阶段的粒子发射起了较好的补充作用&lt;br&gt;
+3）角分布则更为明显，来自复合核机制的出射粒子角分布呈各向同性或90对称，而直接反应的贡献则是“前冲“的，即在小角度有更高的概率&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1 id=&#34;第四章中子探测&#34;&gt;第四章:中子探测&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;1.用于中子探测的核作用有哪些?中子探测方法主要有哪几种?
+&lt;ul&gt;
+&lt;li&gt;用于中子探测的核作用基本上有两类:
+1、核散射&lt;br&gt;
+2、核反应(包括核裂变)&lt;/li&gt;
+&lt;li&gt;探测方法主要有下述四种:
+1、核反冲法(快中子，反冲能量A大而小，10MeV以下反冲质子矩形谱)&lt;br&gt;
+2、核反应法&lt;br&gt;
+3、核裂变法(裂变放能，无阈裂变热中子，有阈裂变快中子)&lt;br&gt;
+4、核活化法 $n+^{197}Au\to ^{198}+ \gamma$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2.常用的用于中子探测的核反应有哪些?他们各自的特点与适用范围是什么?
+collapsed:: true
+&lt;ul&gt;
+&lt;li&gt;常用核素:  ^{ 3} He、 ^{ 6} Li、 ^{ 10} B、 ^{ 155} Gd 和 ^{ 157} Gd 等,相应的核反应及其主要特点如下：
+&lt;ul&gt;
+&lt;li&gt;(1) ^{ 3}He(n,p)^{ 3}H：Q值为0.765MeV,热能点截面5400b。在0.1~1MeV能区可用于中子能谱测量。(天然^{ 3} He的丰度为 $1.4\times 10^{-4}$ %)&lt;/li&gt;
+&lt;li&gt;(2) ^{ 6} Li(n,t)^{ 4}He：Q值为4.78MeV。反应截面在0.001~0.1MeV能区遵循1/v规律;在En≈250keV处有一共振峰,共振处的截面值为3.3b。(^{ 6}Li天然丰度为7.5%)&lt;/li&gt;
+&lt;li&gt;(3) ^{ 10}B(n, $\alpha$ )^{ 7} Li：反应Q值为2.79MeV;反应截面热能点为3840b;热能以上至1keV按1/v变化;反应剩余核只有7%处于基态，其余93%处于激发态。激发态的寿命很短(约为8×10^{ -14}s),通过放出0.478MeV的 $\gamma$ 辐射退激到基态。&lt;/li&gt;
+&lt;li&gt;(4) ^{ 155,157}Gd(n, $\gamma$ )^{ 156,158} Gd：
+^{ 157}Gd: 丰度15.65%, 热中子俘获截面2.55×10 ^{ 5}b,贡献80%;&lt;br&gt;
+^{ 155}Gd: 丰度14.8%,热中子俘获截面6.1×104b,贡献18%.&lt;br&gt;
+其余: 2%。&lt;br&gt;
+^{ 156}Gd* 和^{ 158}Gd * 的总激发能分别为8.53MeV和7.94MeV,主要通过放出级联 $\gamma$ 射线和内转换电子衰变到基态。通过测量它们放出的 $\gamma$ 射线或内转换电子而探测中子。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3.常用的中子探测器有哪些?
+collapsed:: true
+&lt;ul&gt;
+&lt;li&gt;气体探测器;含氢正比管，含BF_{ 3}正比管，^{ 3}He正比管&lt;/li&gt;
+&lt;li&gt;闪烁探测器; 闪烁体，光电转换器件&lt;/li&gt;
+&lt;li&gt;望远镜(半导体、闪烁探测器);&lt;/li&gt;
+&lt;li&gt;裂变室;&lt;/li&gt;
+&lt;li&gt;活化片;&lt;/li&gt;
+&lt;li&gt;径迹探测器;(核乳胶和固体径迹探测器等)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;4.中子-伽马甄别的主要方法?
+collapsed:: true
+&lt;ul&gt;
+&lt;li&gt;带电粒子通过有机闪烁体时,其径迹周围的分子或原子则被激发或电离。处于激发态的分子或原子退激时便放出光。有机闪烁体发光时间很短并以多种衰减时间常数指数下降。&lt;/li&gt;
+&lt;li&gt;发光衰减时间的快成份的衰减时间常数和快慢成份的份额与激发粒子引起的电离密度、因而与激发粒子的种类有关。&lt;/li&gt;
+&lt;li&gt;根据这一现象,可以对不同带电粒子产生的不同的脉冲形状进行分析,来鉴别粒子。&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;上升时间法&lt;/li&gt;
+&lt;li&gt;过零定时法&lt;/li&gt;
+&lt;li&gt;电荷比较法&lt;/li&gt;
+&lt;li&gt;其他方法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1 id=&#34;第五章中子谱学&#34;&gt;第五章:中子谱学&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;1..中子能谱测量的常用方法有哪些?
+&lt;ul&gt;
+&lt;li&gt;中子能谱的测量主要基于以下几种方法
+&lt;ul&gt;
+&lt;li&gt;核散射:通过测量反冲核的能量来得到中子能谱&lt;/li&gt;
+&lt;li&gt;核反应法:通过测量中子与原子核反应产生的带电粒子能量获得&lt;/li&gt;
+&lt;li&gt;飞行时间法:通过测量中子的飞行速度获得&lt;/li&gt;
+&lt;li&gt;阈探测器方法:通过一组具有不同反应阈的活化片,对中子能谱进行测量&lt;/li&gt;
+&lt;li&gt;解谱法:主要是反冲质子解谱法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2.在中子能谱测量的飞行时间方法中,影响能量分辨的主要因素有哪些?
+&lt;ul&gt;
+&lt;li&gt;飞行时间谱仪
+$$E=\frac 12mv^2=\frac 12m\left(\frac lt\right)^2$$
+$$t=\sqrt{\frac m{2E}}\times l$$ 
+取 $t$ 的单位为ns， $E$ 的单位为MeV， $l$ 的单位为m，则&lt;br&gt;
+$$t=\frac{72.3l}{\sqrt E}$$ 
+(这是非相对论近似情况,能量高的需要考虑相对论效应)&lt;/li&gt;
+&lt;li&gt;能量分辨率：
+$$\frac{\Delta E}E=\left[\left(\frac{2\Delta l}l\right)^2+\left(\frac{2\Delta t}t\right)^2+\frac{\Delta E^2_i}{E^2}\right]^{\frac 12}$$
+&lt;ul&gt;
+&lt;li&gt;$\left(\frac{2\Delta l}l\right)^2$ ：飞行距离不确定度，包括中子源尺寸、探测器厚度等贡献&lt;/li&gt;
+&lt;li&gt;$\left(\frac{2\Delta t}t\right)^2$ ：飞行时间不确定度，包括脉冲宽度、探测器响应、电子学定时等贡献&lt;/li&gt;
+&lt;li&gt;$\frac{\Delta E^2_i}{E^2}$ ：中子能量不确定度，入射粒子能散、靶厚、探测器张角等贡献&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1 id=&#34;第六章中子注量率测量&#34;&gt;第六章:中子注量率测量&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;1.什么是中子注量及注量率?
+collapsed:: true
+&lt;ul&gt;
+&lt;li&gt;中子注量：在空间一定点上，在一段时间间隔内，无论以任何方向射入以该点为中心的小球体的中子数目除以该球体的最大截面积所得的商，常用 $\Phi$ 表示，单位是n/cm^{ 2}或cm^{ -2}&lt;/li&gt;
+&lt;li&gt;中子注量率：空间一定点上，单位时间内接受到的中子注量，常用 $\phi$ 表示，单位是n/(cm^{ 2}s)或cm^{ -2}s^{ -1}
+$$\Phi=\int_0^T\phi(t)\mathrm dt$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2.中子注量率测量的主要方法有哪些?
+&lt;ul&gt;
+&lt;li&gt;标准截面法&lt;/li&gt;
+&lt;li&gt;伴随事件法&lt;/li&gt;
+&lt;li&gt;裂变电离室法&lt;/li&gt;
+&lt;li&gt;活化片法&lt;/li&gt;
+&lt;li&gt;长计数器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3.中子注量率的计算方法。
+&lt;ul&gt;
+&lt;li&gt;对放射性核素中子源，看作点源时：
+$$\phi = \frac Q{4\pi R^2}$$ 	
+Q为中子源强度，即每秒钟放出的中子数&lt;/li&gt;
+&lt;li&gt;对于加速器中子源，由于发射的中子是各向异性的，距离源R处的中子注量率一边表示为：
+$$\phi = \frac Q{R^2}$$ 
+这里Q为单位立体角中子源强度，及每秒钟沿某个方向单位立体角内放出的中子数，单位为n/Sr/s&lt;/li&gt;
+&lt;li&gt;对于反应堆中子源，假设观测位置在反应堆生物屏蔽层外，并直视堆芯，如果看到的活性区表面积为 S，表面平均中子注量率为 $\phi_0$ ，则可以用 $\phi_0S$ 代替式1中的Q来推算中子注量率，只要反应堆活性区材料和结构不变，则该位置的中子注量率和反应堆功率成正比&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;如:用一个238U裂变电离室测量离某一d-D反应中子源10cm处的中子注量率,中子源能量为2.8 MeV,该能量时238U的裂变截面为1.5 b,238U样品量为200微克,测得的裂变率为10次/秒,求测点处的中子注量率。
+&lt;ul&gt;
+&lt;li&gt;裂变率 $N_f=\phi \cdot N\cdot \sigma$
+N为靶核数&lt;br&gt;
+$$N=\frac{200\times 10^{-6}}{238}N_A$$
+$$\phi = \frac{N_f}{N\sigma}$$
+$$Q = \phi\cdot 4\pi R^2$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1 id=&#34;第七章中子与大块物质的相互作用&#34;&gt;第七章:中子与大块物质的相互作用&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;1.宏观截面、平均自由程、平均迁移自由程的概念。
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;宏观截面就是中子与某单位体积物质内的所有原子（或分子）发生作用的截面，又称截面密度。&lt;br&gt;
+$$\Sigma = N\sigma$$ 
+式中，N 为核密度（m^{ -3})，即单位体积内的原子或分了数。 $\sigma$ 为微观截面(m^{ 2}）。所以，宏观截面的单位为m^{ -1}&lt;br&gt;
+当然，宏观截面也分为宏观散射截面 $\Sigma_s$ ，和宏观吸收截面 $\Sigma_a$ 等。且&lt;br&gt;
+$$\Sigma = \Sigma_s +\Sigma_a$$ 	
+如果所研究的物质由m种元素均匀混合而成，那么该物质的宏观截面为：&lt;br&gt;
+$$\Sigma = \sum_{i=1}^{m}N_i\sigma_i $$ 
+对于化合物X_{ m}Y_{ n}的微观截面：&lt;br&gt;
+$$\sigma = m\sigma_X+n\sigma_Y$$&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Geant4常用信息</title>
+      <link>http://localhost:1313/posts/geant4%E5%B8%B8%E7%94%A8%E4%BF%A1%E6%81%AF/</link>
+      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/geant4%E5%B8%B8%E7%94%A8%E4%BF%A1%E6%81%AF/</guid>
+      <description>&lt;p&gt;获取一些粒子蒙卡输运step中的常用信息&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;G4StepPoint*  preStepPoint = step-&amp;gt;GetPreStepPoint();//step的前端点
+G4StepPoint* postStepPoint = step-&amp;gt;GetPostStepPoint();//step的后端点
+G4String particleID = step-&amp;gt;GetTrack()-&amp;gt;GetParticleDefinition()-&amp;gt;GetParticleName();//获取粒子名称
+//printf(&amp;#34;%s\n&amp;#34;, particleID.c_str());//在终端实时打印粒子名称
+
+if (preStepPoint-&amp;gt;GetStepStatus() == fGeomBoundary){
+G4double xStep = step-&amp;gt;GetPreStepPoint()-&amp;gt;GetPosition().x();//x坐标
+G4double yStep = step-&amp;gt;GetPreStepPoint()-&amp;gt;GetPosition().y();//y坐标
+G4double zStep = step-&amp;gt;GetPreStepPoint()-&amp;gt;GetPosition().z();//z坐标
+    G4double energy = step-&amp;gt;GetTrack()-&amp;gt;GetDynamicParticle()-&amp;gt;GetKineticEnergy();//粒子动能
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;step‐&amp;gt;GetPreStepPoint()‐&amp;gt;GetGlobalTime();  
+// get current track information  
+G4Track* track = step‐&amp;gt;GetTrack();
+/* some examples of track information */  
+track‐&amp;gt;GetParticleDefinition() 
+// ‐&amp;gt; Get Particle informations  
+track‐&amp;gt;GetTrackID();  
+track‐&amp;gt;GetParentID();  
+track‐&amp;gt;GetCurrentStepNumber();  
+track‐&amp;gt;GetKineticEnergy();
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;G4int eventID = (G4EventManager::GetEventManager())-&amp;gt;GetConstCurrentEvent()-&amp;gt;GetEventID();
+// 因为在step里面，我使用EventManager这个类去获取EventID
+G4int trackID = step-&amp;gt;GetTrack()-&amp;gt;GetTrackID();
+
+G4String particleName =  step-&amp;gt;GetTrack()-&amp;gt;GetDefinition()-&amp;gt;GetParticleName();
+
+G4String postProcessName = step-&amp;gt;GetPostStepPoint()-&amp;gt;GetProcessDefinedStep()-&amp;gt;GetProcessName();
+
+G4String preName = step-&amp;gt;GetPreStepPoint()-&amp;gt;GetTouchableHandle()-&amp;gt;GetVolume()-&amp;gt;GetName();
+
+G4double postKE = step-&amp;gt;GetPostStepPoint()-&amp;gt;GetKineticEnergy();
+G4double preKE = step-&amp;gt;GetPreStepPoint()-&amp;gt;GetKineticEnergy();
+
+G4double edepStep = step-&amp;gt;GetTotalEnergyDeposit();
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;G4String creatorName;
+if (trackID==1)  creatorName=&amp;#34;primary&amp;#34;;
+else creatorName = step-&amp;gt;GetTrack()-&amp;gt;GetCreatorProcess()-&amp;gt;GetProcessName();
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;G4String postName;
+if (step-&amp;gt;GetPostStepPoint()-&amp;gt;GetStepStatus() == fWorldBoundary) postName=&amp;#34;out&amp;#34;;
+else postName = step-&amp;gt;GetPostStepPoint()-&amp;gt;GetTouchableHandle()-&amp;gt;GetVolume()-&amp;gt;GetName();
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>🤝 友链</title>
