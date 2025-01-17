@@ -147,19 +147,19 @@ tocopen = false
   keys = [ "title", "permalink", "summary", "content" ]
 
   [[params.footerImages]]
-  src = "/images/AI1.png"
+  src = "images/AI1.png"
   # alt = "Footer Image Description"
 
   [[params.footerImages]]
-  src = "/images/AI2.png"
+  src = "images/AI2.png"
   # alt = "Footer Image Description"
 
   [[params.footerImages]]
-  src = "/images/AI3.png"
+  src = "images/AI3.png"
   # alt = "Footer Image Description"
 
   [[params.footerImages]]
-  src = "/images/AI4.png"
+  src = "images/AI4.png"
   # alt = "Footer Image Description"
 
 
