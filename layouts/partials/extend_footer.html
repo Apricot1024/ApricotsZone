@@ -2,7 +2,7 @@
 <div class="custom-footer-images" style="display: flex; justify-content: center; gap: 1px; margin-top: 0px; flex-wrap: wrap;">
     {{ range . }}
     {{ with .src }}
-    <img src="{{ . | relURL }}" style="max-width: 150px; height: auto; object-fit: cover; border-radius: 0px;">
+    <img src="{{ . | absURL }}" style="max-width: 150px; height: auto; object-fit: cover; border-radius: 0px;">
     {{ end }}
     {{ end }}
 </div>
