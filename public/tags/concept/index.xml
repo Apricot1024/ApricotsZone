@@ -24,9 +24,9 @@
 &lt;p&gt;The number density (symbol: n or ρN) is an intensive quantity used to describe the degree of concentration of countable objects (particles, molecules, phonons, cells, galaxies, etc.) in physical space: three-dimensional volumetric number density, two-dimensional areal number density, or one-dimensional linear number density.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>LSB_resolution</title>
+      <title>LSB_resolution(repost)</title>
       <link>http://localhost:1313/posts/lsb_resolution/</link>
-      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/lsb_resolution/</guid>
       <description>&lt;p&gt;Least Significant Bit, 模数转换，
 主要参考&lt;a href=&#34;https://masteringelectronicsdesign.com/an-adc-and-dac-least-significant-bit-lsb/&#34;&gt;以下内容&lt;/a&gt;&lt;/p&gt;

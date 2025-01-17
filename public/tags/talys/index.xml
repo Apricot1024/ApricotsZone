@@ -6,12 +6,12 @@
     <description>Recent content in Talys on Apricots1024</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jan 2025 16:06:27 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/talys/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Talys</title>
       <link>http://localhost:1313/posts/talys/</link>
-      <pubDate>Fri, 17 Jan 2025 16:06:27 +0800</pubDate>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/talys/</guid>
       <description>&lt;p&gt;ref: Arjan Koning, IAEA
 ref: &lt;a href=&#34;https://doi.org/10.1140/epja/s10050-023-01034-3&#34;&gt;https://doi.org/10.1140/epja/s10050-023-01034-3&lt;/a&gt;&lt;/p&gt;
@@ -34,7 +34,7 @@ ref: &lt;a href=&#34;https://doi.org/10.1140/epja/s10050-023-01034-3&#34;&gt;htt
 &lt;li&gt;Incident energy: 1 meV - 1 GeV
 &lt;ul&gt;
 &lt;li&gt;Reliability: few keV - 200 MeV
-![[Pasted image 20250103164430.png]]&lt;/li&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/talys/assets/Talys/Screenshot_20250103_164428.png&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;

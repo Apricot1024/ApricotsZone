@@ -6,15 +6,81 @@
     <description>Recent content in Semiconductor on Apricots1024</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jan 2025 15:14:25 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 11 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/semiconductor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>半导体中的杂质和缺陷能级</title>
+      <link>http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/</link>
+      <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/</guid>
+      <description>&lt;p&gt;本征半导体：即为理想纯净半导体。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;晶体：原子严格周期性排列，具有完整的晶格结构&lt;/li&gt;
+&lt;li&gt;晶体中无杂质无缺陷-&amp;gt;禁带中无能级，电子只处在允带中&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;本征半导体的载流子只能由本征激发提供ref[[半导体中的电子状态#4. 本征半导体的导电机构——载流子|载流子]]&lt;/p&gt;
+&lt;p&gt;实际半导体含有杂质和缺陷，且原子在晶格位置热振动
+因此会在禁带中引入能级，对半导体性质产生决定性影响。&lt;/p&gt;
+&lt;h1 id=&#34;sige晶体中的杂质能级&#34;&gt;Si、Ge晶体中的杂质能级&lt;/h1&gt;
+&lt;h2 id=&#34;杂质与杂质能级&#34;&gt;杂质与杂质能级&lt;/h2&gt;
+&lt;p&gt;杂质包含替位式杂质和间隙式杂质&lt;/p&gt;
+&lt;p&gt;间隙式杂质，杂质原子较小，位于间隙位置&lt;/p&gt;
+&lt;p&gt;替位式杂质，杂质原子与被代替原子的大小比拟，价电子壳层结构相似，杂质替位后处于格点位置&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;杂质分类：
+&lt;ul&gt;
+&lt;li&gt;浅能级杂质
+&lt;ul&gt;
+&lt;li&gt;N型半导体&lt;/li&gt;
+&lt;li&gt;P型半导体&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;深能级杂质
+&lt;ul&gt;
+&lt;li&gt;复合中心&lt;/li&gt;
+&lt;li&gt;陷阱&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;杂质能级根据在禁带中的位置不同，分为浅能级杂质和深能级杂质。
+浅能级又分为施主杂质/施主能级和受主杂质/受主能级
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/2024-10-11-16-19-09.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/2024-10-11-16-19-25.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;施主杂质能级&#34;&gt;施主杂质能级&lt;/h2&gt;
+&lt;p&gt;以在Si中掺P为例&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;施主杂质：掺入的杂质原子电离时，释放电子而产生导电电子，并形成正电中心的杂质（又称N型杂质）。&lt;/li&gt;
+&lt;li&gt;施主能级$E_D$：被施主杂质束缚电子的能量状态（比导带底Ec低）。&lt;/li&gt;
+&lt;li&gt;施主电离能：$\Delta E_D = E_C-E_D$，是施主杂质中弱束缚的电子摆脱杂质原子束缚成为晶格中自由电子所需要的能量
+&lt;ul&gt;
+&lt;li&gt;施主杂质的电离能小，在常温下基本上电离。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/2024-10-11-16-20-02.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/2024-10-11-16-36-49.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;P原子替代Si原子，形成共价键，出现1个&lt;strong&gt;正电中心P＋&lt;/strong&gt;（不可移动）和1个多余的&lt;strong&gt;价电子&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;多余的价电子挣脱束缚，在晶格中自由运动→&lt;strong&gt;杂质电离&lt;/strong&gt;；&lt;/p&gt;
+&lt;p&gt;用能带图表述施主杂质的电离过程：
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/2024-10-11-16-21-45.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;电离结果：导致导带中的电子数增加——施主掺杂的意义。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;含有施主杂质的半导体，其导电的载流子主要是电子&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;受主杂质能级&#34;&gt;受主杂质能级&lt;/h2&gt;
+&lt;p&gt;以Si中掺B为例&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/2024-10-11-16-37-10.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>布里渊区</title>
       <link>http://localhost:1313/posts/%E5%B8%83%E9%87%8C%E6%B8%8A%E5%8C%BA/</link>
-      <pubDate>Fri, 17 Jan 2025 15:14:25 +0800</pubDate>
+      <pubDate>Thu, 10 Oct 2024 15:14:25 +0800</pubDate>
       <guid>http://localhost:1313/posts/%E5%B8%83%E9%87%8C%E6%B8%8A%E5%8C%BA/</guid>
-      <description>&lt;p&gt;ref:半导体物理刘恩科
-晶体中的电子是在具有周期性的等效势场中运动——单电子近似&lt;/p&gt;
+      <description>&lt;p&gt;ref:半导体物理刘恩科&lt;/p&gt;
+&lt;h1 id=&#34;半导体&#34;&gt;半导体&lt;/h1&gt;
+&lt;p&gt;晶体中的电子是在具有周期性的等效势场中运动——单电子近似&lt;/p&gt;
 &lt;p&gt;晶体中电子的波动方程:
 $$\left[-\frac{\hbar^2}{2m}\nabla^2+V(r)\right]\psi=E\psi $$&lt;/p&gt;
 &lt;blockquote&gt;
@@ -25,7 +91,7 @@ $\psi(r)=u(r)e^{i2\pi kr}$&lt;/p&gt;
 &lt;li&gt;相位因子反映电子的共有化运动。&lt;/li&gt;
 &lt;li&gt;u(r) 反映周期势场对共有化运动的影响，具有和晶格一样的周期性。$u(r)=u(r+R_n)$&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;电子在晶体中的分布$\begin{vmatrix}\psi(r)\end{vmatrix}^2=\begin{vmatrix}\psi\psi^&lt;em&gt;\end{vmatrix}=\begin{vmatrix}u(r)u(r)^&lt;/em&gt;\end{vmatrix}$&lt;/p&gt;
+&lt;p&gt;电子在晶体中的分布$\begin{vmatrix}\psi(r)\end{vmatrix}^2=\left|\psi \psi^{*}\right|=\begin{vmatrix}u(r)u(r)^*\end{vmatrix}$&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;电子在晶体中的分布几率是晶格的周期函数&lt;/li&gt;
 &lt;li&gt;晶体中各处分布几率不同，但不同原胞的等价位置上出现的几率相同。&lt;/li&gt;
@@ -39,7 +105,115 @@ $\psi(r)=u(r)e^{i2\pi kr}$&lt;/p&gt;
 &lt;p&gt;求解上述薛定谔方程可得如图解的形式,当
 $$k=\frac{n\pi}{a}\quad(n=0,\pm1,\pm2,\cdots)$$
 时能量出现不连续, 形成一系列允带和禁带.&lt;strong&gt;一个允带对应的k值范围称为布里渊区&lt;/strong&gt;.
-&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%B8%83%E9%87%8C%E6%B8%8A%E5%8C%BA/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-10-10-14-14-21.png&#34;&gt;&lt;/p&gt;</description>
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%B8%83%E9%87%8C%E6%B8%8A%E5%8C%BA/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-10-10-14-14-21.png&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;固体物理&#34;&gt;固体物理&lt;/h1&gt;
+&lt;p&gt;已经忘了，待补充&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>半导体中的电子状态</title>
+      <link>http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/</link>
+      <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/</guid>
+      <description>&lt;h1 id=&#34;1-半导体的晶格结构和结合性质&#34;&gt;1. 半导体的晶格结构和结合性质&lt;/h1&gt;
+&lt;h2 id=&#34;11-半导体材料&#34;&gt;1.1. 半导体材料&lt;/h2&gt;
+&lt;h3 id=&#34;111-什么是半导体材料&#34;&gt;1.1.1. 什么是半导体材料&lt;/h3&gt;
+&lt;p&gt;定义参考&lt;a href=&#34;../%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%AE%80%E4%BB%8B/index.md&#34;&gt;半导体简介&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;半导体材料的类型：元素半导体Si Ge，化合物半导体GaAs InP等&lt;/p&gt;
+&lt;h3 id=&#34;112-元素半导体材料&#34;&gt;1.1.2. 元素半导体材料&lt;/h3&gt;
+&lt;p&gt;硅、锗都是由单一原子所组成的元素半导体，均为周期表第IV族元素。
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-21-59-04.png&#34;&gt;
+60年代Si取代Ge成为半导体制造的主要材料
+硅的优势在于：室温下特性良好；高品质的硅氧化层可由热成长的方式产生，成本低；储量丰富。&lt;/p&gt;
+&lt;h3 id=&#34;113-化合物半导体&#34;&gt;1.1.3. 化合物半导体&lt;/h3&gt;
+&lt;p&gt;有二元、三元、多元化合物半导体&lt;/p&gt;
+&lt;p&gt;二元化合物半导体：
+IV－IV族化合物半导体：碳化硅（SiC）； III-V族化合物半导体：砷化镓（GaAs）、磷化镓（GaP）、磷化铟（InP）
+II-VI族化合物半导体：氧化锌（ZnO）、硫化锌（ZnS）、碲化镉（CdTe）
+IV-VI族化合物半导体：硫化铅（PbS）、硒化铅（PbSe）、碲化铅（PbTe）&lt;/p&gt;
+&lt;p&gt;多元化合物半导体：
+具有 $A_xB_{1-x}C_yD_{1-y}$ 形式的四元化合物半导体。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;特性区别&lt;/strong&gt; ：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;与元素半导体有不同的电特性及光特性&lt;/li&gt;
+&lt;li&gt;制作单晶化合物半导体的工艺更复杂&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;12-晶格结构&#34;&gt;1.2. 晶格结构&lt;/h2&gt;
+&lt;h3 id=&#34;121-晶格简介&#34;&gt;1.2.1. 晶格简介：&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;晶格：晶体中原子的周期性排列&lt;/li&gt;
+&lt;li&gt;单胞：周期性排列的最小单元，代表整个晶格，
+将此单胞向晶体的四面八方连续延伸，即可产生整个晶格。&lt;/li&gt;
+&lt;li&gt;特点：单晶体，三维空间周期性排列
+当原子热振动时，仍以其中心位置作微振动。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;单胞及其表示&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-00-04.png&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;晶格常数：单胞与晶格的关系用三个向量a、b及c表示，
+它们彼此之间不需要正交，而且在长度上不一定相同，称为晶格常数。&lt;/li&gt;
+&lt;li&gt;每个三维空间晶体中的等效格点可用下面的向量组表示:  $\vec{R} = m \vec{a} + n \vec{b} + p \vec{c}$ 其中m、n、p是整数。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;122-基本晶格结构&#34;&gt;1.2.2. 基本晶格结构&lt;/h3&gt;
+&lt;p&gt;简单立方晶格：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-01-58.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;体心立方晶格：&lt;br&gt;
+比如 Na， 钨&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-02-22.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;面心立方晶格：&lt;br&gt;
+比如：Al，Co，Au，铂&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-03-05.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;金刚石晶格结构：&lt;br&gt;
+可以视为两个相互套构的面心立方副晶格，比如：Si Ge&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-03-30.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>半导体简介</title>
+      <link>http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%AE%80%E4%BB%8B/</link>
+      <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%AE%80%E4%BB%8B/</guid>
+      <description>&lt;h1 id=&#34;什么是半导体&#34;&gt;什么是半导体&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;半导体：电阻率 $\rho$ 介于导体和绝缘体之间，&lt;em&gt;并且具有富的电阻温度系数&lt;/em&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%AE%80%E4%BB%8B/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%AE%80%E4%BB%8B/2024-09-28-21-53-46.png&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;从导电性，固体材料可分成：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;超导体&lt;/li&gt;
+&lt;li&gt;导体&lt;/li&gt;
+&lt;li&gt;半导体&lt;/li&gt;
+&lt;li&gt;绝缘体&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;电阻率：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;导体：$\rho &amp;lt; 10^{-4}\Omega\textrm{cm}$ ，如 $\rho_{Cu} = 10^{-6}\Omega\textrm{cm}$&lt;/li&gt;
+&lt;li&gt;半导体：$10^{-3}\Omega\textrm{cm} &amp;lt; \rho &amp;lt; 10^8\Omega\textrm{cm}$ ，如 $\rho_{Ge} = 0.2\Omega\textrm{cm}$&lt;/li&gt;
+&lt;li&gt;绝缘体： $\rho &amp;gt; 10^8\Omega\textrm{cm}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;微电子=集成电路=芯片&amp;lt;半导体
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%AE%80%E4%BB%8B/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%AE%80%E4%BB%8B/2024-09-28-21-54-27.png&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;半导体材料的基本特性&#34;&gt;半导体材料的基本特性&lt;/h1&gt;
+&lt;p&gt;半导体材料是微电子和光电子技术的基础，用半导体材料制作（光）电子元器件，不是因为它的导电能力介于导体和绝缘体之间，而是由于其导电机理不同于其它物质，&lt;em&gt;其导电能力可调谐&lt;/em&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;当受外界热、光、磁、压力、电压变化等作用时，它的导电能力明显变化。
+&lt;ul&gt;
+&lt;li&gt;热电特性、光电特性、磁阻效应、压电效应、电光效应等&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;往纯净的半导体中掺入某些杂质，会使它的导电能力明显改变。
+&lt;ul&gt;
+&lt;li&gt;掺杂特性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;半导体材料的性质主要取决于半导体的能带结构和电子的运动规律。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

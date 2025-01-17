@@ -180,6 +180,40 @@ onload="renderMathInElement(document.body,
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Talys
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>ref: Arjan Koning, IAEA ref: https://doi.org/10.1140/epja/s10050-023-01034-3
+Talys Computer program to simulate nuclear reactions Used for fundamental nuclear physics research Used to produce nuclear data for applications Projectiles: neutron, photon, proton, deuteron, triton, Helium-3, alpha particle; Also works for an excited nucleus as initial condition Targets: Z= 3-124, A=5-339 Reliability: Z &gt; 9, A &gt; 20 Also a natural element can be specified Incident energy: 1 meV - 1 GeV Reliability: few keV - 200 MeV Input Discription Minimal input file:(Also others parameters)
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-01-03 00:00:00 +0000 UTC'>January 3, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;188 words&nbsp;·&nbsp;Apricot</footer>
+  <a class="entry-link" aria-label="post link to Talys" href="http://localhost:1313/posts/talys/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Cu靶计算
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>原天然铁19号靶中57Co活度为122Bq
+预估65Zn的1115.5 keV效率为122 keV 的1/4，半衰期243.93d
+活度达500Bq左右可达相似计数，且活度不确定度较小。
+$$ N = \frac {A} {\lambda} = \frac{500 ~\mathrm{Bq}}{3.2888684507999854\times 10^{-8}\mathrm{s^{-1}}} = 15202797177.2 $$
+4 MeV质子入射截面预计为$0.15 \mathrm{barns} = 1.5 \times 10^{-25} \mathrm{cm^2}$， 15小时1000enA流量估计
+按公式 $$ N = \sigma T \Phi \frac{1-\mathrm e ^{-\lambda t}}{\lambda} $$ $$ N = 1.5 \times 10^{-25}\times T\times\frac{1\times10^{-6}}{1.6\times10^{-19}}\times\frac{1-\mathrm{e}^{-3.2888684507999854e-08~\mathrm{s}^{-1}\times 15*3600}}{3.2888684507999854e-08~\mathrm{s}^{-1}}\ = 5.058 \times 10^{-8} T $$
+为达到15202797177个剩余核，靶中65Cu的厚度至少为： $$ T = 15202797177 \div 5.058 \times 10^{-8} = 3 \times 10^{17} $$
+65Cu在天然Cu中丰度30.8%，天然Cu靶厚： $$ T = 3 \times 10^{17} \div 0.308 = 9.75 \times 10^{17} \mathrm{cm}^{-2} $$ $$ T = \frac{9.75 \times 10^{17}}{6.02\times10^{23}}\times63500 = 0.103\mathrm{mg/cm^2}= 1.94*10^{-5}\mathrm{\mu g/cm^2} $$
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-11-28 00:00:00 +0000 UTC'>November 28, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;95 words&nbsp;·&nbsp;Apricot</footer>
+  <a class="entry-link" aria-label="post link to Cu靶计算" href="http://localhost:1313/posts/cu%E9%9D%B6%E8%AE%A1%E7%AE%97/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">FIB SEM测厚
     </h2>
   </header>
@@ -208,8 +242,109 @@ azjin@iphy.ac.cn
 M楼超净间千级区
 </p>
   </div>
-  <footer class="entry-footer"><span title='2024-12-17 00:00:00 +0000 UTC'>December 17, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;42 words&nbsp;·&nbsp;Apricot</footer>
+  <footer class="entry-footer"><span title='2024-11-17 00:00:00 +0000 UTC'>November 17, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;42 words&nbsp;·&nbsp;Apricot</footer>
   <a class="entry-link" aria-label="post link to FIB SEM测厚" href="http://localhost:1313/posts/fib-sem%E6%B5%8B%E5%8E%9A/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">半导体中的杂质和缺陷能级
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>本征半导体：即为理想纯净半导体。
+晶体：原子严格周期性排列，具有完整的晶格结构 晶体中无杂质无缺陷-&gt;禁带中无能级，电子只处在允带中 本征半导体的载流子只能由本征激发提供ref[[半导体中的电子状态#4. 本征半导体的导电机构——载流子|载流子]]
+实际半导体含有杂质和缺陷，且原子在晶格位置热振动 因此会在禁带中引入能级，对半导体性质产生决定性影响。
+Si、Ge晶体中的杂质能级 杂质与杂质能级 杂质包含替位式杂质和间隙式杂质
+间隙式杂质，杂质原子较小，位于间隙位置
+替位式杂质，杂质原子与被代替原子的大小比拟，价电子壳层结构相似，杂质替位后处于格点位置
+杂质分类： 浅能级杂质 N型半导体 P型半导体 深能级杂质 复合中心 陷阱 杂质能级根据在禁带中的位置不同，分为浅能级杂质和深能级杂质。 浅能级又分为施主杂质/施主能级和受主杂质/受主能级 施主杂质能级 以在Si中掺P为例
+施主杂质：掺入的杂质原子电离时，释放电子而产生导电电子，并形成正电中心的杂质（又称N型杂质）。 施主能级$E_D$：被施主杂质束缚电子的能量状态（比导带底Ec低）。 施主电离能：$\Delta E_D = E_C-E_D$，是施主杂质中弱束缚的电子摆脱杂质原子束缚成为晶格中自由电子所需要的能量 施主杂质的电离能小，在常温下基本上电离。 P原子替代Si原子，形成共价键，出现1个正电中心P＋（不可移动）和1个多余的价电子。
+多余的价电子挣脱束缚，在晶格中自由运动→杂质电离；
+用能带图表述施主杂质的电离过程： 电离结果：导致导带中的电子数增加——施主掺杂的意义。
+含有施主杂质的半导体，其导电的载流子主要是电子 受主杂质能级 以Si中掺B为例
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-10-11 00:00:00 +0000 UTC'>October 11, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;37 words&nbsp;·&nbsp;Apricot</footer>
+  <a class="entry-link" aria-label="post link to 半导体中的杂质和缺陷能级" href="http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">布里渊区
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>ref:半导体物理刘恩科
+半导体 晶体中的电子是在具有周期性的等效势场中运动——单电子近似
+晶体中电子的波动方程: $$\left[-\frac{\hbar^2}{2m}\nabla^2&#43;V(r)\right]\psi=E\psi $$
+布洛赫定理——当势场具有周期性时，波动方程的解具有如下布洛赫波函数的形式： $\psi(r)=u(r)e^{i2\pi kr}$
+相位因子反映电子的共有化运动。 u(r) 反映周期势场对共有化运动的影响，具有和晶格一样的周期性。$u(r)=u(r&#43;R_n)$ 电子在晶体中的分布$\begin{vmatrix}\psi(r)\end{vmatrix}^2=\left|\psi \psi^{*}\right|=\begin{vmatrix}u(r)u(r)^*\end{vmatrix}$
+电子在晶体中的分布几率是晶格的周期函数 晶体中各处分布几率不同，但不同原胞的等价位置上出现的几率相同。 电子不再局限与某一个原子上，而可以从晶胞中某一点自由运动到其他晶胞的等价位置，因而电子可以在整个晶体中运动（共有化运动） 外层电子的共有化运动程度强，与自由电子相似，称为准自由电子；内层电子的共有化运动程度弱，与孤立原子中的电子相似 波矢$\vec k$同样描述晶体中电子的共有化运动状态 求解上述薛定谔方程可得如图解的形式,当 $$k=\frac{n\pi}{a}\quad(n=0,\pm1,\pm2,\cdots)$$ 时能量出现不连续, 形成一系列允带和禁带.一个允带对应的k值范围称为布里渊区. 固体物理 已经忘了，待补充
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-10-10 15:14:25 +0800 CST'>October 10, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;26 words&nbsp;·&nbsp;Apricot</footer>
+  <a class="entry-link" aria-label="post link to 布里渊区" href="http://localhost:1313/posts/%E5%B8%83%E9%87%8C%E6%B8%8A%E5%8C%BA/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">半导体中的电子状态
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>1. 半导体的晶格结构和结合性质 1.1. 半导体材料 1.1.1. 什么是半导体材料 定义参考半导体简介
+半导体材料的类型：元素半导体Si Ge，化合物半导体GaAs InP等
+1.1.2. 元素半导体材料 硅、锗都是由单一原子所组成的元素半导体，均为周期表第IV族元素。 60年代Si取代Ge成为半导体制造的主要材料 硅的优势在于：室温下特性良好；高品质的硅氧化层可由热成长的方式产生，成本低；储量丰富。
+1.1.3. 化合物半导体 有二元、三元、多元化合物半导体
+二元化合物半导体： IV－IV族化合物半导体：碳化硅（SiC）； III-V族化合物半导体：砷化镓（GaAs）、磷化镓（GaP）、磷化铟（InP） II-VI族化合物半导体：氧化锌（ZnO）、硫化锌（ZnS）、碲化镉（CdTe） IV-VI族化合物半导体：硫化铅（PbS）、硒化铅（PbSe）、碲化铅（PbTe）
+多元化合物半导体： 具有 $A_xB_{1-x}C_yD_{1-y}$ 形式的四元化合物半导体。
+特性区别 ：
+与元素半导体有不同的电特性及光特性 制作单晶化合物半导体的工艺更复杂 1.2. 晶格结构 1.2.1. 晶格简介： 晶格：晶体中原子的周期性排列 单胞：周期性排列的最小单元，代表整个晶格， 将此单胞向晶体的四面八方连续延伸，即可产生整个晶格。 特点：单晶体，三维空间周期性排列 当原子热振动时，仍以其中心位置作微振动。 单胞及其表示
+晶格常数：单胞与晶格的关系用三个向量a、b及c表示， 它们彼此之间不需要正交，而且在长度上不一定相同，称为晶格常数。 每个三维空间晶体中的等效格点可用下面的向量组表示: $\vec{R} = m \vec{a} &#43; n \vec{b} &#43; p \vec{c}$ 其中m、n、p是整数。 1.2.2. 基本晶格结构 简单立方晶格：
+体心立方晶格：
+比如 Na， 钨
+面心立方晶格：
+比如：Al，Co，Au，铂
+金刚石晶格结构：
+可以视为两个相互套构的面心立方副晶格，比如：Si Ge
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-09-28 00:00:00 +0000 UTC'>September 28, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;413 words&nbsp;·&nbsp;Apricot</footer>
+  <a class="entry-link" aria-label="post link to 半导体中的电子状态" href="http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">半导体简介
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>什么是半导体 半导体：电阻率 $\rho$ 介于导体和绝缘体之间，并且具有富的电阻温度系数 从导电性，固体材料可分成：
+超导体 导体 半导体 绝缘体 电阻率：
+导体：$\rho &lt; 10^{-4}\Omega\textrm{cm}$ ，如 $\rho_{Cu} = 10^{-6}\Omega\textrm{cm}$ 半导体：$10^{-3}\Omega\textrm{cm} &lt; \rho &lt; 10^8\Omega\textrm{cm}$ ，如 $\rho_{Ge} = 0.2\Omega\textrm{cm}$ 绝缘体： $\rho &gt; 10^8\Omega\textrm{cm}$ 微电子=集成电路=芯片&lt;半导体 半导体材料的基本特性 半导体材料是微电子和光电子技术的基础，用半导体材料制作（光）电子元器件，不是因为它的导电能力介于导体和绝缘体之间，而是由于其导电机理不同于其它物质，其导电能力可调谐。
+当受外界热、光、磁、压力、电压变化等作用时，它的导电能力明显变化。 热电特性、光电特性、磁阻效应、压电效应、电光效应等 往纯净的半导体中掺入某些杂质，会使它的导电能力明显改变。 掺杂特性 半导体材料的性质主要取决于半导体的能带结构和电子的运动规律。
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-09-28 00:00:00 +0000 UTC'>September 28, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;38 words&nbsp;·&nbsp;Apricot</footer>
+  <a class="entry-link" aria-label="post link to 半导体简介" href="http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%AE%80%E4%BB%8B/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">自由电子的运动状态
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>自由粒子用平面波表述（德布罗意） $$\Phi(\vec r,t)=A\mathrm{e}^{\mathrm{i}(\vec k \bullet \vec r-\omega t)}$$ 考虑一维情况： $$\begin{aligned}\Phi(x,t)=&amp;A\mathrm{e}^{\mathrm{i}kx}\mathrm{e}^{-\mathrm{i}at}=\Psi(x)\mathrm{e}^{-\mathrm{i}at}\\Psi(x)=&amp;A\mathrm{e}^{\mathrm{i}kx}\end{aligned}$$ 后式为自由粒子波函数，代表沿x方向传播的平面波，且遵守定态薛定谔方程 $$-\frac{\hbar^2}{2m_0}\frac{\mathrm{d}^2\Psi(x)}{\mathrm{d}x^2}=E\Psi(x)$$
+再考虑 $$\vec p = \hbar \vec k $$ 可得 $$ E = \frac{\hbar ^2 k^2}{2m_0}$$
+波矢$\vec k$用于描述自由电子的运动状态。图中可以看出一维情况下自由电子的能量是连续的。
+空间分布$\left|\psi(r)\right|^2=\left|\psi\psi^*\right|=A^2$
+自由电子在空间是等几率分布的, 自由运动。
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-09-28 00:00:00 +0000 UTC'>September 28, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;32 words&nbsp;·&nbsp;Apricot</footer>
+  <a class="entry-link" aria-label="post link to 自由电子的运动状态" href="http://localhost:1313/posts/%E8%87%AA%E7%94%B1%E7%94%B5%E5%AD%90%E7%9A%84%E8%BF%90%E5%8A%A8%E7%8A%B6%E6%80%81/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -241,7 +376,7 @@ MeV能区可以利用中子磁矩进行弱聚焦 主要靠狭缝聚焦 陈永寿
 22Na 宇宙线强度探针，表征宇宙线产生率
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2024-07-27 00:00:00 +0000 UTC'>July 27, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;287 words&nbsp;·&nbsp;Apricot</footer>
+  <footer class="entry-footer"><span title='2024-07-22 00:00:00 +0000 UTC'>July 22, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;287 words&nbsp;·&nbsp;Apricot</footer>
   <a class="entry-link" aria-label="post link to SummerSchool2024Tongliao" href="http://localhost:1313/posts/summerschool2024tongliao/"></a>
 </article>
 
@@ -266,61 +401,12 @@ $$ \lambda = \frac{\mathrm{ln}(2)}{T_{\frac12}} $$
   <footer class="entry-footer"><span title='2024-06-15 00:00:00 +0000 UTC'>June 15, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;237 words&nbsp;·&nbsp;Apricot</footer>
   <a class="entry-link" aria-label="post link to 半衰期与衰变数目计算" href="http://localhost:1313/posts/%E8%A1%B0%E5%8F%98%E6%95%B0%E7%9B%AE%E8%AE%A1%E7%AE%97/"></a>
 </article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Number_densities
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Number density is a useful concept for thinking about macroscopic samples in a microscopic way. Number density can be thought of as the number of particles that are present in a particular volume.
-The number density (symbol: n or ρN) is an intensive quantity used to describe the degree of concentration of countable objects (particles, molecules, phonons, cells, galaxies, etc.) in physical space: three-dimensional volumetric number density, two-dimensional areal number density, or one-dimensional linear number density.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-06-01 10:50:04 +0800 CST'>June 1, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;256 words&nbsp;·&nbsp;Apricot</footer>
-  <a class="entry-link" aria-label="post link to Number_densities" href="http://localhost:1313/posts/number_densities/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">LSB_resolution
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Least Significant Bit, 模数转换， 主要参考以下内容
-What is an LSB? The LSB is the smallest level that an ADC can convert, or is the smallest increment a DAC outputs.
-The ADC needs a voltage reference to convert an analog signal into a digital word. Depending on the number of bits it has, the ADC divides the voltage reference in small levels called counts. For example, if this is an 8-bit ADC, the counts will look like those in Figure 1. In an 8-bit ADC there are 28 = 256 counts.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-01-02 00:00:00 +0000 UTC'>January 2, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;347 words&nbsp;·&nbsp;Apricot</footer>
-  <a class="entry-link" aria-label="post link to LSB_resolution" href="http://localhost:1313/posts/lsb_resolution/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Reaction_rate
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p> $$ r_{1,2}=N_{1} N_{2} \int_{0}^{\infty} v \sigma(E) P(E) \mathrm{d} E $$ where N1 and N1 are the number densities of the two reacting particles in the plasma, v and E are, respectively, the relative velocity and energy of the particles, P (E)is the energy distribution and σ(E) is the cross section of the reaction as a function of the interaction energy. At typical stellar conditions the energy distribution of the interacting particles can be well approximated by a Maxwell-Boltzmann distribution. So: $$r_{1,2}=N_{1} N_{2}\left(\frac{8}{\pi \mu}\right)^{1 / 2} \frac{1}{k T^{3 / 2}} \int_{0}^{\infty} E \sigma(E) e^{-E / k T} \mathrm{~d} E$$ Here T is the plasma temperature and μ is the reduced mass of the reacting particles. 在核天体物理中是联系微观和宏观的重要物理量，其截面(库仑势垒穿透系数)和粒子能量(麦克斯韦分布)分布预示着[[Gamow window]]，可以直接用于进行下一步天体环境发展的计算。
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-05-27 10:52:39 +0800 CST'>May 27, 2023</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;116 words&nbsp;·&nbsp;Apricot</footer>
-  <a class="entry-link" aria-label="post link to Reaction_rate" href="http://localhost:1313/posts/reaction_rate/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Geant4常用信息
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>获取一些粒子蒙卡输运step中的常用信息
-G4StepPoint* preStepPoint = step-&gt;GetPreStepPoint();//step的前端点 G4StepPoint* postStepPoint = step-&gt;GetPostStepPoint();//step的后端点 G4String particleID = step-&gt;GetTrack()-&gt;GetParticleDefinition()-&gt;GetParticleName();//获取粒子名称 //printf(&#34;%s\n&#34;, particleID.c_str());//在终端实时打印粒子名称 if (preStepPoint-&gt;GetStepStatus() == fGeomBoundary){ G4double xStep = step-&gt;GetPreStepPoint()-&gt;GetPosition().x();//x坐标 G4double yStep = step-&gt;GetPreStepPoint()-&gt;GetPosition().y();//y坐标 G4double zStep = step-&gt;GetPreStepPoint()-&gt;GetPosition().z();//z坐标 G4double energy = step-&gt;GetTrack()-&gt;GetDynamicParticle()-&gt;GetKineticEnergy();//粒子动能 } step‐&gt;GetPreStepPoint()‐&gt;GetGlobalTime(); // get current track information G4Track* track = step‐&gt;GetTrack(); /* some examples of track information */ track‐&gt;GetParticleDefinition() // ‐&gt; Get Particle informations track‐&gt;GetTrackID(); track‐&gt;GetParentID(); track‐&gt;GetCurrentStepNumber(); track‐&gt;GetKineticEnergy(); G4int eventID = (G4EventManager::GetEventManager())-&gt;GetConstCurrentEvent()-&gt;GetEventID(); // 因为在step里面，我使用EventManager这个类去获取EventID G4int trackID = step-&gt;GetTrack()-&gt;GetTrackID(); G4String particleName = step-&gt;GetTrack()-&gt;GetDefinition()-&gt;GetParticleName(); G4String postProcessName = step-&gt;GetPostStepPoint()-&gt;GetProcessDefinedStep()-&gt;GetProcessName(); G4String preName = step-&gt;GetPreStepPoint()-&gt;GetTouchableHandle()-&gt;GetVolume()-&gt;GetName(); G4double postKE = step-&gt;GetPostStepPoint()-&gt;GetKineticEnergy(); G4double preKE = step-&gt;GetPreStepPoint()-&gt;GetKineticEnergy(); G4double edepStep = step-&gt;GetTotalEnergyDeposit(); G4String creatorName; if (trackID==1) creatorName=&#34;primary&#34;; else creatorName = step-&gt;GetTrack()-&gt;GetCreatorProcess()-&gt;GetProcessName(); G4String postName; if (step-&gt;GetPostStepPoint()-&gt;GetStepStatus() == fWorldBoundary) postName=&#34;out&#34;; else postName = step-&gt;GetPostStepPoint()-&gt;GetTouchableHandle()-&gt;GetVolume()-&gt;GetName(); </p>
-  </div>
-  <footer class="entry-footer"><span title='2022-02-22 00:00:00 +0000 UTC'>February 22, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;117 words&nbsp;·&nbsp;Apricot</footer>
-  <a class="entry-link" aria-label="post link to Geant4常用信息" href="http://localhost:1313/posts/geant4%E5%B8%B8%E7%94%A8%E4%BF%A1%E6%81%AF/"></a>
-</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="http://localhost:1313/posts/page/2/">Next&nbsp;2/2&nbsp;»
+    </a>
+  </nav>
+</footer>
     </main>
     
 <footer class="footer">

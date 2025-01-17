@@ -6,14 +6,27 @@
     <description>Recent content in Quantum on Apricots1024</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jan 2025 15:36:50 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 28 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/quantum/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>自由电子的运动状态</title>
       <link>http://localhost:1313/posts/%E8%87%AA%E7%94%B1%E7%94%B5%E5%AD%90%E7%9A%84%E8%BF%90%E5%8A%A8%E7%8A%B6%E6%80%81/</link>
-      <pubDate>Fri, 17 Jan 2025 15:36:50 +0800</pubDate>
+      <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/%E8%87%AA%E7%94%B1%E7%94%B5%E5%AD%90%E7%9A%84%E8%BF%90%E5%8A%A8%E7%8A%B6%E6%80%81/</guid>
-      <description></description>
+      <description>&lt;p&gt;自由粒子用平面波表述（德布罗意）
+$$\Phi(\vec r,t)=A\mathrm{e}^{\mathrm{i}(\vec k \bullet \vec r-\omega t)}$$
+考虑一维情况：
+$$\begin{aligned}\Phi(x,t)=&amp;amp;A\mathrm{e}^{\mathrm{i}kx}\mathrm{e}^{-\mathrm{i}at}=\Psi(x)\mathrm{e}^{-\mathrm{i}at}\\Psi(x)=&amp;amp;A\mathrm{e}^{\mathrm{i}kx}\end{aligned}$$
+后式为自由粒子波函数，代表沿x方向传播的平面波，且遵守定态薛定谔方程
+$$-\frac{\hbar^2}{2m_0}\frac{\mathrm{d}^2\Psi(x)}{\mathrm{d}x^2}=E\Psi(x)$$&lt;/p&gt;
+&lt;p&gt;再考虑
+$$\vec p = \hbar \vec k $$
+可得
+$$ E = \frac{\hbar ^2 k^2}{2m_0}$$&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E8%87%AA%E7%94%B1%E7%94%B5%E5%AD%90%E7%9A%84%E8%BF%90%E5%8A%A8%E7%8A%B6%E6%80%81/assets/science_%E8%87%AA%E7%94%B1%E7%94%B5%E5%AD%90%E7%9A%84%E8%BF%90%E5%8A%A8%E7%8A%B6%E6%80%81/2024-09-28-22-16-08.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;波矢$\vec k$用于描述自由电子的运动状态。图中可以看出一维情况下自由电子的能量是连续的。&lt;/p&gt;
+&lt;p&gt;空间分布$\left|\psi(r)\right|^2=\left|\psi\psi^*\right|=A^2$&lt;/p&gt;
+&lt;p&gt;自由电子在空间是等几率分布的, 自由运动。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

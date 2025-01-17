@@ -6,12 +6,76 @@
     <description>Recent content in Science on Apricots1024</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Talys</title>
+      <link>http://localhost:1313/posts/talys/</link>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/talys/</guid>
+      <description>&lt;p&gt;ref: Arjan Koning, IAEA
+ref: &lt;a href=&#34;https://doi.org/10.1140/epja/s10050-023-01034-3&#34;&gt;https://doi.org/10.1140/epja/s10050-023-01034-3&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;talys&#34;&gt;Talys&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Computer program to simulate nuclear reactions&lt;/li&gt;
+&lt;li&gt;Used for fundamental nuclear physics research&lt;/li&gt;
+&lt;li&gt;Used to produce nuclear data for applications&lt;/li&gt;
+&lt;li&gt;Projectiles: neutron, photon, proton, deuteron, triton, Helium-3, alpha particle;
+&lt;ul&gt;
+&lt;li&gt;Also works for an excited nucleus as initial condition&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Targets: Z= 3-124, A=5-339
+&lt;ul&gt;
+&lt;li&gt;Reliability: Z &amp;gt; 9, A &amp;gt; 20&lt;/li&gt;
+&lt;li&gt;Also a natural element can be specified&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Incident energy: 1 meV - 1 GeV
+&lt;ul&gt;
+&lt;li&gt;Reliability: few keV - 200 MeV
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/talys/assets/Talys/Screenshot_20250103_164428.png&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;input-discription&#34;&gt;Input Discription&lt;/h1&gt;
+&lt;p&gt;Minimal input file:(Also others parameters)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cu靶计算</title>
+      <link>http://localhost:1313/posts/cu%E9%9D%B6%E8%AE%A1%E7%AE%97/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cu%E9%9D%B6%E8%AE%A1%E7%AE%97/</guid>
+      <description>&lt;p&gt;原天然铁19号靶中57Co活度为122Bq&lt;/p&gt;
+&lt;p&gt;预估65Zn的1115.5 keV效率为122 keV 的1/4，半衰期243.93d&lt;/p&gt;
+&lt;p&gt;活度达500Bq左右可达相似计数，且活度不确定度较小。&lt;/p&gt;
+&lt;p&gt;$$
+N = \frac {A} {\lambda} = \frac{500 ~\mathrm{Bq}}{3.2888684507999854\times 10^{-8}\mathrm{s^{-1}}} = 15202797177.2
+$$&lt;/p&gt;
+&lt;p&gt;4 MeV质子入射截面预计为$0.15 \mathrm{barns} = 1.5 \times 10^{-25} \mathrm{cm^2}$， 15小时1000enA流量估计&lt;/p&gt;
+&lt;p&gt;按公式
+$$
+N = \sigma T \Phi \frac{1-\mathrm e ^{-\lambda t}}{\lambda}
+$$
+$$
+N = 1.5 \times 10^{-25}\times T\times\frac{1\times10^{-6}}{1.6\times10^{-19}}\times\frac{1-\mathrm{e}^{-3.2888684507999854e-08~\mathrm{s}^{-1}\times 15*3600}}{3.2888684507999854e-08~\mathrm{s}^{-1}}\ = 5.058 \times 10^{-8} T
+$$&lt;/p&gt;
+&lt;p&gt;为达到15202797177个剩余核，靶中65Cu的厚度至少为：
+$$
+T = 15202797177 \div 5.058 \times 10^{-8} = 3 \times 10^{17}
+$$&lt;/p&gt;
+&lt;p&gt;65Cu在天然Cu中丰度30.8%，天然Cu靶厚：
+$$
+T = 3 \times 10^{17} \div 0.308 = 9.75 \times 10^{17} \mathrm{cm}^{-2}
+$$
+$$
+T = \frac{9.75 \times 10^{17}}{6.02\times10^{23}}\times63500 = 0.103\mathrm{mg/cm^2}= 1.94*10^{-5}\mathrm{\mu g/cm^2}
+$$&lt;/p&gt;</description>
+    </item>
     <item>
       <title>FIB SEM测厚</title>
       <link>http://localhost:1313/posts/fib-sem%E6%B5%8B%E5%8E%9A/</link>
-      <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/fib-sem%E6%B5%8B%E5%8E%9A/</guid>
       <description>&lt;p&gt;绝对测量550μg/cm²靶厚，预估699nm&lt;/p&gt;
 &lt;h1 id=&#34;原子力显微镜afm类设备&#34;&gt;原子力显微镜AFM类设备&lt;/h1&gt;
@@ -50,9 +114,236 @@
 &lt;p&gt;M楼超净间千级区&lt;/p&gt;</description>
     </item>
     <item>
+      <title>半导体中的杂质和缺陷能级</title>
+      <link>http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/</link>
+      <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/</guid>
+      <description>&lt;p&gt;本征半导体：即为理想纯净半导体。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;晶体：原子严格周期性排列，具有完整的晶格结构&lt;/li&gt;
+&lt;li&gt;晶体中无杂质无缺陷-&amp;gt;禁带中无能级，电子只处在允带中&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;本征半导体的载流子只能由本征激发提供ref[[半导体中的电子状态#4. 本征半导体的导电机构——载流子|载流子]]&lt;/p&gt;
+&lt;p&gt;实际半导体含有杂质和缺陷，且原子在晶格位置热振动
+因此会在禁带中引入能级，对半导体性质产生决定性影响。&lt;/p&gt;
+&lt;h1 id=&#34;sige晶体中的杂质能级&#34;&gt;Si、Ge晶体中的杂质能级&lt;/h1&gt;
+&lt;h2 id=&#34;杂质与杂质能级&#34;&gt;杂质与杂质能级&lt;/h2&gt;
+&lt;p&gt;杂质包含替位式杂质和间隙式杂质&lt;/p&gt;
+&lt;p&gt;间隙式杂质，杂质原子较小，位于间隙位置&lt;/p&gt;
+&lt;p&gt;替位式杂质，杂质原子与被代替原子的大小比拟，价电子壳层结构相似，杂质替位后处于格点位置&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;杂质分类：
+&lt;ul&gt;
+&lt;li&gt;浅能级杂质
+&lt;ul&gt;
+&lt;li&gt;N型半导体&lt;/li&gt;
+&lt;li&gt;P型半导体&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;深能级杂质
+&lt;ul&gt;
+&lt;li&gt;复合中心&lt;/li&gt;
+&lt;li&gt;陷阱&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;杂质能级根据在禁带中的位置不同，分为浅能级杂质和深能级杂质。
+浅能级又分为施主杂质/施主能级和受主杂质/受主能级
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/2024-10-11-16-19-09.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/2024-10-11-16-19-25.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;施主杂质能级&#34;&gt;施主杂质能级&lt;/h2&gt;
+&lt;p&gt;以在Si中掺P为例&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;施主杂质：掺入的杂质原子电离时，释放电子而产生导电电子，并形成正电中心的杂质（又称N型杂质）。&lt;/li&gt;
+&lt;li&gt;施主能级$E_D$：被施主杂质束缚电子的能量状态（比导带底Ec低）。&lt;/li&gt;
+&lt;li&gt;施主电离能：$\Delta E_D = E_C-E_D$，是施主杂质中弱束缚的电子摆脱杂质原子束缚成为晶格中自由电子所需要的能量
+&lt;ul&gt;
+&lt;li&gt;施主杂质的电离能小，在常温下基本上电离。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/2024-10-11-16-20-02.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/2024-10-11-16-36-49.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;P原子替代Si原子，形成共价键，出现1个&lt;strong&gt;正电中心P＋&lt;/strong&gt;（不可移动）和1个多余的&lt;strong&gt;价电子&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;多余的价电子挣脱束缚，在晶格中自由运动→&lt;strong&gt;杂质电离&lt;/strong&gt;；&lt;/p&gt;
+&lt;p&gt;用能带图表述施主杂质的电离过程：
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/2024-10-11-16-21-45.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;电离结果：导致导带中的电子数增加——施主掺杂的意义。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;含有施主杂质的半导体，其导电的载流子主要是电子&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;受主杂质能级&#34;&gt;受主杂质能级&lt;/h2&gt;
+&lt;p&gt;以Si中掺B为例&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/2024-10-11-16-37-10.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>布里渊区</title>
+      <link>http://localhost:1313/posts/%E5%B8%83%E9%87%8C%E6%B8%8A%E5%8C%BA/</link>
+      <pubDate>Thu, 10 Oct 2024 15:14:25 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E5%B8%83%E9%87%8C%E6%B8%8A%E5%8C%BA/</guid>
+      <description>&lt;p&gt;ref:半导体物理刘恩科&lt;/p&gt;
+&lt;h1 id=&#34;半导体&#34;&gt;半导体&lt;/h1&gt;
+&lt;p&gt;晶体中的电子是在具有周期性的等效势场中运动——单电子近似&lt;/p&gt;
+&lt;p&gt;晶体中电子的波动方程:
+$$\left[-\frac{\hbar^2}{2m}\nabla^2+V(r)\right]\psi=E\psi $$&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;布洛赫定理——当势场具有周期性时，波动方程的解具有如下布洛赫波函数的形式：
+$\psi(r)=u(r)e^{i2\pi kr}$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;相位因子反映电子的共有化运动。&lt;/li&gt;
+&lt;li&gt;u(r) 反映周期势场对共有化运动的影响，具有和晶格一样的周期性。$u(r)=u(r+R_n)$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;电子在晶体中的分布$\begin{vmatrix}\psi(r)\end{vmatrix}^2=\left|\psi \psi^{*}\right|=\begin{vmatrix}u(r)u(r)^*\end{vmatrix}$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;电子在晶体中的分布几率是晶格的周期函数&lt;/li&gt;
+&lt;li&gt;晶体中各处分布几率不同，但不同原胞的等价位置上出现的几率相同。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;电子不再局限与某一个原子上，而可以从晶胞中某一点自由运动到其他晶胞的等价位置，因而电子可以在整个晶体中运动（共有化运动）&lt;/li&gt;
+&lt;li&gt;外层电子的共有化运动程度强，与自由电子相似，称为准自由电子；内层电子的共有化运动程度弱，与孤立原子中的电子相似&lt;/li&gt;
+&lt;li&gt;波矢$\vec k$同样描述晶体中电子的共有化运动状态&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;求解上述薛定谔方程可得如图解的形式,当
+$$k=\frac{n\pi}{a}\quad(n=0,\pm1,\pm2,\cdots)$$
+时能量出现不连续, 形成一系列允带和禁带.&lt;strong&gt;一个允带对应的k值范围称为布里渊区&lt;/strong&gt;.
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%B8%83%E9%87%8C%E6%B8%8A%E5%8C%BA/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-10-10-14-14-21.png&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;固体物理&#34;&gt;固体物理&lt;/h1&gt;
+&lt;p&gt;已经忘了，待补充&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>半导体中的电子状态</title>
+      <link>http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/</link>
+      <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/</guid>
+      <description>&lt;h1 id=&#34;1-半导体的晶格结构和结合性质&#34;&gt;1. 半导体的晶格结构和结合性质&lt;/h1&gt;
+&lt;h2 id=&#34;11-半导体材料&#34;&gt;1.1. 半导体材料&lt;/h2&gt;
+&lt;h3 id=&#34;111-什么是半导体材料&#34;&gt;1.1.1. 什么是半导体材料&lt;/h3&gt;
+&lt;p&gt;定义参考&lt;a href=&#34;../%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%AE%80%E4%BB%8B/index.md&#34;&gt;半导体简介&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;半导体材料的类型：元素半导体Si Ge，化合物半导体GaAs InP等&lt;/p&gt;
+&lt;h3 id=&#34;112-元素半导体材料&#34;&gt;1.1.2. 元素半导体材料&lt;/h3&gt;
+&lt;p&gt;硅、锗都是由单一原子所组成的元素半导体，均为周期表第IV族元素。
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-21-59-04.png&#34;&gt;
+60年代Si取代Ge成为半导体制造的主要材料
+硅的优势在于：室温下特性良好；高品质的硅氧化层可由热成长的方式产生，成本低；储量丰富。&lt;/p&gt;
+&lt;h3 id=&#34;113-化合物半导体&#34;&gt;1.1.3. 化合物半导体&lt;/h3&gt;
+&lt;p&gt;有二元、三元、多元化合物半导体&lt;/p&gt;
+&lt;p&gt;二元化合物半导体：
+IV－IV族化合物半导体：碳化硅（SiC）； III-V族化合物半导体：砷化镓（GaAs）、磷化镓（GaP）、磷化铟（InP）
+II-VI族化合物半导体：氧化锌（ZnO）、硫化锌（ZnS）、碲化镉（CdTe）
+IV-VI族化合物半导体：硫化铅（PbS）、硒化铅（PbSe）、碲化铅（PbTe）&lt;/p&gt;
+&lt;p&gt;多元化合物半导体：
+具有 $A_xB_{1-x}C_yD_{1-y}$ 形式的四元化合物半导体。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;特性区别&lt;/strong&gt; ：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;与元素半导体有不同的电特性及光特性&lt;/li&gt;
+&lt;li&gt;制作单晶化合物半导体的工艺更复杂&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;12-晶格结构&#34;&gt;1.2. 晶格结构&lt;/h2&gt;
+&lt;h3 id=&#34;121-晶格简介&#34;&gt;1.2.1. 晶格简介：&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;晶格：晶体中原子的周期性排列&lt;/li&gt;
+&lt;li&gt;单胞：周期性排列的最小单元，代表整个晶格，
+将此单胞向晶体的四面八方连续延伸，即可产生整个晶格。&lt;/li&gt;
+&lt;li&gt;特点：单晶体，三维空间周期性排列
+当原子热振动时，仍以其中心位置作微振动。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;单胞及其表示&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-00-04.png&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;晶格常数：单胞与晶格的关系用三个向量a、b及c表示，
+它们彼此之间不需要正交，而且在长度上不一定相同，称为晶格常数。&lt;/li&gt;
+&lt;li&gt;每个三维空间晶体中的等效格点可用下面的向量组表示:  $\vec{R} = m \vec{a} + n \vec{b} + p \vec{c}$ 其中m、n、p是整数。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;122-基本晶格结构&#34;&gt;1.2.2. 基本晶格结构&lt;/h3&gt;
+&lt;p&gt;简单立方晶格：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-01-58.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;体心立方晶格：&lt;br&gt;
+比如 Na， 钨&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-02-22.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;面心立方晶格：&lt;br&gt;
+比如：Al，Co，Au，铂&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-03-05.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;金刚石晶格结构：&lt;br&gt;
+可以视为两个相互套构的面心立方副晶格，比如：Si Ge&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-03-30.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>半导体简介</title>
+      <link>http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%AE%80%E4%BB%8B/</link>
+      <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%AE%80%E4%BB%8B/</guid>
+      <description>&lt;h1 id=&#34;什么是半导体&#34;&gt;什么是半导体&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;半导体：电阻率 $\rho$ 介于导体和绝缘体之间，&lt;em&gt;并且具有富的电阻温度系数&lt;/em&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%AE%80%E4%BB%8B/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%AE%80%E4%BB%8B/2024-09-28-21-53-46.png&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;从导电性，固体材料可分成：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;超导体&lt;/li&gt;
+&lt;li&gt;导体&lt;/li&gt;
+&lt;li&gt;半导体&lt;/li&gt;
+&lt;li&gt;绝缘体&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;电阻率：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;导体：$\rho &amp;lt; 10^{-4}\Omega\textrm{cm}$ ，如 $\rho_{Cu} = 10^{-6}\Omega\textrm{cm}$&lt;/li&gt;
+&lt;li&gt;半导体：$10^{-3}\Omega\textrm{cm} &amp;lt; \rho &amp;lt; 10^8\Omega\textrm{cm}$ ，如 $\rho_{Ge} = 0.2\Omega\textrm{cm}$&lt;/li&gt;
+&lt;li&gt;绝缘体： $\rho &amp;gt; 10^8\Omega\textrm{cm}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;微电子=集成电路=芯片&amp;lt;半导体
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%AE%80%E4%BB%8B/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%AE%80%E4%BB%8B/2024-09-28-21-54-27.png&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;半导体材料的基本特性&#34;&gt;半导体材料的基本特性&lt;/h1&gt;
+&lt;p&gt;半导体材料是微电子和光电子技术的基础，用半导体材料制作（光）电子元器件，不是因为它的导电能力介于导体和绝缘体之间，而是由于其导电机理不同于其它物质，&lt;em&gt;其导电能力可调谐&lt;/em&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;当受外界热、光、磁、压力、电压变化等作用时，它的导电能力明显变化。
+&lt;ul&gt;
+&lt;li&gt;热电特性、光电特性、磁阻效应、压电效应、电光效应等&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;往纯净的半导体中掺入某些杂质，会使它的导电能力明显改变。
+&lt;ul&gt;
+&lt;li&gt;掺杂特性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;半导体材料的性质主要取决于半导体的能带结构和电子的运动规律。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>自由电子的运动状态</title>
+      <link>http://localhost:1313/posts/%E8%87%AA%E7%94%B1%E7%94%B5%E5%AD%90%E7%9A%84%E8%BF%90%E5%8A%A8%E7%8A%B6%E6%80%81/</link>
+      <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E8%87%AA%E7%94%B1%E7%94%B5%E5%AD%90%E7%9A%84%E8%BF%90%E5%8A%A8%E7%8A%B6%E6%80%81/</guid>
+      <description>&lt;p&gt;自由粒子用平面波表述（德布罗意）
+$$\Phi(\vec r,t)=A\mathrm{e}^{\mathrm{i}(\vec k \bullet \vec r-\omega t)}$$
+考虑一维情况：
+$$\begin{aligned}\Phi(x,t)=&amp;amp;A\mathrm{e}^{\mathrm{i}kx}\mathrm{e}^{-\mathrm{i}at}=\Psi(x)\mathrm{e}^{-\mathrm{i}at}\\Psi(x)=&amp;amp;A\mathrm{e}^{\mathrm{i}kx}\end{aligned}$$
+后式为自由粒子波函数，代表沿x方向传播的平面波，且遵守定态薛定谔方程
+$$-\frac{\hbar^2}{2m_0}\frac{\mathrm{d}^2\Psi(x)}{\mathrm{d}x^2}=E\Psi(x)$$&lt;/p&gt;
+&lt;p&gt;再考虑
+$$\vec p = \hbar \vec k $$
+可得
+$$ E = \frac{\hbar ^2 k^2}{2m_0}$$&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E8%87%AA%E7%94%B1%E7%94%B5%E5%AD%90%E7%9A%84%E8%BF%90%E5%8A%A8%E7%8A%B6%E6%80%81/assets/science_%E8%87%AA%E7%94%B1%E7%94%B5%E5%AD%90%E7%9A%84%E8%BF%90%E5%8A%A8%E7%8A%B6%E6%80%81/2024-09-28-22-16-08.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;波矢$\vec k$用于描述自由电子的运动状态。图中可以看出一维情况下自由电子的能量是连续的。&lt;/p&gt;
+&lt;p&gt;空间分布$\left|\psi(r)\right|^2=\left|\psi\psi^*\right|=A^2$&lt;/p&gt;
+&lt;p&gt;自由电子在空间是等几率分布的, 自由运动。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>SummerSchool2024Tongliao</title>
       <link>http://localhost:1313/posts/summerschool2024tongliao/</link>
-      <pubDate>Sat, 27 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/summerschool2024tongliao/</guid>
       <description>&lt;h1 id=&#34;柳卫平&#34;&gt;柳卫平&lt;/h1&gt;
 &lt;p&gt;次级束流线  7Li 电荷交换    老回旋的分析磁铁和四级透镜&lt;/p&gt;
@@ -126,9 +417,9 @@
 &lt;p&gt;The number density (symbol: n or ρN) is an intensive quantity used to describe the degree of concentration of countable objects (particles, molecules, phonons, cells, galaxies, etc.) in physical space: three-dimensional volumetric number density, two-dimensional areal number density, or one-dimensional linear number density.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>LSB_resolution</title>
+      <title>LSB_resolution(repost)</title>
       <link>http://localhost:1313/posts/lsb_resolution/</link>
-      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/lsb_resolution/</guid>
       <description>&lt;p&gt;Least Significant Bit, 模数转换，
 主要参考&lt;a href=&#34;https://masteringelectronicsdesign.com/an-adc-and-dac-least-significant-bit-lsb/&#34;&gt;以下内容&lt;/a&gt;&lt;/p&gt;
@@ -148,6 +439,515 @@
 &lt;li&gt;Here T is the plasma temperature and μ is the reduced mass of the reacting particles.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;在核天体物理中是联系微观和宏观的重要物理量，其截面(库仑势垒穿透系数)和粒子能量(麦克斯韦分布)分布预示着[[Gamow window]]，可以直接用于进行下一步天体环境发展的计算。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>中子物理</title>
+      <link>http://localhost:1313/posts/%E4%B8%AD%E5%AD%90%E7%89%A9%E7%90%86/</link>
+      <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E4%B8%AD%E5%AD%90%E7%89%A9%E7%90%86/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;考试复习&lt;/li&gt;
+&lt;li&gt;
+&lt;h1 id=&#34;第一章绪论&#34;&gt;第一章:绪论&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;1.了解中子发现的历史,Chadwick通过什么样的实验发现了中子?
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;在电离室里充不同的气体,利用alpha打Be靶产生的射线去打不同的物质,根据产生的反冲能量,准确推出射线的质量为接近于质子的质量(1.008倍质子的质量),从而确定了中子的存在。&lt;/p&gt;
+&lt;p&gt;自此,人类认识到原子核中心有核,是由质子和中子组成的,核外是电子。&lt;br&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E4%B8%AD%E5%AD%90%E7%89%A9%E7%90%86/assets/%E4%B8%AD%E5%AD%90%E7%89%A9%E7%90%86-%E9%98%AE%E9%94%A1%E8%B6%85/2024-01-30-07-38-36.png&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1932年,英国物理学家J. Chadwick发现中子;
+1920年,卢瑟福预言中子的存在:如果原子核里只有质子,则核电荷数与核外电子不符,预研存在中性粒子-中子;&lt;br&gt;
+1930年,柏林德国皇家物理技术研究所的玻特(W. Bothe)和巴黎居里镭学研&lt;br&gt;
+究所的伊伦.居里和约里奥利用alpha打Be靶,发现了穿透力很强的辐射,他们都认为是伽马;伊伦.居里和约里奥还利用alpha打Be靶产生的中子打石蜡,获得了质子束(反冲质子),可惜没有想到是中子;&lt;br&gt;
+1930年,柏林德国皇家物理技术研究所的玻特(W. Bothe)和巴黎居里镭学研&lt;br&gt;
+究所的伊伦.居里和约里奥利用alpha打Be靶,发现了穿透力很强的辐射,他们都认为是伽马;伊伦.居里和约里奥还利用alpha打Be靶产生的中子打石蜡,获得了质子束(反冲质子),可惜没有想到是中子;&lt;br&gt;
+1932年, J. Chadwick根据前人的成果,经过自己的实验,判断alpha打Be靶产生的射线是中子;&lt;br&gt;
+1935年获得诺贝尔奖;&lt;br&gt;
+中子的发现深刻改变了核物理的发展,也改变了世界。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2.重点了解中子的基本性质:质量、自旋、磁矩、寿命等
+&lt;ul&gt;
+&lt;li&gt;质量 $m_n=1.008664924\mathrm{u}=1.674953\times 10^{-24}\mathrm{g}=939.6\mathrm{MeV}$&lt;/li&gt;
+&lt;li&gt;自旋 $\sigma = \frac12$&lt;/li&gt;
+&lt;li&gt;磁矩 $\mu_n=-1.91304275\mu_N$&lt;/li&gt;
+&lt;li&gt;寿命 $\tau_n=896\pm 10\mathrm{s}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1 id=&#34;第二章中子源物理&#34;&gt;第二章：中子源物理&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;1.给定一些参数(如反应截面、靶参数等),知道如何计算中子强度和产额。
+&lt;ul&gt;
+&lt;li&gt;原子数
+$$N=\frac mMN_A$$&lt;/li&gt;
+&lt;li&gt;中子产额：单位入射粒子所能产生的中子数,跟反应截面及靶物质量有关
+$$Y=\sigma_{a,n}N_vd$$ 	&lt;br&gt;
+$N_v$ 是单位体积的靶核数,则 $N_vd$ 即为单位面积的靶核数&lt;/li&gt;
+&lt;li&gt;中子强度：单位时间内产生的中子数,单位:n/s，从入射粒子强度 $I_a$ 可求出种子强度
+$$I=I_aY$$&lt;/li&gt;
+&lt;li&gt;如:一个氘-氚反应中子源,入射氘能量2.5 MeV,平均束流强度1微安,氚钛靶的质量厚度为1 mg/cm^2(钛的质量厚度),氚/钛比为1.5(每个钛原子可吸附1.5个氚原子),氘氚反应截面为 $\sigma$ mb,求该中子源的强度,如果0度角的微分截面为 $\sigma_0$  mb/sr,则在0度角方向离该中子源10 cm处的中子注量率是多少?(假设Ti的原子量为48)
+&lt;ul&gt;
+&lt;li&gt;本题：
+$$1.5\times N_vd=1.5\times \frac{1\times 10^{-3} \mathrm{g/cm^2}}{48 \mathrm{u}}\times N_A$$	
+$$Y=\sigma \times 10^{-27}\times N_vd$$
+$$I_a=\frac{1\times 10^{-6}\mathrm{A}}{1.6\times 10^{-19}}$$ 	&lt;br&gt;
+此处 $I_a$ 需要根据入射粒子电荷数进一步换算&lt;br&gt;
+$$I=I_aY$$
+$$\phi=\frac{I_a\sigma_0N_vd}{R^2}$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2.同位素、加速器及反应堆中子源各自的特点。可从中子源的主要指标着手去分析。
+collapsed:: true
+&lt;ul&gt;
+&lt;li&gt;中子源的主要指标有:
+1)能量(能谱);&lt;br&gt;
+2)强度和产额;&lt;br&gt;
+3)角分布;&lt;br&gt;
+4)伴生伽马本底。&lt;/li&gt;
+&lt;li&gt;同位素中子源：强度弱 $&amp;lt;10^7$ ，各向同性，伽玛本底强
+加速器中子源：能谱分布广，各向异性，伽玛本底弱&lt;br&gt;
+反应堆中子源：热中子 能量高，注量率高，各向同性，伽玛本底强&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3.为什么8-14 MeV能区单能中子源是难点?如何获得8—14MeV能区单能中子源?
+collapsed:: true
+&lt;ul&gt;
+&lt;li&gt;常用的中子源(如d-D,p-T反应),入射粒子能量达到一定时,三体反应发生(如D(d,pn)D),出射的中子不再是单能的,而是在低能段有破裂中子的干扰。&lt;/li&gt;
+&lt;li&gt;重离子打氢：一些常用的H(Hi,n)反应中子源,根据运动学计算,这类中子源通常有两组能量的中子,当低能中子所占份额很少时,可认为是单能中子。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;4.什么是白光中子源?主要由哪些反应产生白光中子源?
+collapsed:: true
+&lt;ul&gt;
+&lt;li&gt;离子驱动:如氘束打厚7Li或Be靶,质子束打厚7Li或Be靶等,入射粒子能量通常几十MeV,追求大流强(mA)量级,可以达到很高的中子产额;&lt;/li&gt;
+&lt;li&gt;电子驱动:几十至几百MeV的电子书打重靶(Ta、W、U等),通过光核反应产生从热中子到约10 MeV的白光中子;&lt;/li&gt;
+&lt;li&gt;散裂中子源:高能强流质子束打重靶(Pb、W、Hg等),通过散裂反应产生从热中子到几百甚至GeV的白光中子。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1 id=&#34;第三章中子与原子核的相互作用&#34;&gt;第三章:中子与原子核的相互作用&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;1.截面、微分截面及角分布的概念。
+&lt;ul&gt;
+&lt;li&gt;截面:反应入射粒子与原子核发生相互作用概率的重要物理量
+$$\sigma = \frac{K}{I\times N}$$ 	
+K:反应率(r/s)或反应数(r);&lt;br&gt;
+I:入射粒子强度(n/s,n),注量率或注量(n/cm2/s或n/cm2);&lt;br&gt;
+N:靶核原子数或单位面积的靶核原子数(N/cm2或N)。&lt;/li&gt;
+&lt;li&gt;单位:巴(b),豪巴(mb)， $1\mathrm{b}=1\times 10^{-24}\mathrm{cm^2}$&lt;/li&gt;
+&lt;li&gt;计算时注意:
+I为注量或注量率时(面积量纲),N为靶核数(无面积量纲)&lt;br&gt;
+I为无面积量纲时,N为单位面积的靶核数(面积量纲)&lt;/li&gt;
+&lt;li&gt;微分截面:出射粒子的几率与出射角有关,沿某一个角度出射粒子的几率称为微分截面,单位: b/sr或mb/sr
+$$\mathrm{d}n\left(\theta\right)=\sigma(\theta)\cdot I\cdot N\cdot\mathrm{d}\Omega(\theta)$$&lt;/li&gt;
+&lt;li&gt;角分布:微分截面随角度变化的关系&lt;/li&gt;
+&lt;li&gt;以中子与靶核的弹性散射为例,弹性散射截面可通过微分截面角分布积分获得
+$$\sigma_{el}=\int\sigma_{el}\left(\theta\right)\mathrm d\Omega=2\pi\int_0^\pi\sigma_{el}\left(\theta\right)\sin\theta\mathrm d\theta$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2.中子与原子核会发生哪些主要反应?中子反应截面有哪些特点?
+&lt;ul&gt;
+&lt;li&gt;散射：弹性散射、非弹性散射&lt;/li&gt;
+&lt;li&gt;中子吸收：(n, g) (n, xn) (n, z) (n, f)&lt;/li&gt;
+&lt;li&gt;反应截面：
+$$\sigma_t=\sigma_s+\sigma_a=\left(\sigma_{el}+\sigma_{inel}\right)+(\sigma_c+\sigma_f)$$&lt;/li&gt;
+&lt;li&gt;中子反应截面呈现非常复杂的特性,f分为1/v取，共振取和快区，反应截面与能量和角度有关&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3.简述核反应经历哪些阶段?有哪些作用机制?不同机制时其出射粒子的能谱角分布有何特点?
+&lt;ul&gt;
+&lt;li&gt;独立粒子阶段：
+入射中子入射到靶核上&lt;br&gt;
+1)被散射—弹性散射或势散射;&lt;br&gt;
+2)被吸收。&lt;/li&gt;
+&lt;li&gt;复合核形成阶段
+1)直接作用:&lt;br&gt;
+(1)入射粒子将能量转移给一个或少数几个核子,然后逃逸;&lt;br&gt;
+(2)入射粒子经过多次碰撞并发射出来;&lt;br&gt;
+(3)入射粒子部分能量转给靶核后发射出来,靶核被集体激发(转动、振动)&lt;br&gt;
+2)入射粒子经过多次碰撞后达到平衡,形成复合核,入射粒子不再可分辨;&lt;/li&gt;
+&lt;li&gt;最后阶段—复合核衰变&lt;/li&gt;
+&lt;li&gt;预平衡:介于直接过程与复合核过程的状态&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;1)在截面的低能部分，复合核机制是主要的，但随着入射能量的增加直接反应的贡献上升以至成为主要的，而复合核的贡献随能量增加而减少，逐渐变得可以忽略
+2出射粒子能谱的低能部分主要是来自复合核的贡献，并且呈 Maxwell类型分布，称为蒸发谱；高能量的出射粒子主要来自直接反应机制，且剩余核处在较低的激发能级上。在这两部分之间的连续区，预平衡阶段的粒子发射起了较好的补充作用&lt;br&gt;
+3）角分布则更为明显，来自复合核机制的出射粒子角分布呈各向同性或90对称，而直接反应的贡献则是“前冲“的，即在小角度有更高的概率&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1 id=&#34;第四章中子探测&#34;&gt;第四章:中子探测&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;1.用于中子探测的核作用有哪些?中子探测方法主要有哪几种?
+&lt;ul&gt;
+&lt;li&gt;用于中子探测的核作用基本上有两类:
+1、核散射&lt;br&gt;
+2、核反应(包括核裂变)&lt;/li&gt;
+&lt;li&gt;探测方法主要有下述四种:
+1、核反冲法(快中子，反冲能量A大而小，10MeV以下反冲质子矩形谱)&lt;br&gt;
+2、核反应法&lt;br&gt;
+3、核裂变法(裂变放能，无阈裂变热中子，有阈裂变快中子)&lt;br&gt;
+4、核活化法 $n+^{197}Au\to ^{198}+ \gamma$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2.常用的用于中子探测的核反应有哪些?他们各自的特点与适用范围是什么?
+collapsed:: true
+&lt;ul&gt;
+&lt;li&gt;常用核素:  ^{ 3} He、 ^{ 6} Li、 ^{ 10} B、 ^{ 155} Gd 和 ^{ 157} Gd 等,相应的核反应及其主要特点如下：
+&lt;ul&gt;
+&lt;li&gt;(1) ^{ 3}He(n,p)^{ 3}H：Q值为0.765MeV,热能点截面5400b。在0.1~1MeV能区可用于中子能谱测量。(天然^{ 3} He的丰度为 $1.4\times 10^{-4}$ %)&lt;/li&gt;
+&lt;li&gt;(2) ^{ 6} Li(n,t)^{ 4}He：Q值为4.78MeV。反应截面在0.001~0.1MeV能区遵循1/v规律;在En≈250keV处有一共振峰,共振处的截面值为3.3b。(^{ 6}Li天然丰度为7.5%)&lt;/li&gt;
+&lt;li&gt;(3) ^{ 10}B(n, $\alpha$ )^{ 7} Li：反应Q值为2.79MeV;反应截面热能点为3840b;热能以上至1keV按1/v变化;反应剩余核只有7%处于基态，其余93%处于激发态。激发态的寿命很短(约为8×10^{ -14}s),通过放出0.478MeV的 $\gamma$ 辐射退激到基态。&lt;/li&gt;
+&lt;li&gt;(4) ^{ 155,157}Gd(n, $\gamma$ )^{ 156,158} Gd：
+^{ 157}Gd: 丰度15.65%, 热中子俘获截面2.55×10 ^{ 5}b,贡献80%;&lt;br&gt;
+^{ 155}Gd: 丰度14.8%,热中子俘获截面6.1×104b,贡献18%.&lt;br&gt;
+其余: 2%。&lt;br&gt;
+^{ 156}Gd* 和^{ 158}Gd * 的总激发能分别为8.53MeV和7.94MeV,主要通过放出级联 $\gamma$ 射线和内转换电子衰变到基态。通过测量它们放出的 $\gamma$ 射线或内转换电子而探测中子。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3.常用的中子探测器有哪些?
+collapsed:: true
+&lt;ul&gt;
+&lt;li&gt;气体探测器;含氢正比管，含BF_{ 3}正比管，^{ 3}He正比管&lt;/li&gt;
+&lt;li&gt;闪烁探测器; 闪烁体，光电转换器件&lt;/li&gt;
+&lt;li&gt;望远镜(半导体、闪烁探测器);&lt;/li&gt;
+&lt;li&gt;裂变室;&lt;/li&gt;
+&lt;li&gt;活化片;&lt;/li&gt;
+&lt;li&gt;径迹探测器;(核乳胶和固体径迹探测器等)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;4.中子-伽马甄别的主要方法?
+collapsed:: true
+&lt;ul&gt;
+&lt;li&gt;带电粒子通过有机闪烁体时,其径迹周围的分子或原子则被激发或电离。处于激发态的分子或原子退激时便放出光。有机闪烁体发光时间很短并以多种衰减时间常数指数下降。&lt;/li&gt;
+&lt;li&gt;发光衰减时间的快成份的衰减时间常数和快慢成份的份额与激发粒子引起的电离密度、因而与激发粒子的种类有关。&lt;/li&gt;
+&lt;li&gt;根据这一现象,可以对不同带电粒子产生的不同的脉冲形状进行分析,来鉴别粒子。&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;上升时间法&lt;/li&gt;
+&lt;li&gt;过零定时法&lt;/li&gt;
+&lt;li&gt;电荷比较法&lt;/li&gt;
+&lt;li&gt;其他方法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1 id=&#34;第五章中子谱学&#34;&gt;第五章:中子谱学&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;1..中子能谱测量的常用方法有哪些?
+&lt;ul&gt;
+&lt;li&gt;中子能谱的测量主要基于以下几种方法
+&lt;ul&gt;
+&lt;li&gt;核散射:通过测量反冲核的能量来得到中子能谱&lt;/li&gt;
+&lt;li&gt;核反应法:通过测量中子与原子核反应产生的带电粒子能量获得&lt;/li&gt;
+&lt;li&gt;飞行时间法:通过测量中子的飞行速度获得&lt;/li&gt;
+&lt;li&gt;阈探测器方法:通过一组具有不同反应阈的活化片,对中子能谱进行测量&lt;/li&gt;
+&lt;li&gt;解谱法:主要是反冲质子解谱法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2.在中子能谱测量的飞行时间方法中,影响能量分辨的主要因素有哪些?
+&lt;ul&gt;
+&lt;li&gt;飞行时间谱仪
+$$E=\frac 12mv^2=\frac 12m\left(\frac lt\right)^2$$
+$$t=\sqrt{\frac m{2E}}\times l$$ 
+取 $t$ 的单位为ns， $E$ 的单位为MeV， $l$ 的单位为m，则&lt;br&gt;
+$$t=\frac{72.3l}{\sqrt E}$$ 
+(这是非相对论近似情况,能量高的需要考虑相对论效应)&lt;/li&gt;
+&lt;li&gt;能量分辨率：
+$$\frac{\Delta E}E=\left[\left(\frac{2\Delta l}l\right)^2+\left(\frac{2\Delta t}t\right)^2+\frac{\Delta E^2_i}{E^2}\right]^{\frac 12}$$
+&lt;ul&gt;
+&lt;li&gt;$\left(\frac{2\Delta l}l\right)^2$ ：飞行距离不确定度，包括中子源尺寸、探测器厚度等贡献&lt;/li&gt;
+&lt;li&gt;$\left(\frac{2\Delta t}t\right)^2$ ：飞行时间不确定度，包括脉冲宽度、探测器响应、电子学定时等贡献&lt;/li&gt;
+&lt;li&gt;$\frac{\Delta E^2_i}{E^2}$ ：中子能量不确定度，入射粒子能散、靶厚、探测器张角等贡献&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1 id=&#34;第六章中子注量率测量&#34;&gt;第六章:中子注量率测量&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;1.什么是中子注量及注量率?
+collapsed:: true
+&lt;ul&gt;
+&lt;li&gt;中子注量：在空间一定点上，在一段时间间隔内，无论以任何方向射入以该点为中心的小球体的中子数目除以该球体的最大截面积所得的商，常用 $\Phi$ 表示，单位是n/cm^{ 2}或cm^{ -2}&lt;/li&gt;
+&lt;li&gt;中子注量率：空间一定点上，单位时间内接受到的中子注量，常用 $\phi$ 表示，单位是n/(cm^{ 2}s)或cm^{ -2}s^{ -1}
+$$\Phi=\int_0^T\phi(t)\mathrm dt$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2.中子注量率测量的主要方法有哪些?
+&lt;ul&gt;
+&lt;li&gt;标准截面法&lt;/li&gt;
+&lt;li&gt;伴随事件法&lt;/li&gt;
+&lt;li&gt;裂变电离室法&lt;/li&gt;
+&lt;li&gt;活化片法&lt;/li&gt;
+&lt;li&gt;长计数器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3.中子注量率的计算方法。
+&lt;ul&gt;
+&lt;li&gt;对放射性核素中子源，看作点源时：
+$$\phi = \frac Q{4\pi R^2}$$ 	
+Q为中子源强度，即每秒钟放出的中子数&lt;/li&gt;
+&lt;li&gt;对于加速器中子源，由于发射的中子是各向异性的，距离源R处的中子注量率一边表示为：
+$$\phi = \frac Q{R^2}$$ 
+这里Q为单位立体角中子源强度，及每秒钟沿某个方向单位立体角内放出的中子数，单位为n/Sr/s&lt;/li&gt;
+&lt;li&gt;对于反应堆中子源，假设观测位置在反应堆生物屏蔽层外，并直视堆芯，如果看到的活性区表面积为 S，表面平均中子注量率为 $\phi_0$ ，则可以用 $\phi_0S$ 代替式1中的Q来推算中子注量率，只要反应堆活性区材料和结构不变，则该位置的中子注量率和反应堆功率成正比&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;如:用一个238U裂变电离室测量离某一d-D反应中子源10cm处的中子注量率,中子源能量为2.8 MeV,该能量时238U的裂变截面为1.5 b,238U样品量为200微克,测得的裂变率为10次/秒,求测点处的中子注量率。
+&lt;ul&gt;
+&lt;li&gt;裂变率 $N_f=\phi \cdot N\cdot \sigma$
+N为靶核数&lt;br&gt;
+$$N=\frac{200\times 10^{-6}}{238}N_A$$
+$$\phi = \frac{N_f}{N\sigma}$$
+$$Q = \phi\cdot 4\pi R^2$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1 id=&#34;第七章中子与大块物质的相互作用&#34;&gt;第七章:中子与大块物质的相互作用&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;1.宏观截面、平均自由程、平均迁移自由程的概念。
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;宏观截面就是中子与某单位体积物质内的所有原子（或分子）发生作用的截面，又称截面密度。&lt;br&gt;
+$$\Sigma = N\sigma$$ 
+式中，N 为核密度（m^{ -3})，即单位体积内的原子或分了数。 $\sigma$ 为微观截面(m^{ 2}）。所以，宏观截面的单位为m^{ -1}&lt;br&gt;
+当然，宏观截面也分为宏观散射截面 $\Sigma_s$ ，和宏观吸收截面 $\Sigma_a$ 等。且&lt;br&gt;
+$$\Sigma = \Sigma_s +\Sigma_a$$ 	
+如果所研究的物质由m种元素均匀混合而成，那么该物质的宏观截面为：&lt;br&gt;
+$$\Sigma = \sum_{i=1}^{m}N_i\sigma_i $$ 
+对于化合物X_{ m}Y_{ n}的微观截面：&lt;br&gt;
+$$\sigma = m\sigma_X+n\sigma_Y$$&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>科研论文写作</title>
+      <link>http://localhost:1313/posts/%E7%A7%91%E7%A0%94%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/</link>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E7%A7%91%E7%A0%94%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/</guid>
+      <description>&lt;h1 id=&#34;科研论文写作&#34;&gt;科研论文写作&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;南开大学 胡金牛 b站视频&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;科研论文的类型&#34;&gt;科研论文的类型&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;快报 Letter&lt;/li&gt;
+&lt;li&gt;快讯 Rapid communication&lt;/li&gt;
+&lt;li&gt;简要报告 Brief report&lt;/li&gt;
+&lt;li&gt;正式论文 Regular article&lt;/li&gt;
+&lt;li&gt;最常写的&lt;/li&gt;
+&lt;li&gt;综述 Review report&lt;/li&gt;
+&lt;li&gt;全面了解&lt;/li&gt;
+&lt;li&gt;会议文集 Proceeding&lt;/li&gt;
+&lt;li&gt;论文 Thesis,Essay,Dissertation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;具体格式&#34;&gt;具体格式&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;题目 TItle&lt;/li&gt;
+&lt;li&gt;摘要 Abstract&lt;/li&gt;
+&lt;li&gt;引言 Introduction&lt;/li&gt;
+&lt;li&gt;方法或理论框架 Method and Theoretical framework&lt;/li&gt;
+&lt;li&gt;结果讨论 Result an discussion&lt;/li&gt;
+&lt;li&gt;总结 Summary(可能有展望)&lt;/li&gt;
+&lt;li&gt;致谢 Acknowledgements&lt;/li&gt;
+&lt;li&gt;参考文献 Reference&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;工具&#34;&gt;工具&lt;/h1&gt;
+&lt;h2 id=&#34;文字工具&#34;&gt;文字工具&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;word（非专业）&lt;/li&gt;
+&lt;li&gt;latex ctex(专业)
+&lt;ul&gt;
+&lt;li&gt;winedit texstudio overleaf&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Scientific workspace, Lyx(比较专业的)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;画图工具jpg-png-gif-eps&#34;&gt;画图工具jpg png gif eps&lt;/h2&gt;
+&lt;p&gt;建议使用矢量图eps或pdf&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Excel&lt;/li&gt;
+&lt;li&gt;originlab 基本够用
+&lt;ul&gt;
+&lt;li&gt;收费，消耗内存，只有window&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;gnuplot, matplotlib 高阶工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;文献整理软件bib&#34;&gt;文献整理软件bib&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;evernote, endnote(可能有用)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;论文写作流程&#34;&gt;论文写作流程&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;调整正确心态&lt;/li&gt;
+&lt;li&gt;充分构思&lt;/li&gt;
+&lt;li&gt;认真准备&lt;/li&gt;
+&lt;li&gt;抓紧时间写&lt;/li&gt;
+&lt;li&gt;避免忘记，前后不自洽&lt;/li&gt;
+&lt;li&gt;不断修改完善&lt;/li&gt;
+&lt;li&gt;请人审阅&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;要有信用，对自己严格要求&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;具体要求&#34;&gt;具体要求&lt;/h1&gt;
+&lt;h2 id=&#34;标题&#34;&gt;标题&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;一语中的，清晰简明，扣人心弦
+&lt;ul&gt;
+&lt;li&gt;The limits of the nuclear landscape&lt;/li&gt;
+&lt;li&gt;How atomic nuclei cluster&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;长短适中，可以是陈述句，反问句，感叹句&lt;/li&gt;
+&lt;li&gt;不要太长或太短&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;作者&#34;&gt;作者&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;作者有什么用？
+&lt;ul&gt;
+&lt;li&gt;有福同享有难同当&lt;/li&gt;
+&lt;li&gt;必须对论文写作有实际贡献&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;作者排序
+&lt;ol&gt;
+&lt;li&gt;alpha字母排序&lt;/li&gt;
+&lt;li&gt;贡献大小排序&lt;/li&gt;
+&lt;li&gt;通讯作者：回答答复，传达消息，有问题联系通讯作者&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;摘要&#34;&gt;摘要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;迷你版的论文&lt;/li&gt;
+&lt;li&gt;背景 目的 方法 结果 结论&lt;/li&gt;
+&lt;li&gt;Backgroud Purpose Methods Results Conclusions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;首先需要问题的必要性以及重要性
+&lt;ul&gt;
+&lt;li&gt;任何问题都有研究的必要性与重要性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;其次论述前人在该问题所做的工作
+&lt;ul&gt;
+&lt;li&gt;基本没有任何问题是前人没思考过的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;指出目前还没解决的问题
+&lt;ul&gt;
+&lt;li&gt;任何问题都没有完全解决&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;陈述该工作的出发点，创新之处&lt;/li&gt;
+&lt;li&gt;本论文的整体内容安排&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;理论框架和方法&#34;&gt;理论框架和方法&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;公式要尽可能详尽(可重复性)&lt;/li&gt;
+&lt;li&gt;公式必须要有简洁性&lt;/li&gt;
+&lt;li&gt;公式必须保证正确性&lt;/li&gt;
+&lt;li&gt;公式必须要有可重复性&lt;/li&gt;
+&lt;li&gt;公式是作为一句话存在的情况，要以标点符号结尾&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;结果讨论&#34;&gt;结果讨论&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;清楚描述实验或者数值计算的步骤以及详细参数&lt;/li&gt;
+&lt;li&gt;利用图表等方式清晰、明确、简洁表达工作结果&lt;/li&gt;
+&lt;li&gt;对图表所展现的内容进行合理的描述&lt;/li&gt;
+&lt;li&gt;结合相关的物理知识进行分析，提出工作的创新点&lt;/li&gt;
+&lt;li&gt;与其他工作认真比较，寻找异同，给予合理解释&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;用尽可能少的语句描述做了什么&lt;/li&gt;
+&lt;li&gt;分条论述得到了什么&lt;/li&gt;
+&lt;li&gt;总结工作创新了什么&lt;/li&gt;
+&lt;li&gt;未来可以做的是什么&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;致谢&#34;&gt;致谢&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;感谢党和国家感谢cctv感谢家人&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参考文献&#34;&gt;参考文献&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;学术论文&lt;/li&gt;
+&lt;li&gt;书籍&lt;/li&gt;
+&lt;li&gt;学位论文&lt;/li&gt;
+&lt;li&gt;预印本&lt;/li&gt;
+&lt;li&gt;私人交流&lt;/li&gt;
+&lt;li&gt;在正文中无法详细阐述的内容&lt;/li&gt;
+&lt;li&gt;民科是不需要参考文献的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;关于数学符号&#34;&gt;关于数学符号&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;绝大多数数学符号应当用斜体&lt;/li&gt;
+&lt;li&gt;公式中特定的函数符号要用正体，比如sin、cos、exp、Tr&lt;/li&gt;
+&lt;li&gt;数学单位必须用正体，单位与数字之间需要空格&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;关于图表问题&#34;&gt;关于图表问题&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;一般的图需要四边封口，即上下左右都需要把坐标轴画出来&lt;/li&gt;
+&lt;li&gt;轴上必须有相应的刻度，刻度又分大刻度和小刻度&lt;/li&gt;
+&lt;li&gt;清晰地表明横纵坐标所表示的物理量以及相应的单位&lt;/li&gt;
+&lt;li&gt;每一条曲线都需要用不同的线型来表示&lt;/li&gt;
+&lt;li&gt;专业作图软件&lt;/li&gt;
+&lt;li&gt;边框轴以及曲线的粗细在比例协调&lt;/li&gt;
+&lt;li&gt;曲线以及边框线尽量画的粗一些&lt;/li&gt;
+&lt;li&gt;线型的标示要清楚&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;引用其他的图不建议截图，建议自己重画&lt;/li&gt;
+&lt;li&gt;表格最上面一行或者最左面一列通常都是填写数据表示的物理量以及单位&lt;/li&gt;
+&lt;li&gt;图表的说明必须详细、清楚&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;标点符号与空格&#34;&gt;标点符号与空格&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;英文里面是没有顿号的，冒号用的也很少&lt;/li&gt;
+&lt;li&gt;公式末尾是需要添加标点符号的&lt;/li&gt;
+&lt;li&gt;公式中的括号必须是可伸缩的&lt;/li&gt;
+&lt;li&gt;文字中的相邻数学符号，除了要用逗号隔开，还需要添加空格&lt;/li&gt;
+&lt;li&gt;数字与单位之间要有空格&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;参考文献-1&#34;&gt;参考文献&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;学术论文的参考文献格式千奇百怪&lt;/li&gt;
+&lt;li&gt;避免重复编写相同的参考文献&lt;/li&gt;
+&lt;li&gt;尽量不要直接引用连接&lt;/li&gt;
+&lt;li&gt;不要引用百度百科！！！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;学术端正&#34;&gt;学术端正&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;保证实验或者理论计算结果的可重复性&lt;/li&gt;
+&lt;li&gt;引用别人的工作时不能直接复制粘贴&lt;/li&gt;
+&lt;li&gt;论文图片不要ps&lt;/li&gt;
+&lt;li&gt;客观表述工作的创新点&lt;/li&gt;
+&lt;li&gt;切忌一稿多投，虚拟审稿人&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;规范千百条，诚信第一条。
+论文千万篇，严谨第一篇。&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Geant4常用信息</title>
