@@ -98,6 +98,8 @@ tocopen = false
 
   - en/zh_cn.
   """
+  [params.assets]
+  css = ["css/custom.css"]
 
     # [[params.socialIcons]]
     # name = "x"

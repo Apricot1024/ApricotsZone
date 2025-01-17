@@ -1,0 +1,21 @@
+/* 容器样式：居中横向排列 */
+.stickers-container {
+    display: flex; /* 启用 Flexbox 布局 */
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中（如果需要） */
+    gap: 20px; /* 控制贴纸之间的水平间距 */
+    margin-top: 20px; /* 顶部留空 */
+  }
+  
+  /* 贴纸样式 */
+  .sticker {
+    max-width: 100px; /* 控制贴纸最大宽度 */
+    height: auto; /* 保持图片比例 */
+    transition: transform 0.3s ease; /* 添加悬停效果 */
+  }
+  
+  /* 悬停放大效果 */
+  .sticker:hover {
+    transform: scale(1.1); /* 鼠标悬停时放大 */
+  }
+  
