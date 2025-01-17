@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Quantum on Apricots1024</title>
+    <link>http://localhost:1313/tags/quantum/</link>
+    <description>Recent content in Quantum on Apricots1024</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Jan 2025 15:36:50 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/quantum/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自由电子的运动状态</title>
+      <link>http://localhost:1313/posts/%E8%87%AA%E7%94%B1%E7%94%B5%E5%AD%90%E7%9A%84%E8%BF%90%E5%8A%A8%E7%8A%B6%E6%80%81/</link>
+      <pubDate>Fri, 17 Jan 2025 15:36:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E8%87%AA%E7%94%B1%E7%94%B5%E5%AD%90%E7%9A%84%E8%BF%90%E5%8A%A8%E7%8A%B6%E6%80%81/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Semiconductor on Apricots1024</title>
+    <link>http://localhost:1313/tags/semiconductor/</link>
+    <description>Recent content in Semiconductor on Apricots1024</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Jan 2025 15:14:25 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/semiconductor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>布里渊区</title>
+      <link>http://localhost:1313/posts/%E5%B8%83%E9%87%8C%E6%B8%8A%E5%8C%BA/</link>
+      <pubDate>Fri, 17 Jan 2025 15:14:25 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E5%B8%83%E9%87%8C%E6%B8%8A%E5%8C%BA/</guid>
+      <description>&lt;p&gt;ref:半导体物理刘恩科
+晶体中的电子是在具有周期性的等效势场中运动——单电子近似&lt;/p&gt;
+&lt;p&gt;晶体中电子的波动方程:
+$$\left[-\frac{\hbar^2}{2m}\nabla^2+V(r)\right]\psi=E\psi $$&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;布洛赫定理——当势场具有周期性时，波动方程的解具有如下布洛赫波函数的形式：
+$\psi(r)=u(r)e^{i2\pi kr}$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;相位因子反映电子的共有化运动。&lt;/li&gt;
+&lt;li&gt;u(r) 反映周期势场对共有化运动的影响，具有和晶格一样的周期性。$u(r)=u(r+R_n)$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;电子在晶体中的分布$\begin{vmatrix}\psi(r)\end{vmatrix}^2=\begin{vmatrix}\psi\psi^&lt;em&gt;\end{vmatrix}=\begin{vmatrix}u(r)u(r)^&lt;/em&gt;\end{vmatrix}$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;电子在晶体中的分布几率是晶格的周期函数&lt;/li&gt;
+&lt;li&gt;晶体中各处分布几率不同，但不同原胞的等价位置上出现的几率相同。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;电子不再局限与某一个原子上，而可以从晶胞中某一点自由运动到其他晶胞的等价位置，因而电子可以在整个晶体中运动（共有化运动）&lt;/li&gt;
+&lt;li&gt;外层电子的共有化运动程度强，与自由电子相似，称为准自由电子；内层电子的共有化运动程度弱，与孤立原子中的电子相似&lt;/li&gt;
+&lt;li&gt;波矢$\vec k$同样描述晶体中电子的共有化运动状态&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;求解上述薛定谔方程可得如图解的形式,当
+$$k=\frac{n\pi}{a}\quad(n=0,\pm1,\pm2,\cdots)$$
+时能量出现不连续, 形成一系列允带和禁带.&lt;strong&gt;一个允带对应的k值范围称为布里渊区&lt;/strong&gt;.
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%B8%83%E9%87%8C%E6%B8%8A%E5%8C%BA/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-10-10-14-14-21.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

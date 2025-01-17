@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>半导体中的电子状态 | Apricots1024</title>
+<meta name="keywords" content="Science, Semiconductor">
+<meta name="description" content="1. 半导体的晶格结构和结合性质
+1.1. 半导体材料
+1.1.1. 什么是半导体材料
+定义参考半导体简介
+半导体材料的类型：元素半导体Si Ge，化合物半导体GaAs InP等
+1.1.2. 元素半导体材料
+硅、锗都是由单一原子所组成的元素半导体，均为周期表第IV族元素。
+
+60年代Si取代Ge成为半导体制造的主要材料
+硅的优势在于：室温下特性良好；高品质的硅氧化层可由热成长的方式产生，成本低；储量丰富。
+1.1.3. 化合物半导体
+有二元、三元、多元化合物半导体
+二元化合物半导体：
+IV－IV族化合物半导体：碳化硅（SiC）； III-V族化合物半导体：砷化镓（GaAs）、磷化镓（GaP）、磷化铟（InP）
+II-VI族化合物半导体：氧化锌（ZnO）、硫化锌（ZnS）、碲化镉（CdTe）
+IV-VI族化合物半导体：硫化铅（PbS）、硒化铅（PbSe）、碲化铅（PbTe）
+多元化合物半导体：
+具有 $A_xB_{1-x}C_yD_{1-y}$ 形式的四元化合物半导体。
+特性区别 ：
+
+与元素半导体有不同的电特性及光特性
+制作单晶化合物半导体的工艺更复杂
+
+1.2. 晶格结构
+1.2.1. 晶格简介：
+
+晶格：晶体中原子的周期性排列
+单胞：周期性排列的最小单元，代表整个晶格，
+将此单胞向晶体的四面八方连续延伸，即可产生整个晶格。
+特点：单晶体，三维空间周期性排列
+当原子热振动时，仍以其中心位置作微振动。
+
+单胞及其表示
+
+
+晶格常数：单胞与晶格的关系用三个向量a、b及c表示，
+它们彼此之间不需要正交，而且在长度上不一定相同，称为晶格常数。
+每个三维空间晶体中的等效格点可用下面的向量组表示:  $\vec{R} = m \vec{a} &#43; n \vec{b} &#43; p \vec{c}$ 其中m、n、p是整数。
+
+1.2.2. 基本晶格结构
+简单立方晶格：
+
+体心立方晶格：
+比如 Na， 钨
+
+面心立方晶格：
+比如：Al，Co，Au，铂
+
+金刚石晶格结构：
+可以视为两个相互套构的面心立方副晶格，比如：Si Ge
+">
+<meta name="author" content="Apricot">
+<link rel="canonical" href="http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.45e028aa8ce0961349adf411b013ee39406be2c0bc80d4ea3fc04555f7f4611a.css" integrity="sha256-ReAoqozglhNJrfQRsBPuOUBr4sC8gNTqP8BFVff0YRo=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+onload="renderMathInElement(document.body, 
+{
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '\\[', right: '\\]', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false}
+          ]
+      }
+);"></script>
+<meta property="og:url" content="http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/">
+  <meta property="og:site_name" content="Apricots1024">
+  <meta property="og:title" content="半导体中的电子状态">
+  <meta property="og:description" content="1. 半导体的晶格结构和结合性质 1.1. 半导体材料 1.1.1. 什么是半导体材料 定义参考半导体简介
+半导体材料的类型：元素半导体Si Ge，化合物半导体GaAs InP等
+1.1.2. 元素半导体材料 硅、锗都是由单一原子所组成的元素半导体，均为周期表第IV族元素。 60年代Si取代Ge成为半导体制造的主要材料 硅的优势在于：室温下特性良好；高品质的硅氧化层可由热成长的方式产生，成本低；储量丰富。
+1.1.3. 化合物半导体 有二元、三元、多元化合物半导体
+二元化合物半导体： IV－IV族化合物半导体：碳化硅（SiC）； III-V族化合物半导体：砷化镓（GaAs）、磷化镓（GaP）、磷化铟（InP） II-VI族化合物半导体：氧化锌（ZnO）、硫化锌（ZnS）、碲化镉（CdTe） IV-VI族化合物半导体：硫化铅（PbS）、硒化铅（PbSe）、碲化铅（PbTe）
+多元化合物半导体： 具有 $A_xB_{1-x}C_yD_{1-y}$ 形式的四元化合物半导体。
+特性区别 ：
+与元素半导体有不同的电特性及光特性 制作单晶化合物半导体的工艺更复杂 1.2. 晶格结构 1.2.1. 晶格简介： 晶格：晶体中原子的周期性排列 单胞：周期性排列的最小单元，代表整个晶格， 将此单胞向晶体的四面八方连续延伸，即可产生整个晶格。 特点：单晶体，三维空间周期性排列 当原子热振动时，仍以其中心位置作微振动。 单胞及其表示
+晶格常数：单胞与晶格的关系用三个向量a、b及c表示， 它们彼此之间不需要正交，而且在长度上不一定相同，称为晶格常数。 每个三维空间晶体中的等效格点可用下面的向量组表示: $\vec{R} = m \vec{a} &#43; n \vec{b} &#43; p \vec{c}$ 其中m、n、p是整数。 1.2.2. 基本晶格结构 简单立方晶格：
+体心立方晶格：
+比如 Na， 钨
+面心立方晶格：
+比如：Al，Co，Au，铂
+金刚石晶格结构：
+可以视为两个相互套构的面心立方副晶格，比如：Si Ge">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-09-28T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-09-28T00:00:00+00:00">
+    <meta property="article:tag" content="Science">
+    <meta property="article:tag" content="Semiconductor">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="半导体中的电子状态">
+<meta name="twitter:description" content="1. 半导体的晶格结构和结合性质
+1.1. 半导体材料
+1.1.1. 什么是半导体材料
+定义参考半导体简介
+半导体材料的类型：元素半导体Si Ge，化合物半导体GaAs InP等
+1.1.2. 元素半导体材料
+硅、锗都是由单一原子所组成的元素半导体，均为周期表第IV族元素。
+
+60年代Si取代Ge成为半导体制造的主要材料
+硅的优势在于：室温下特性良好；高品质的硅氧化层可由热成长的方式产生，成本低；储量丰富。
+1.1.3. 化合物半导体
+有二元、三元、多元化合物半导体
+二元化合物半导体：
+IV－IV族化合物半导体：碳化硅（SiC）； III-V族化合物半导体：砷化镓（GaAs）、磷化镓（GaP）、磷化铟（InP）
+II-VI族化合物半导体：氧化锌（ZnO）、硫化锌（ZnS）、碲化镉（CdTe）
+IV-VI族化合物半导体：硫化铅（PbS）、硒化铅（PbSe）、碲化铅（PbTe）
+多元化合物半导体：
+具有 $A_xB_{1-x}C_yD_{1-y}$ 形式的四元化合物半导体。
+特性区别 ：
+
+与元素半导体有不同的电特性及光特性
+制作单晶化合物半导体的工艺更复杂
+
+1.2. 晶格结构
+1.2.1. 晶格简介：
+
+晶格：晶体中原子的周期性排列
+单胞：周期性排列的最小单元，代表整个晶格，
+将此单胞向晶体的四面八方连续延伸，即可产生整个晶格。
+特点：单晶体，三维空间周期性排列
+当原子热振动时，仍以其中心位置作微振动。
+
+单胞及其表示
+
+
+晶格常数：单胞与晶格的关系用三个向量a、b及c表示，
+它们彼此之间不需要正交，而且在长度上不一定相同，称为晶格常数。
+每个三维空间晶体中的等效格点可用下面的向量组表示:  $\vec{R} = m \vec{a} &#43; n \vec{b} &#43; p \vec{c}$ 其中m、n、p是整数。
+
+1.2.2. 基本晶格结构
+简单立方晶格：
+
+体心立方晶格：
+比如 Na， 钨
+
+面心立方晶格：
+比如：Al，Co，Au，铂
+
+金刚石晶格结构：
+可以视为两个相互套构的面心立方副晶格，比如：Si Ge
+">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "半导体中的电子状态",
+      "item": "http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "半导体中的电子状态",
+  "name": "半导体中的电子状态",
+  "description": "1. 半导体的晶格结构和结合性质 1.1. 半导体材料 1.1.1. 什么是半导体材料 定义参考半导体简介\n半导体材料的类型：元素半导体Si Ge，化合物半导体GaAs InP等\n1.1.2. 元素半导体材料 硅、锗都是由单一原子所组成的元素半导体，均为周期表第IV族元素。 60年代Si取代Ge成为半导体制造的主要材料 硅的优势在于：室温下特性良好；高品质的硅氧化层可由热成长的方式产生，成本低；储量丰富。\n1.1.3. 化合物半导体 有二元、三元、多元化合物半导体\n二元化合物半导体： IV－IV族化合物半导体：碳化硅（SiC）； III-V族化合物半导体：砷化镓（GaAs）、磷化镓（GaP）、磷化铟（InP） II-VI族化合物半导体：氧化锌（ZnO）、硫化锌（ZnS）、碲化镉（CdTe） IV-VI族化合物半导体：硫化铅（PbS）、硒化铅（PbSe）、碲化铅（PbTe）\n多元化合物半导体： 具有 $A_xB_{1-x}C_yD_{1-y}$ 形式的四元化合物半导体。\n特性区别 ：\n与元素半导体有不同的电特性及光特性 制作单晶化合物半导体的工艺更复杂 1.2. 晶格结构 1.2.1. 晶格简介： 晶格：晶体中原子的周期性排列 单胞：周期性排列的最小单元，代表整个晶格， 将此单胞向晶体的四面八方连续延伸，即可产生整个晶格。 特点：单晶体，三维空间周期性排列 当原子热振动时，仍以其中心位置作微振动。 单胞及其表示\n晶格常数：单胞与晶格的关系用三个向量a、b及c表示， 它们彼此之间不需要正交，而且在长度上不一定相同，称为晶格常数。 每个三维空间晶体中的等效格点可用下面的向量组表示: $\\vec{R} = m \\vec{a} + n \\vec{b} + p \\vec{c}$ 其中m、n、p是整数。 1.2.2. 基本晶格结构 简单立方晶格：\n体心立方晶格：\n比如 Na， 钨\n面心立方晶格：\n比如：Al，Co，Au，铂\n金刚石晶格结构：\n可以视为两个相互套构的面心立方副晶格，比如：Si Ge\n",
+  "keywords": [
+    "Science", "Semiconductor"
+  ],
+  "articleBody": "1. 半导体的晶格结构和结合性质 1.1. 半导体材料 1.1.1. 什么是半导体材料 定义参考半导体简介\n半导体材料的类型：元素半导体Si Ge，化合物半导体GaAs InP等\n1.1.2. 元素半导体材料 硅、锗都是由单一原子所组成的元素半导体，均为周期表第IV族元素。 60年代Si取代Ge成为半导体制造的主要材料 硅的优势在于：室温下特性良好；高品质的硅氧化层可由热成长的方式产生，成本低；储量丰富。\n1.1.3. 化合物半导体 有二元、三元、多元化合物半导体\n二元化合物半导体： IV－IV族化合物半导体：碳化硅（SiC）； III-V族化合物半导体：砷化镓（GaAs）、磷化镓（GaP）、磷化铟（InP） II-VI族化合物半导体：氧化锌（ZnO）、硫化锌（ZnS）、碲化镉（CdTe） IV-VI族化合物半导体：硫化铅（PbS）、硒化铅（PbSe）、碲化铅（PbTe）\n多元化合物半导体： 具有 $A_xB_{1-x}C_yD_{1-y}$ 形式的四元化合物半导体。\n特性区别 ：\n与元素半导体有不同的电特性及光特性 制作单晶化合物半导体的工艺更复杂 1.2. 晶格结构 1.2.1. 晶格简介： 晶格：晶体中原子的周期性排列 单胞：周期性排列的最小单元，代表整个晶格， 将此单胞向晶体的四面八方连续延伸，即可产生整个晶格。 特点：单晶体，三维空间周期性排列 当原子热振动时，仍以其中心位置作微振动。 单胞及其表示\n晶格常数：单胞与晶格的关系用三个向量a、b及c表示， 它们彼此之间不需要正交，而且在长度上不一定相同，称为晶格常数。 每个三维空间晶体中的等效格点可用下面的向量组表示: $\\vec{R} = m \\vec{a} + n \\vec{b} + p \\vec{c}$ 其中m、n、p是整数。 1.2.2. 基本晶格结构 简单立方晶格：\n体心立方晶格：\n比如 Na， 钨\n面心立方晶格：\n比如：Al，Co，Au，铂\n金刚石晶格结构：\n可以视为两个相互套构的面心立方副晶格，比如：Si Ge\n闪锌矿结构：\n与金刚石晶格结构类似，只是两个相互套构的面心立方副晶格中的组成原子不同。\n大部分III-V族化合物半导体具有闪锌矿结构，如GaAs晶体。\n1.2.3. 米勒指数 不同平面的原子空间位置不同，沿着不同平面的晶体特性也不同，器件特性与晶体方向有着极其重要的关联。\n米勒指数 是截距的 倒数\n一些规定：\n$(\\bar{h}kl)$ ：代表x轴上截距为负的平面 {hkl}：代表相对称的平面群，如：在立方对称平面中， 可用{100}表示(100)，(010)，(001)， $(\\bar 100)$，$(0\\bar 10)$，$(00\\bar 1)$ 六个平面。 [hkl]：代表晶体方向，如[100]方向定义为垂直于(100)平面的方向， 即表示x轴方向，而[111]则表示垂直于(111)平面的方向。 ：代表等效方向的所有方向组， 如\u003c100\u003e代表[100]、[010]、[001]、$(\\bar 100)$、$(0\\bar 10)$、$(00\\bar 1)$ 六个等效方向的族群。 1.3. 半导体的共价键结合 1.3.1. 共价键形成条件 在 两个向塘元素原子 或 具有相似外层电子结构 的不同原子间。\n每个原子核拥有每个电子的时间相同，原子核对电子的吸引力使得两个原子结合在一起\n1.3.2. 金刚石晶格结构 金刚石晶格结构：每个原子被4个最邻近的原子所包围（二维空间结构简图如下）。每个原子在外围轨道有4个电子，分别与周围4个原子共用4对电子。 *这种共用电子对# 的结构称为共价键。每个电子对组成一个共价键。\n1.3.3. 闪锌矿结构 主要结合也是共价键，但在化合物晶体中还存在微弱离子键成分，如GaAs晶体中的Ga+离子与其四个邻近As-离子，或As-离子与其四个邻近Ga+离子间的静电吸引力。\n1.3.4. 载流子 半导体中可移动的电子与空穴统称为载流子。 低温时，晶体中的电子被共价键束缚在晶格中，无法作电的传导。 高温时，热振动可以打断共价键。当一些键被打断时，所产生的自由电子参与电的传导。而1个自由电子产生时，会在原处留下1个空位。此空位可被邻近的1个电子填充，从而产生空位位置的相对移动，此空位可被看作与电子运动方向相反的正电荷，称为空穴(hole)。\n2. 半导体中的电子状态和能带 2.1. 电子的共有化运动 2.1.1. 孤立原子中的电子状态 孤立原子中电子能级量子化 电子壳层：1s 2s 2p 3s 3p 3d 4s…\n能量最低原理（电子填充） 泡利不相容原理（自旋状态） 电子状态通过 n主量子数，l轨道量子数，ml磁量子数，ms自旋量子数 确定。\n孤立氢原子的玻尔能级模型： $$E_H=-\\frac{m_0q^4}{8\\varepsilon_0{}^2h^2n^2}=-\\frac{13.6}{n^2}eV$$\n2.1.2. 晶体中的电子状态：电子的共有化运动 原子组成晶体后，由于相邻原子的“相似” *电子壳层发生交叠# ， 电子不再完全局限在特定原子上，可以由一个原子转移到相邻的原子上，因而，电子将可以在整个晶体 *相似壳层间运动# 。 内层电子共有化程度弱。 原子钟相似壳层上的电子才有相同的能量，电子只能在相似壳层之间转移。 2.2. 能带的形成（导带、价带、禁带） 能带的形成是晶体中电子共有化运动的必然结果。 共有化运动 → 能级分裂 → 形成能带 两个原子相互靠近时，每个原子中的电子除受到本身原子的势场作用外，还要受到另一个原子势场的作用。其结果是每个二度简并的能级都分裂为两个彼此相距很近的能级。 2.2.1. 能级与能带对应关系 内层电子共有化运动弱，能级分裂小，能带窄；外壳层电子共有化运动显著，能带宽。 能带中能量不连续，晶体原子数很多，能带视为准连续；每个能带中的能级数目与晶体中的原子数有关。 禁带宽度Eg：导带底部与价带顶部间的能量间隔(EC-EV)，表示将半导体价带中的电子断键变成自由电子跃迁到导带（在价带中留下1个空穴）所需能量。\n2.2.2. 价电子与能带的对应关系 成键电子对应于价带 自由电子对应于导带 本征激发：价带电子激发成为导带电子的过程 2.2.3. 导体、绝缘体和半导体的能带特点 常温下：\nSi：Eg=1.12eV\nGe: Eg=0.67eV\nGaAs: Eg =1.43eV\n2.3. 半导体电子状态与能带 即E(k) - k 的关系。\n2.3.1. 自由电子的运动状态 电子在周期性势场中运动的基本特点和自由电子的运动十分相似。可以先考虑自由电子的运动状态\n2.3.2. 晶体中电子的运动：布里渊区 布里渊区\n对于有限晶体, 考虑周期性边界条件. 对边长为L的立方体, 波矢的三个分量分别为: $$k_{x}=\\frac{2\\pi n_{x}}{L}\\quad(n_{x}=0,\\pm1,\\pm2,\\cdots)\\k_{y}=\\frac{2\\pi n_{y}}{L}\\quad(n_{y}=0,\\pm1,\\pm2,\\cdots)\\k_{z}=\\frac{2\\pi n_{z}}{L}\\quad(n_{z}=0,\\pm1,\\pm2,\\cdots)$$ 可见波矢$\\vec k$只能取分立的数值, 具有量子数的作用, 描述晶体中电子共有化运动的量子状态.\n每个布里渊区的k状态数为固体物理学中的原胞数N. 因为每个能级可以容量两个自旋相反的电子, 所以每个能带可以容纳2N个电子.\n布里渊区也可以通过画倒格子获得.\n3. 半导体中电子的运动与有效质量 3.1. 意义 $$F_外+F_内=m_0a\\ F_外 = m_n^*a $$\n有效质量概括了半导体内部势场作用 引入有效质量,研究半导体中电子运动时, 可不涉及半导体内部势场作用. 3.2. 回顾自由电子 牛顿力学描述 [[自由电子的运动状态|自由电子的运动状态]] $$E = \\frac 1 2 \\frac{p^2}{2m_0} = \\frac{\\hbar ^2 k^2}{2m_0}$$ 对$E_k$微分得到: $$\\frac{\\mathrm d E}{\\mathrm d k} = \\frac{\\hbar^2 k}{m_0}$$\n速度 : $$v_k = \\frac{p}{m_0} = \\frac{\\hbar k }{m_0}$$\n因此,对比可知: $$ v_k = \\frac 1 \\hbar \\frac{\\mathrm d E}{\\mathrm d k}$$\n外力做功和能量关系可得:(标量化) $$\\mathrm d E = \\vec F \\cdot \\mathrm d \\vec s = \\vec F \\cdot \\vec v \\mathrm d t\\ \\frac{\\mathrm d E}{\\mathrm d t}= F \\frac 1 \\hbar \\frac{\\mathrm d E}{\\mathrm d k}$$\n因此: $$F = \\hbar\\frac{\\mathrm dk}{\\mathrm dt}$$\n又: $$a = \\frac{\\mathrm dv}{\\mathrm dt} = \\frac{\\frac \\hbar m_0 \\mathrm dk}{\\mathrm dt} = \\frac F m_0$$\n3.3. 半导体中电子 牛顿力学描述 考虑导带底或价带顶的电子状态, 以一维情况为例($E(k)$在$k=0$处取得极值), 在极值附近按泰勒级数展开: $$E(k)=E(0)+\\left(\\frac{d E}{d k}\\right){k=0} k+\\frac{1}{2}\\left(\\frac{d^{2} E}{d k^{2}}\\right){k=0} k^{2}+\\ldots \\ldots$$\n极值处一阶导数为0, 舍弃高阶项: $$E(k)-E(0)=\\frac{1}{2}\\left(\\frac{d^{2} E}{d k^{2}}\\right)_{k=0} k^{2}$$\n定义有效质量: $$\\frac 1 {m_n^*} = \\frac 1 {\\hbar^2}\\left( \\frac{d^{2} E}{d k^{2}}\\right)_{k=0}$$\n此时 $$E(k)-E(0)=\\frac{\\hbar^2 k^2}{2m_n^*}$$ 与自由电子能量表达式类似.\n称$m_n^$为电子有效质量 $$ m_n^= \\frac{\\hbar^2}{\\frac{\\mathrm d^2 E}{\\mathrm d k^2}}$$\n3.4. 有效质量的特点 取决于材料 与能带有关: 内层带窄$\\frac{\\mathrm d^2 E}{\\mathrm d k^2}$小, 有效质量大; 外层带宽$\\frac{\\mathrm d^2 E}{\\mathrm d k^2}$大, 有效质量小 外层电子在外力作用下可以获得较大的加速度\n有效质量有正负之分. 第一布里渊区的能量、速度、有效质量如图： 4. 本征半导体的导电机构——载流子 满带时无法导电，不满带时才对电流有贡献\n绝对零度时，价带被价电子填满，导带是空的，不导电。\n电子：带负电的导电载流子。是价电子脱离原子束缚后形成的自由电子，对应于导带中占据的电子。\n空穴：带正电的导电载流子。是价电子脱离原子束缚后形成的电子空位，对应于价带中的电子空位。\n本征半导体中，导带上出现的电子数目与价带上出现的空穴等量，他们均参与导电\n4.1. 载流子的产生 光激发产生 a. 大于禁带宽度的光子可以将电子从价带激发到导带。 b. 光子打破硅硅连接，在连接处产生自由电子和空穴\n热振动产生 热振动破坏连接，因此产生电子空穴对。\n4.2. 半导体中空穴的状态 $$ \\begin{array}{l} k_{p}=-k_{e} \\ E\\left(k_{p}\\right)=-E\\left(k_{e}\\right) \\ v\\left(k_{p}\\right)=v\\left(k_{e}\\right) \\ m_{p}^{}=-m_{e}^{} \\ a=F / m_{p}^{*} \\end{array} $$ ",
+  "wordCount" : "413",
+  "inLanguage": "en",
+  "datePublished": "2024-09-28T00:00:00Z",
+  "dateModified": "2024-09-28T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Apricot"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Apricots1024",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Apricots1024 (Alt + H)">Apricots1024</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/friends/" title="Friends">
+                    <span>Friends</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      半导体中的电子状态
+    </h1>
+    <div class="post-meta"><span title='2024-09-28 00:00:00 +0000 UTC'>September 28, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;413 words&nbsp;·&nbsp;Apricot&nbsp;|&nbsp;<a href="https://github.com/%3cpath_to_repo%3e/content/posts/%e5%8d%8a%e5%af%bc%e4%bd%93%e4%b8%ad%e7%9a%84%e7%94%b5%e5%ad%90%e7%8a%b6%e6%80%81/index.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#1-%e5%8d%8a%e5%af%bc%e4%bd%93%e7%9a%84%e6%99%b6%e6%a0%bc%e7%bb%93%e6%9e%84%e5%92%8c%e7%bb%93%e5%90%88%e6%80%a7%e8%b4%a8" aria-label="1. 半导体的晶格结构和结合性质">1. 半导体的晶格结构和结合性质</a><ul>
+                        
+                <li>
+                    <a href="#11-%e5%8d%8a%e5%af%bc%e4%bd%93%e6%9d%90%e6%96%99" aria-label="1.1. 半导体材料">1.1. 半导体材料</a><ul>
+                        
+                <li>
+                    <a href="#111-%e4%bb%80%e4%b9%88%e6%98%af%e5%8d%8a%e5%af%bc%e4%bd%93%e6%9d%90%e6%96%99" aria-label="1.1.1. 什么是半导体材料">1.1.1. 什么是半导体材料</a></li>
+                <li>
+                    <a href="#112-%e5%85%83%e7%b4%a0%e5%8d%8a%e5%af%bc%e4%bd%93%e6%9d%90%e6%96%99" aria-label="1.1.2. 元素半导体材料">1.1.2. 元素半导体材料</a></li>
+                <li>
+                    <a href="#113-%e5%8c%96%e5%90%88%e7%89%a9%e5%8d%8a%e5%af%bc%e4%bd%93" aria-label="1.1.3. 化合物半导体">1.1.3. 化合物半导体</a></li></ul>
+                </li>
+                <li>
+                    <a href="#12-%e6%99%b6%e6%a0%bc%e7%bb%93%e6%9e%84" aria-label="1.2. 晶格结构">1.2. 晶格结构</a><ul>
+                        
+                <li>
+                    <a href="#121-%e6%99%b6%e6%a0%bc%e7%ae%80%e4%bb%8b" aria-label="1.2.1. 晶格简介：">1.2.1. 晶格简介：</a></li>
+                <li>
+                    <a href="#122-%e5%9f%ba%e6%9c%ac%e6%99%b6%e6%a0%bc%e7%bb%93%e6%9e%84" aria-label="1.2.2. 基本晶格结构">1.2.2. 基本晶格结构</a></li>
+                <li>
+                    <a href="#123-%e7%b1%b3%e5%8b%92%e6%8c%87%e6%95%b0" aria-label="1.2.3. 米勒指数">1.2.3. 米勒指数</a></li></ul>
+                </li>
+                <li>
+                    <a href="#13-%e5%8d%8a%e5%af%bc%e4%bd%93%e7%9a%84%e5%85%b1%e4%bb%b7%e9%94%ae%e7%bb%93%e5%90%88" aria-label="1.3. 半导体的共价键结合">1.3. 半导体的共价键结合</a><ul>
+                        
+                <li>
+                    <a href="#131-%e5%85%b1%e4%bb%b7%e9%94%ae%e5%bd%a2%e6%88%90%e6%9d%a1%e4%bb%b6" aria-label="1.3.1. 共价键形成条件">1.3.1. 共价键形成条件</a></li>
+                <li>
+                    <a href="#132-%e9%87%91%e5%88%9a%e7%9f%b3%e6%99%b6%e6%a0%bc%e7%bb%93%e6%9e%84" aria-label="1.3.2. 金刚石晶格结构">1.3.2. 金刚石晶格结构</a></li>
+                <li>
+                    <a href="#133-%e9%97%aa%e9%94%8c%e7%9f%bf%e7%bb%93%e6%9e%84" aria-label="1.3.3. 闪锌矿结构">1.3.3. 闪锌矿结构</a></li>
+                <li>
+                    <a href="#134-%e8%bd%bd%e6%b5%81%e5%ad%90" aria-label="1.3.4. 载流子">1.3.4. 载流子</a></li></ul>
+                </li></ul>
+                </li>
+                <li>
+                    <a href="#2-%e5%8d%8a%e5%af%bc%e4%bd%93%e4%b8%ad%e7%9a%84%e7%94%b5%e5%ad%90%e7%8a%b6%e6%80%81%e5%92%8c%e8%83%bd%e5%b8%a6" aria-label="2. 半导体中的电子状态和能带">2. 半导体中的电子状态和能带</a><ul>
+                        
+                <li>
+                    <a href="#21-%e7%94%b5%e5%ad%90%e7%9a%84%e5%85%b1%e6%9c%89%e5%8c%96%e8%bf%90%e5%8a%a8" aria-label="2.1. 电子的共有化运动">2.1. 电子的共有化运动</a><ul>
+                        
+                <li>
+                    <a href="#211-%e5%ad%a4%e7%ab%8b%e5%8e%9f%e5%ad%90%e4%b8%ad%e7%9a%84%e7%94%b5%e5%ad%90%e7%8a%b6%e6%80%81" aria-label="2.1.1. 孤立原子中的电子状态">2.1.1. 孤立原子中的电子状态</a></li>
+                <li>
+                    <a href="#212-%e6%99%b6%e4%bd%93%e4%b8%ad%e7%9a%84%e7%94%b5%e5%ad%90%e7%8a%b6%e6%80%81%e7%94%b5%e5%ad%90%e7%9a%84%e5%85%b1%e6%9c%89%e5%8c%96%e8%bf%90%e5%8a%a8" aria-label="2.1.2. 晶体中的电子状态：电子的共有化运动">2.1.2. 晶体中的电子状态：电子的共有化运动</a></li></ul>
+                </li>
+                <li>
+                    <a href="#22-%e8%83%bd%e5%b8%a6%e7%9a%84%e5%bd%a2%e6%88%90%e5%af%bc%e5%b8%a6%e4%bb%b7%e5%b8%a6%e7%a6%81%e5%b8%a6" aria-label="2.2. 能带的形成（导带、价带、禁带）">2.2. 能带的形成（导带、价带、禁带）</a><ul>
+                        
+                <li>
+                    <a href="#221-%e8%83%bd%e7%ba%a7%e4%b8%8e%e8%83%bd%e5%b8%a6%e5%af%b9%e5%ba%94%e5%85%b3%e7%b3%bb" aria-label="2.2.1. 能级与能带对应关系">2.2.1. 能级与能带对应关系</a></li>
+                <li>
+                    <a href="#222-%e4%bb%b7%e7%94%b5%e5%ad%90%e4%b8%8e%e8%83%bd%e5%b8%a6%e7%9a%84%e5%af%b9%e5%ba%94%e5%85%b3%e7%b3%bb" aria-label="2.2.2. 价电子与能带的对应关系">2.2.2. 价电子与能带的对应关系</a></li>
+                <li>
+                    <a href="#223-%e5%af%bc%e4%bd%93%e7%bb%9d%e7%bc%98%e4%bd%93%e5%92%8c%e5%8d%8a%e5%af%bc%e4%bd%93%e7%9a%84%e8%83%bd%e5%b8%a6%e7%89%b9%e7%82%b9" aria-label="2.2.3. 导体、绝缘体和半导体的能带特点">2.2.3. 导体、绝缘体和半导体的能带特点</a></li></ul>
+                </li>
+                <li>
+                    <a href="#23-%e5%8d%8a%e5%af%bc%e4%bd%93%e7%94%b5%e5%ad%90%e7%8a%b6%e6%80%81%e4%b8%8e%e8%83%bd%e5%b8%a6" aria-label="2.3. 半导体电子状态与能带">2.3. 半导体电子状态与能带</a><ul>
+                        
+                <li>
+                    <a href="#231-%e8%87%aa%e7%94%b1%e7%94%b5%e5%ad%90%e7%9a%84%e8%bf%90%e5%8a%a8%e7%8a%b6%e6%80%81" aria-label="2.3.1. 自由电子的运动状态">2.3.1. 自由电子的运动状态</a></li>
+                <li>
+                    <a href="#232-%e6%99%b6%e4%bd%93%e4%b8%ad%e7%94%b5%e5%ad%90%e7%9a%84%e8%bf%90%e5%8a%a8%e5%b8%83%e9%87%8c%e6%b8%8a%e5%8c%ba" aria-label="2.3.2. 晶体中电子的运动：布里渊区">2.3.2. 晶体中电子的运动：布里渊区</a></li></ul>
+                </li></ul>
+                </li>
+                <li>
+                    <a href="#3-%e5%8d%8a%e5%af%bc%e4%bd%93%e4%b8%ad%e7%94%b5%e5%ad%90%e7%9a%84%e8%bf%90%e5%8a%a8%e4%b8%8e%e6%9c%89%e6%95%88%e8%b4%a8%e9%87%8f" aria-label="3. 半导体中电子的运动与有效质量">3. 半导体中电子的运动与有效质量</a><ul>
+                        
+                <li>
+                    <a href="#31-%e6%84%8f%e4%b9%89" aria-label="3.1. 意义">3.1. 意义</a></li>
+                <li>
+                    <a href="#32-%e5%9b%9e%e9%a1%be%e8%87%aa%e7%94%b1%e7%94%b5%e5%ad%90-%e7%89%9b%e9%a1%bf%e5%8a%9b%e5%ad%a6%e6%8f%8f%e8%bf%b0" aria-label="3.2. 回顾自由电子 牛顿力学描述">3.2. 回顾自由电子 牛顿力学描述</a></li>
+                <li>
+                    <a href="#33-%e5%8d%8a%e5%af%bc%e4%bd%93%e4%b8%ad%e7%94%b5%e5%ad%90-%e7%89%9b%e9%a1%bf%e5%8a%9b%e5%ad%a6%e6%8f%8f%e8%bf%b0" aria-label="3.3. 半导体中电子 牛顿力学描述">3.3. 半导体中电子 牛顿力学描述</a></li>
+                <li>
+                    <a href="#34-%e6%9c%89%e6%95%88%e8%b4%a8%e9%87%8f%e7%9a%84%e7%89%b9%e7%82%b9" aria-label="3.4. 有效质量的特点">3.4. 有效质量的特点</a></li></ul>
+                </li>
+                <li>
+                    <a href="#4-%e6%9c%ac%e5%be%81%e5%8d%8a%e5%af%bc%e4%bd%93%e7%9a%84%e5%af%bc%e7%94%b5%e6%9c%ba%e6%9e%84%e8%bd%bd%e6%b5%81%e5%ad%90" aria-label="4. 本征半导体的导电机构——载流子">4. 本征半导体的导电机构——载流子</a><ul>
+                        
+                <li>
+                    <a href="#41-%e8%bd%bd%e6%b5%81%e5%ad%90%e7%9a%84%e4%ba%a7%e7%94%9f" aria-label="4.1. 载流子的产生">4.1. 载流子的产生</a></li>
+                <li>
+                    <a href="#42-%e5%8d%8a%e5%af%bc%e4%bd%93%e4%b8%ad%e7%a9%ba%e7%a9%b4%e7%9a%84%e7%8a%b6%e6%80%81" aria-label="4.2. 半导体中空穴的状态">4.2. 半导体中空穴的状态</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="1-半导体的晶格结构和结合性质">1. 半导体的晶格结构和结合性质<a hidden class="anchor" aria-hidden="true" href="#1-半导体的晶格结构和结合性质">#</a></h1>
+<h2 id="11-半导体材料">1.1. 半导体材料<a hidden class="anchor" aria-hidden="true" href="#11-半导体材料">#</a></h2>
+<h3 id="111-什么是半导体材料">1.1.1. 什么是半导体材料<a hidden class="anchor" aria-hidden="true" href="#111-什么是半导体材料">#</a></h3>
+<p>定义参考<a href="../%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%AE%80%E4%BB%8B/index.md">半导体简介</a></p>
+<p>半导体材料的类型：元素半导体Si Ge，化合物半导体GaAs InP等</p>
+<h3 id="112-元素半导体材料">1.1.2. 元素半导体材料<a hidden class="anchor" aria-hidden="true" href="#112-元素半导体材料">#</a></h3>
+<p>硅、锗都是由单一原子所组成的元素半导体，均为周期表第IV族元素。
+<img loading="lazy" src="/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-21-59-04.png">
+60年代Si取代Ge成为半导体制造的主要材料
+硅的优势在于：室温下特性良好；高品质的硅氧化层可由热成长的方式产生，成本低；储量丰富。</p>
+<h3 id="113-化合物半导体">1.1.3. 化合物半导体<a hidden class="anchor" aria-hidden="true" href="#113-化合物半导体">#</a></h3>
+<p>有二元、三元、多元化合物半导体</p>
+<p>二元化合物半导体：
+IV－IV族化合物半导体：碳化硅（SiC）； III-V族化合物半导体：砷化镓（GaAs）、磷化镓（GaP）、磷化铟（InP）
+II-VI族化合物半导体：氧化锌（ZnO）、硫化锌（ZnS）、碲化镉（CdTe）
+IV-VI族化合物半导体：硫化铅（PbS）、硒化铅（PbSe）、碲化铅（PbTe）</p>
+<p>多元化合物半导体：
+具有 $A_xB_{1-x}C_yD_{1-y}$ 形式的四元化合物半导体。</p>
+<p><strong>特性区别</strong> ：</p>
+<ol>
+<li>与元素半导体有不同的电特性及光特性</li>
+<li>制作单晶化合物半导体的工艺更复杂</li>
+</ol>
+<h2 id="12-晶格结构">1.2. 晶格结构<a hidden class="anchor" aria-hidden="true" href="#12-晶格结构">#</a></h2>
+<h3 id="121-晶格简介">1.2.1. 晶格简介：<a hidden class="anchor" aria-hidden="true" href="#121-晶格简介">#</a></h3>
+<ol>
+<li>晶格：晶体中原子的周期性排列</li>
+<li>单胞：周期性排列的最小单元，代表整个晶格，
+将此单胞向晶体的四面八方连续延伸，即可产生整个晶格。</li>
+<li>特点：单晶体，三维空间周期性排列
+当原子热振动时，仍以其中心位置作微振动。</li>
+</ol>
+<p>单胞及其表示</p>
+<p><img loading="lazy" src="/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-00-04.png"></p>
+<ol>
+<li>晶格常数：单胞与晶格的关系用三个向量a、b及c表示，
+它们彼此之间不需要正交，而且在长度上不一定相同，称为晶格常数。</li>
+<li>每个三维空间晶体中的等效格点可用下面的向量组表示:  $\vec{R} = m \vec{a} + n \vec{b} + p \vec{c}$ 其中m、n、p是整数。</li>
+</ol>
+<h3 id="122-基本晶格结构">1.2.2. 基本晶格结构<a hidden class="anchor" aria-hidden="true" href="#122-基本晶格结构">#</a></h3>
+<p>简单立方晶格：</p>
+<p><img loading="lazy" src="/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-01-58.png"></p>
+<p>体心立方晶格：<br>
+比如 Na， 钨</p>
+<p><img loading="lazy" src="/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-02-22.png"></p>
+<p>面心立方晶格：<br>
+比如：Al，Co，Au，铂</p>
+<p><img loading="lazy" src="/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-03-05.png"></p>
+<p>金刚石晶格结构：<br>
+可以视为两个相互套构的面心立方副晶格，比如：Si Ge</p>
+<p><img loading="lazy" src="/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-03-30.png"></p>
+<p>闪锌矿结构：<br>
+与金刚石晶格结构类似，只是两个相互套构的面心立方副晶格中的组成原子不同。<br>
+大部分III-V族化合物半导体具有闪锌矿结构，如GaAs晶体。</p>
+<p><img loading="lazy" src="/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-03-57.png"></p>
+<h3 id="123-米勒指数">1.2.3. 米勒指数<a hidden class="anchor" aria-hidden="true" href="#123-米勒指数">#</a></h3>
+<p>不同平面的原子空间位置不同，沿着不同平面的晶体特性也不同，器件特性与晶体方向有着极其重要的关联。</p>
+<p><img loading="lazy" src="/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-04-30.png"></p>
+<p><em>米勒指数</em> 是截距的 <strong>倒数</strong><br>
+一些规定：</p>
+<ol>
+<li>$(\bar{h}kl)$ ：代表x轴上截距为负的平面</li>
+<li>{hkl}：代表相对称的平面群，如：在立方对称平面中，
+可用{100}表示(100)，(010)，(001)， $(\bar 100)$，$(0\bar 10)$，$(00\bar 1)$ 六个平面。</li>
+<li>[hkl]：代表晶体方向，如[100]方向定义为垂直于(100)平面的方向，
+即表示x轴方向，而[111]则表示垂直于(111)平面的方向。</li>
+<li><!-- raw HTML omitted -->：代表等效方向的所有方向组，
+如&lt;100&gt;代表[100]、[010]、[001]、$(\bar 100)$、$(0\bar 10)$、$(00\bar 1)$ 六个等效方向的族群。</li>
+</ol>
+<h2 id="13-半导体的共价键结合">1.3. 半导体的共价键结合<a hidden class="anchor" aria-hidden="true" href="#13-半导体的共价键结合">#</a></h2>
+<h3 id="131-共价键形成条件">1.3.1. 共价键形成条件<a hidden class="anchor" aria-hidden="true" href="#131-共价键形成条件">#</a></h3>
+<p>在 <em>两个向塘元素原子</em> 或 <em>具有相似外层电子结构</em> 的不同原子间。</p>
+<p>每个原子核拥有每个电子的时间相同，原子核对电子的吸引力使得两个原子结合在一起</p>
+<h3 id="132-金刚石晶格结构">1.3.2. 金刚石晶格结构<a hidden class="anchor" aria-hidden="true" href="#132-金刚石晶格结构">#</a></h3>
+<p>金刚石晶格结构：每个原子被4个最邻近的原子所包围（二维空间结构简图如下）。每个原子在外围轨道有4个电子，分别与周围4个原子共用4对电子。 *这种共用电子对# 的结构称为共价键。每个电子对组成一个共价键。</p>
+<p><img loading="lazy" src="/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-06-01.png"></p>
+<h3 id="133-闪锌矿结构">1.3.3. 闪锌矿结构<a hidden class="anchor" aria-hidden="true" href="#133-闪锌矿结构">#</a></h3>
+<p>主要结合也是共价键，但在化合物晶体中还存在微弱离子键成分，如GaAs晶体中的Ga+离子与其四个邻近As-离子，或As-离子与其四个邻近Ga+离子间的静电吸引力。</p>
+<h3 id="134-载流子">1.3.4. 载流子<a hidden class="anchor" aria-hidden="true" href="#134-载流子">#</a></h3>
+<p>半导体中可移动的电子与空穴统称为载流子。 低温时，晶体中的电子被共价键束缚在晶格中，无法作电的传导。 高温时，热振动可以打断共价键。当一些键被打断时，所产生的自由电子参与电的传导。而1个自由电子产生时，会在原处留下1个空位。此空位可被邻近的1个电子填充，从而产生空位位置的相对移动，此空位可被看作与电子运动方向相反的正电荷，称为空穴(hole)。</p>
+<p><img loading="lazy" src="/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-06-46.png"></p>
+<h1 id="2-半导体中的电子状态和能带">2. 半导体中的电子状态和能带<a hidden class="anchor" aria-hidden="true" href="#2-半导体中的电子状态和能带">#</a></h1>
+<h2 id="21-电子的共有化运动">2.1. 电子的共有化运动<a hidden class="anchor" aria-hidden="true" href="#21-电子的共有化运动">#</a></h2>
+<h3 id="211-孤立原子中的电子状态">2.1.1. 孤立原子中的电子状态<a hidden class="anchor" aria-hidden="true" href="#211-孤立原子中的电子状态">#</a></h3>
+<p>孤立原子中电子能级量子化
+电子壳层：1s 2s 2p 3s 3p 3d 4s…</p>
+<ul>
+<li>能量最低原理（电子填充）</li>
+<li>泡利不相容原理（自旋状态）</li>
+</ul>
+<p>电子状态通过 n主量子数，l轨道量子数，ml磁量子数，ms自旋量子数 确定。</p>
+<p>孤立氢原子的玻尔能级模型：
+$$E_H=-\frac{m_0q^4}{8\varepsilon_0{}^2h^2n^2}=-\frac{13.6}{n^2}eV$$</p>
+<h3 id="212-晶体中的电子状态电子的共有化运动">2.1.2. 晶体中的电子状态：电子的共有化运动<a hidden class="anchor" aria-hidden="true" href="#212-晶体中的电子状态电子的共有化运动">#</a></h3>
+<ol>
+<li>原子组成晶体后，由于相邻原子的“相似” *电子壳层发生交叠# ， 电子不再完全局限在特定原子上，可以由一个原子转移到相邻的原子上，因而，电子将可以在整个晶体 *相似壳层间运动# 。</li>
+<li>内层电子共有化程度弱。</li>
+<li>原子钟相似壳层上的电子才有相同的能量，电子只能在相似壳层之间转移。</li>
+</ol>
+<p><img loading="lazy" src="/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-07-09.png"></p>
+<h2 id="22-能带的形成导带价带禁带">2.2. 能带的形成（导带、价带、禁带）<a hidden class="anchor" aria-hidden="true" href="#22-能带的形成导带价带禁带">#</a></h2>
+<ul>
+<li>能带的形成是晶体中电子共有化运动的必然结果。</li>
+<li><em>共有化运动 → 能级分裂 → 形成能带</em>
+<ul>
+<li>两个原子相互靠近时，每个原子中的电子除受到本身原子的势场作用外，还要受到另一个原子势场的作用。其结果是每个二度简并的能级都分裂为两个彼此相距很近的能级。</li>
+</ul>
+</li>
+</ul>
+<p><img loading="lazy" src="/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-08-17.png"></p>
+<p><img loading="lazy" src="/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-08-37.png"></p>
+<h3 id="221-能级与能带对应关系">2.2.1. 能级与能带对应关系<a hidden class="anchor" aria-hidden="true" href="#221-能级与能带对应关系">#</a></h3>
+<ul>
+<li>内层电子共有化运动弱，能级分裂小，能带窄；外壳层电子共有化运动显著，能带宽。</li>
+<li>能带中能量不连续，晶体原子数很多，能带视为准连续；每个能带中的能级数目与晶体中的原子数有关。</li>
+</ul>
+<p><img loading="lazy" src="/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-09-00.png"></p>
+<p>禁带宽度Eg：导带底部与价带顶部间的能量间隔(EC-EV)，表示将半导体价带中的电子断键变成自由电子跃迁到导带（在价带中留下1个空穴）所需能量。</p>
+<h3 id="222-价电子与能带的对应关系">2.2.2. 价电子与能带的对应关系<a hidden class="anchor" aria-hidden="true" href="#222-价电子与能带的对应关系">#</a></h3>
+<ul>
+<li>成键电子对应于价带</li>
+<li>自由电子对应于导带</li>
+</ul>
+<p><img loading="lazy" src="/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-09-50.png"></p>
+<ul>
+<li>本征激发：价带电子激发成为导带电子的过程</li>
+</ul>
+<h3 id="223-导体绝缘体和半导体的能带特点">2.2.3. 导体、绝缘体和半导体的能带特点<a hidden class="anchor" aria-hidden="true" href="#223-导体绝缘体和半导体的能带特点">#</a></h3>
+<p><img loading="lazy" src="/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-10-13.png"></p>
+<p>常温下：</p>
+<p>Si：Eg=1.12eV</p>
+<p>Ge: Eg=0.67eV</p>
+<p>GaAs: Eg =1.43eV</p>
+<h2 id="23-半导体电子状态与能带">2.3. 半导体电子状态与能带<a hidden class="anchor" aria-hidden="true" href="#23-半导体电子状态与能带">#</a></h2>
+<p>即E(k) - k 的关系。</p>
+<h3 id="231-自由电子的运动状态">2.3.1. 自由电子的运动状态<a hidden class="anchor" aria-hidden="true" href="#231-自由电子的运动状态">#</a></h3>
+<p>电子在周期性势场中运动的基本特点和自由电子的运动十分相似。可以先考虑<a href="../%E8%87%AA%E7%94%B1%E7%94%B5%E5%AD%90%E7%9A%84%E8%BF%90%E5%8A%A8%E7%8A%B6%E6%80%81/index.md">自由电子的运动状态</a></p>
+<h3 id="232-晶体中电子的运动布里渊区">2.3.2. 晶体中电子的运动：布里渊区<a hidden class="anchor" aria-hidden="true" href="#232-晶体中电子的运动布里渊区">#</a></h3>
+<p><a href="../%E5%B8%83%E9%87%8C%E6%B8%8A%E5%8C%BA/index.md">布里渊区</a></p>
+<p>对于有限晶体, 考虑周期性边界条件. 对边长为L的立方体, 波矢的三个分量分别为:
+$$k_{x}=\frac{2\pi n_{x}}{L}\quad(n_{x}=0,\pm1,\pm2,\cdots)\k_{y}=\frac{2\pi n_{y}}{L}\quad(n_{y}=0,\pm1,\pm2,\cdots)\k_{z}=\frac{2\pi n_{z}}{L}\quad(n_{z}=0,\pm1,\pm2,\cdots)$$
+可见波矢$\vec k$只能取分立的数值, 具有量子数的作用, 描述晶体中电子共有化运动的量子状态.</p>
+<p>每个布里渊区的k状态数为固体物理学中的原胞数N. 因为每个能级可以容量两个自旋相反的电子, 所以每个能带可以容纳2N个电子.</p>
+<p>布里渊区也可以通过画倒格子获得.</p>
+<h1 id="3-半导体中电子的运动与有效质量">3. 半导体中电子的运动与有效质量<a hidden class="anchor" aria-hidden="true" href="#3-半导体中电子的运动与有效质量">#</a></h1>
+<h2 id="31-意义">3.1. 意义<a hidden class="anchor" aria-hidden="true" href="#31-意义">#</a></h2>
+<p>$$F_外+F_内=m_0a\
+F_外 = m_n^*a $$</p>
+<ul>
+<li>有效质量概括了半导体内部势场作用</li>
+<li>引入有效质量,研究半导体中电子运动时, 可不涉及半导体内部势场作用.</li>
+</ul>
+<h2 id="32-回顾自由电子-牛顿力学描述">3.2. 回顾自由电子 牛顿力学描述<a hidden class="anchor" aria-hidden="true" href="#32-回顾自由电子-牛顿力学描述">#</a></h2>
+<p>[[自由电子的运动状态|自由电子的运动状态]]
+$$E = \frac 1 2 \frac{p^2}{2m_0} = \frac{\hbar ^2 k^2}{2m_0}$$
+对$E_k$微分得到:
+$$\frac{\mathrm d E}{\mathrm d k} = \frac{\hbar^2 k}{m_0}$$</p>
+<p>速度 :
+$$v_k = \frac{p}{m_0} = \frac{\hbar k }{m_0}$$</p>
+<p>因此,对比可知:
+$$ v_k = \frac 1 \hbar \frac{\mathrm d E}{\mathrm d k}$$</p>
+<p>外力做功和能量关系可得:(标量化)
+$$\mathrm d E = \vec F \cdot \mathrm d \vec s  = \vec F \cdot \vec v \mathrm d t\
+\frac{\mathrm d E}{\mathrm d t}= F \frac 1 \hbar \frac{\mathrm d E}{\mathrm d k}$$</p>
+<p>因此:
+$$F = \hbar\frac{\mathrm dk}{\mathrm dt}$$</p>
+<p>又:
+$$a = \frac{\mathrm dv}{\mathrm dt} = \frac{\frac \hbar m_0 \mathrm dk}{\mathrm dt} = \frac F m_0$$</p>
+<h2 id="33-半导体中电子-牛顿力学描述">3.3. 半导体中电子 牛顿力学描述<a hidden class="anchor" aria-hidden="true" href="#33-半导体中电子-牛顿力学描述">#</a></h2>
+<p>考虑导带底或价带顶的电子状态, 以一维情况为例($E(k)$在$k=0$处取得极值), 在极值附近按泰勒级数展开:
+$$E(k)=E(0)+\left(\frac{d E}{d k}\right)<em>{k=0} k+\frac{1}{2}\left(\frac{d^{2} E}{d k^{2}}\right)</em>{k=0} k^{2}+\ldots \ldots$$</p>
+<p>极值处一阶导数为0, 舍弃高阶项:
+$$E(k)-E(0)=\frac{1}{2}\left(\frac{d^{2} E}{d k^{2}}\right)_{k=0} k^{2}$$</p>
+<p><strong>定义有效质量</strong>:
+$$\frac 1 {m_n^*} = \frac 1 {\hbar^2}\left( \frac{d^{2} E}{d k^{2}}\right)_{k=0}$$</p>
+<p>此时
+$$E(k)-E(0)=\frac{\hbar^2 k^2}{2m_n^*}$$
+与自由电子能量表达式类似.</p>
+<p>称$m_n^<em>$为电子有效质量
+$$ m_n^</em>= \frac{\hbar^2}{\frac{\mathrm d^2 E}{\mathrm d k^2}}$$</p>
+<h2 id="34-有效质量的特点">3.4. 有效质量的特点<a hidden class="anchor" aria-hidden="true" href="#34-有效质量的特点">#</a></h2>
+<ol>
+<li>取决于材料</li>
+<li>与能带有关: 内层带窄$\frac{\mathrm d^2 E}{\mathrm d k^2}$小, 有效质量大; 外层带宽$\frac{\mathrm d^2 E}{\mathrm d k^2}$大, 有效质量小
+<blockquote>
+<p>外层电子在外力作用下可以获得较大的加速度</p>
+</blockquote>
+</li>
+<li>有效质量有正负之分.</li>
+</ol>
+<p>第一布里渊区的能量、速度、有效质量如图：
+<img loading="lazy" src="/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-10-11-15-06-00.png"></p>
+<h1 id="4-本征半导体的导电机构载流子">4. 本征半导体的导电机构——载流子<a hidden class="anchor" aria-hidden="true" href="#4-本征半导体的导电机构载流子">#</a></h1>
+<p>满带时无法导电，不满带时才对电流有贡献</p>
+<p>绝对零度时，价带被价电子填满，导带是空的，不导电。</p>
+<p>电子：带负电的导电载流子。是价电子脱离原子束缚后形成的自由电子，对应于导带中占据的电子。<br>
+空穴：带正电的导电载流子。是价电子脱离原子束缚后形成的电子空位，对应于价带中的电子空位。</p>
+<p>本征半导体中，导带上出现的电子数目与价带上出现的空穴等量，他们均参与导电</p>
+<h2 id="41-载流子的产生">4.1. 载流子的产生<a hidden class="anchor" aria-hidden="true" href="#41-载流子的产生">#</a></h2>
+<ol>
+<li>
+<p>光激发产生
+<img loading="lazy" src="/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-10-11-15-14-21.png">
+a. 大于禁带宽度的光子可以将电子从价带激发到导带。
+b. 光子打破硅硅连接，在连接处产生自由电子和空穴</p>
+</li>
+<li>
+<p>热振动产生
+<img loading="lazy" src="/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-10-11-15-16-10.png">
+热振动破坏连接，因此产生电子空穴对。</p>
+</li>
+</ol>
+<h2 id="42-半导体中空穴的状态">4.2. 半导体中空穴的状态<a hidden class="anchor" aria-hidden="true" href="#42-半导体中空穴的状态">#</a></h2>
+<p>$$
+\begin{array}{l}
+k_{p}=-k_{e} \
+E\left(k_{p}\right)=-E\left(k_{e}\right) \
+v\left(k_{p}\right)=v\left(k_{e}\right) \
+m_{p}^{<em>}=-m_{e}^{</em>} \
+a=F / m_{p}^{*}
+\end{array}
+$$
+<img loading="lazy" src="/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-10-11-15-20-11.png"></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/science/">Science</a></li>
+      <li><a href="http://localhost:1313/tags/semiconductor/">Semiconductor</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/%E5%B8%83%E9%87%8C%E6%B8%8A%E5%8C%BA/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>布里渊区</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%AE%80%E4%BB%8B/">
+    <span class="title">Next »</span>
+    <br>
+    <span>半导体简介</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 半导体中的电子状态 on x"
+            href="https://x.com/intent/tweet/?text=%e5%8d%8a%e5%af%bc%e4%bd%93%e4%b8%ad%e7%9a%84%e7%94%b5%e5%ad%90%e7%8a%b6%e6%80%81&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2f%25E5%258D%258A%25E5%25AF%25BC%25E4%25BD%2593%25E4%25B8%25AD%25E7%259A%2584%25E7%2594%25B5%25E5%25AD%2590%25E7%258A%25B6%25E6%2580%2581%2f&amp;hashtags=Science%2cSemiconductor">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 半导体中的电子状态 on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2f%25E5%258D%258A%25E5%25AF%25BC%25E4%25BD%2593%25E4%25B8%25AD%25E7%259A%2584%25E7%2594%25B5%25E5%25AD%2590%25E7%258A%25B6%25E6%2580%2581%2f&amp;title=%e5%8d%8a%e5%af%bc%e4%bd%93%e4%b8%ad%e7%9a%84%e7%94%b5%e5%ad%90%e7%8a%b6%e6%80%81&amp;summary=%e5%8d%8a%e5%af%bc%e4%bd%93%e4%b8%ad%e7%9a%84%e7%94%b5%e5%ad%90%e7%8a%b6%e6%80%81&amp;source=http%3a%2f%2flocalhost%3a1313%2fposts%2f%25E5%258D%258A%25E5%25AF%25BC%25E4%25BD%2593%25E4%25B8%25AD%25E7%259A%2584%25E7%2594%25B5%25E5%25AD%2590%25E7%258A%25B6%25E6%2580%2581%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 半导体中的电子状态 on reddit"
+            href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fposts%2f%25E5%258D%258A%25E5%25AF%25BC%25E4%25BD%2593%25E4%25B8%25AD%25E7%259A%2584%25E7%2594%25B5%25E5%25AD%2590%25E7%258A%25B6%25E6%2580%2581%2f&title=%e5%8d%8a%e5%af%bc%e4%bd%93%e4%b8%ad%e7%9a%84%e7%94%b5%e5%ad%90%e7%8a%b6%e6%80%81">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 半导体中的电子状态 on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2f%25E5%258D%258A%25E5%25AF%25BC%25E4%25BD%2593%25E4%25B8%25AD%25E7%259A%2584%25E7%2594%25B5%25E5%25AD%2590%25E7%258A%25B6%25E6%2580%2581%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 半导体中的电子状态 on whatsapp"
+            href="https://api.whatsapp.com/send?text=%e5%8d%8a%e5%af%bc%e4%bd%93%e4%b8%ad%e7%9a%84%e7%94%b5%e5%ad%90%e7%8a%b6%e6%80%81%20-%20http%3a%2f%2flocalhost%3a1313%2fposts%2f%25E5%258D%258A%25E5%25AF%25BC%25E4%25BD%2593%25E4%25B8%25AD%25E7%259A%2584%25E7%2594%25B5%25E5%25AD%2590%25E7%258A%25B6%25E6%2580%2581%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 半导体中的电子状态 on telegram"
+            href="https://telegram.me/share/url?text=%e5%8d%8a%e5%af%bc%e4%bd%93%e4%b8%ad%e7%9a%84%e7%94%b5%e5%ad%90%e7%8a%b6%e6%80%81&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2f%25E5%258D%258A%25E5%25AF%25BC%25E4%25BD%2593%25E4%25B8%25AD%25E7%259A%2584%25E7%2594%25B5%25E5%25AD%2590%25E7%258A%25B6%25E6%2580%2581%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 半导体中的电子状态 on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=%e5%8d%8a%e5%af%bc%e4%bd%93%e4%b8%ad%e7%9a%84%e7%94%b5%e5%ad%90%e7%8a%b6%e6%80%81&u=http%3a%2f%2flocalhost%3a1313%2fposts%2f%25E5%258D%258A%25E5%25AF%25BC%25E4%25BD%2593%25E4%25B8%25AD%25E7%259A%2584%25E7%2594%25B5%25E5%25AD%2590%25E7%258A%25B6%25E6%2580%2581%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Apricots1024</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+<div class="custom-footer-images" style="display: flex; justify-content: center; gap: 1px; margin-top: 0px; flex-wrap: wrap;">
+    
+    
+    <img src="http://localhost:1313/images/AI1.png" style="max-width: 150px; height: auto; object-fit: cover; border-radius: 0px;">
+    
+    
+    
+    <img src="http://localhost:1313/images/AI2.png" style="max-width: 150px; height: auto; object-fit: cover; border-radius: 0px;">
+    
+    
+    
+    <img src="http://localhost:1313/images/AI3.png" style="max-width: 150px; height: auto; object-fit: cover; border-radius: 0px;">
+    
+    
+    
+    <img src="http://localhost:1313/images/AI4.png" style="max-width: 150px; height: auto; object-fit: cover; border-radius: 0px;">
+    
+    
+</div>
+
+
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

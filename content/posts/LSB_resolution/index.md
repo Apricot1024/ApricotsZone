@@ -1,5 +1,5 @@
 +++
-date = '2024-01-02'
+date = '2024-03-07'
 draft = false
 title = 'LSB_resolution(repost)'
 tags = ['Science', 'Concept']

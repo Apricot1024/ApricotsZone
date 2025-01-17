@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Writing on Apricots1024</title>
+    <link>http://localhost:1313/tags/writing/</link>
+    <description>Recent content in Writing on Apricots1024</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Jan 2025 15:47:05 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>科研论文写作</title>
+      <link>http://localhost:1313/posts/%E7%A7%91%E7%A0%94%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/</link>
+      <pubDate>Fri, 17 Jan 2025 15:47:05 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E7%A7%91%E7%A0%94%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/</guid>
+      <description>&lt;h1 id=&#34;科研论文写作&#34;&gt;科研论文写作&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;南开大学 胡金牛&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;科研论文的类型&#34;&gt;科研论文的类型&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;快报 Letter&lt;/li&gt;
+&lt;li&gt;快讯 Rapid communication&lt;/li&gt;
+&lt;li&gt;简要报告 Brief report&lt;/li&gt;
+&lt;li&gt;正式论文 Regular article&lt;/li&gt;
+&lt;li&gt;最常写的&lt;/li&gt;
+&lt;li&gt;综述 Review report&lt;/li&gt;
+&lt;li&gt;全面了解&lt;/li&gt;
+&lt;li&gt;会议文集 Proceeding&lt;/li&gt;
+&lt;li&gt;论文 Thesis,Essay,Dissertation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;具体格式&#34;&gt;具体格式&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;题目 TItle&lt;/li&gt;
+&lt;li&gt;摘要 Abstract&lt;/li&gt;
+&lt;li&gt;引言 Introduction&lt;/li&gt;
+&lt;li&gt;方法或理论框架 Method and Theoretical framework&lt;/li&gt;
+&lt;li&gt;结果讨论 Result an discussion&lt;/li&gt;
+&lt;li&gt;总结 Summary(可能有展望)&lt;/li&gt;
+&lt;li&gt;致谢 Acknowledgements&lt;/li&gt;
+&lt;li&gt;参考文献 Reference&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;工具&#34;&gt;工具&lt;/h1&gt;
+&lt;h2 id=&#34;文字工具&#34;&gt;文字工具&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;word（非专业）&lt;/li&gt;
+&lt;li&gt;latex ctex(专业)
+&lt;ul&gt;
+&lt;li&gt;winedit texstudio overleaf&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Scientific workspace, Lyx(比较专业的)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;画图工具jpg-png-gif-eps&#34;&gt;画图工具jpg png gif eps&lt;/h2&gt;
+&lt;p&gt;建议使用矢量图eps或pdf&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Excel&lt;/li&gt;
+&lt;li&gt;originlab 基本够用
+&lt;ul&gt;
+&lt;li&gt;收费，消耗内存，只有window&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;gnuplot, matplotlib 高阶工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;文献整理软件bib&#34;&gt;文献整理软件bib&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;evernote, endnote(可能有用)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;论文写作流程&#34;&gt;论文写作流程&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;调整正确心态&lt;/li&gt;
+&lt;li&gt;充分构思&lt;/li&gt;
+&lt;li&gt;认真准备&lt;/li&gt;
+&lt;li&gt;抓紧时间写&lt;/li&gt;
+&lt;li&gt;避免忘记，前后不自洽&lt;/li&gt;
+&lt;li&gt;不断修改完善&lt;/li&gt;
+&lt;li&gt;请人审阅&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;要有信用，对自己严格要求&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;具体要求&#34;&gt;具体要求&lt;/h1&gt;
+&lt;h2 id=&#34;标题&#34;&gt;标题&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;一语中的，清晰简明，扣人心弦
+&lt;ul&gt;
+&lt;li&gt;The limits of the nuclear landscape&lt;/li&gt;
+&lt;li&gt;How atomic nuclei cluster&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;长短适中，可以是陈述句，反问句，感叹句&lt;/li&gt;
+&lt;li&gt;不要太长或太短&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;作者&#34;&gt;作者&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;作者有什么用？
+&lt;ul&gt;
+&lt;li&gt;有福同享有难同当&lt;/li&gt;
+&lt;li&gt;必须对论文写作有实际贡献&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;作者排序
+&lt;ol&gt;
+&lt;li&gt;alpha字母排序&lt;/li&gt;
+&lt;li&gt;贡献大小排序&lt;/li&gt;
+&lt;li&gt;通讯作者：回答答复，传达消息，有问题联系通讯作者&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;摘要&#34;&gt;摘要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;迷你版的论文&lt;/li&gt;
+&lt;li&gt;背景 目的 方法 结果 结论&lt;/li&gt;
+&lt;li&gt;Backgroud Purpose Methods Results Conclusions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;首先需要问题的必要性以及重要性
+&lt;ul&gt;
+&lt;li&gt;任何问题都有研究的必要性与重要性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;其次论述前人在该问题所做的工作
+&lt;ul&gt;
+&lt;li&gt;基本没有任何问题是前人没思考过的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;指出目前还没解决的问题
+&lt;ul&gt;
+&lt;li&gt;任何问题都没有完全解决&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;陈述该工作的出发点，创新之处&lt;/li&gt;
+&lt;li&gt;本论文的整体内容安排&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;理论框架和方法&#34;&gt;理论框架和方法&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;公式要尽可能详尽(可重复性)&lt;/li&gt;
+&lt;li&gt;公式必须要有简洁性&lt;/li&gt;
+&lt;li&gt;公式必须保证正确性&lt;/li&gt;
+&lt;li&gt;公式必须要有可重复性&lt;/li&gt;
+&lt;li&gt;公式是作为一句话存在的情况，要以标点符号结尾&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;结果讨论&#34;&gt;结果讨论&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;清楚描述实验或者数值计算的步骤以及详细参数&lt;/li&gt;
+&lt;li&gt;利用图表等方式清晰、明确、简洁表达工作结果&lt;/li&gt;
+&lt;li&gt;对图表所展现的内容进行合理的描述&lt;/li&gt;
+&lt;li&gt;结合相关的物理知识进行分析，提出工作的创新点&lt;/li&gt;
+&lt;li&gt;与其他工作认真比较，寻找异同，给予合理解释&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;用尽可能少的语句描述做了什么&lt;/li&gt;
+&lt;li&gt;分条论述得到了什么&lt;/li&gt;
+&lt;li&gt;总结工作创新了什么&lt;/li&gt;
+&lt;li&gt;未来可以做的是什么&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;致谢&#34;&gt;致谢&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;感谢党和国家感谢cctv感谢家人&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参考文献&#34;&gt;参考文献&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;学术论文&lt;/li&gt;
+&lt;li&gt;书籍&lt;/li&gt;
+&lt;li&gt;学位论文&lt;/li&gt;
+&lt;li&gt;预印本&lt;/li&gt;
+&lt;li&gt;私人交流&lt;/li&gt;
+&lt;li&gt;在正文中无法详细阐述的内容&lt;/li&gt;
+&lt;li&gt;民科是不需要参考文献的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;关于数学符号&#34;&gt;关于数学符号&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;绝大多数数学符号应当用斜体&lt;/li&gt;
+&lt;li&gt;公式中特定的函数符号要用正体，比如sin、cos、exp、Tr&lt;/li&gt;
+&lt;li&gt;数学单位必须用正体，单位与数字之间需要空格&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;关于图表问题&#34;&gt;关于图表问题&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;一般的图需要四边封口，即上下左右都需要把坐标轴画出来&lt;/li&gt;
+&lt;li&gt;轴上必须有相应的刻度，刻度又分大刻度和小刻度&lt;/li&gt;
+&lt;li&gt;清晰地表明横纵坐标所表示的物理量以及相应的单位&lt;/li&gt;
+&lt;li&gt;每一条曲线都需要用不同的线型来表示&lt;/li&gt;
+&lt;li&gt;专业作图软件&lt;/li&gt;
+&lt;li&gt;边框轴以及曲线的粗细在比例协调&lt;/li&gt;
+&lt;li&gt;曲线以及边框线尽量画的粗一些&lt;/li&gt;
+&lt;li&gt;线型的标示要清楚&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;引用其他的图不建议截图，建议自己重画&lt;/li&gt;
+&lt;li&gt;表格最上面一行或者最左面一列通常都是填写数据表示的物理量以及单位&lt;/li&gt;
+&lt;li&gt;图表的说明必须详细、清楚&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;标点符号与空格&#34;&gt;标点符号与空格&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;英文里面是没有顿号的，冒号用的也很少&lt;/li&gt;
+&lt;li&gt;公式末尾是需要添加标点符号的&lt;/li&gt;
+&lt;li&gt;公式中的括号必须是可伸缩的&lt;/li&gt;
+&lt;li&gt;文字中的相邻数学符号，除了要用逗号隔开，还需要添加空格&lt;/li&gt;
+&lt;li&gt;数字与单位之间要有空格&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;参考文献-1&#34;&gt;参考文献&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;学术论文的参考文献格式千奇百怪&lt;/li&gt;
+&lt;li&gt;避免重复编写相同的参考文献&lt;/li&gt;
+&lt;li&gt;尽量不要直接引用连接&lt;/li&gt;
+&lt;li&gt;不要引用百度百科！！！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;学术端正&#34;&gt;学术端正&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;保证实验或者理论计算结果的可重复性&lt;/li&gt;
+&lt;li&gt;引用别人的工作时不能直接复制粘贴&lt;/li&gt;
+&lt;li&gt;论文图片不要ps&lt;/li&gt;
+&lt;li&gt;客观表述工作的创新点&lt;/li&gt;
+&lt;li&gt;切忌一稿多投，虚拟审稿人&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;规范千百条，诚信第一条。
+论文千万篇，严谨第一篇。&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

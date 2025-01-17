@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Talys on Apricots1024</title>
+    <link>http://localhost:1313/tags/talys/</link>
+    <description>Recent content in Talys on Apricots1024</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Jan 2025 16:06:27 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/talys/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Talys</title>
+      <link>http://localhost:1313/posts/talys/</link>
+      <pubDate>Fri, 17 Jan 2025 16:06:27 +0800</pubDate>
+      <guid>http://localhost:1313/posts/talys/</guid>
+      <description>&lt;p&gt;ref: Arjan Koning, IAEA
+ref: &lt;a href=&#34;https://doi.org/10.1140/epja/s10050-023-01034-3&#34;&gt;https://doi.org/10.1140/epja/s10050-023-01034-3&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;talys&#34;&gt;Talys&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Computer program to simulate nuclear reactions&lt;/li&gt;
+&lt;li&gt;Used for fundamental nuclear physics research&lt;/li&gt;
+&lt;li&gt;Used to produce nuclear data for applications&lt;/li&gt;
+&lt;li&gt;Projectiles: neutron, photon, proton, deuteron, triton, Helium-3, alpha particle;
+&lt;ul&gt;
+&lt;li&gt;Also works for an excited nucleus as initial condition&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Targets: Z= 3-124, A=5-339
+&lt;ul&gt;
+&lt;li&gt;Reliability: Z &amp;gt; 9, A &amp;gt; 20&lt;/li&gt;
+&lt;li&gt;Also a natural element can be specified&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Incident energy: 1 meV - 1 GeV
+&lt;ul&gt;
+&lt;li&gt;Reliability: few keV - 200 MeV
+![[Pasted image 20250103164430.png]]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;input-discription&#34;&gt;Input Discription&lt;/h1&gt;
+&lt;p&gt;Minimal input file:(Also others parameters)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

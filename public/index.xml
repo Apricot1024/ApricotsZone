@@ -6,12 +6,76 @@
     <description>Recent content on Apricots1024</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Talys</title>
+      <link>http://localhost:1313/posts/talys/</link>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/talys/</guid>
+      <description>&lt;p&gt;ref: Arjan Koning, IAEA
+ref: &lt;a href=&#34;https://doi.org/10.1140/epja/s10050-023-01034-3&#34;&gt;https://doi.org/10.1140/epja/s10050-023-01034-3&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;talys&#34;&gt;Talys&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Computer program to simulate nuclear reactions&lt;/li&gt;
+&lt;li&gt;Used for fundamental nuclear physics research&lt;/li&gt;
+&lt;li&gt;Used to produce nuclear data for applications&lt;/li&gt;
+&lt;li&gt;Projectiles: neutron, photon, proton, deuteron, triton, Helium-3, alpha particle;
+&lt;ul&gt;
+&lt;li&gt;Also works for an excited nucleus as initial condition&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Targets: Z= 3-124, A=5-339
+&lt;ul&gt;
+&lt;li&gt;Reliability: Z &amp;gt; 9, A &amp;gt; 20&lt;/li&gt;
+&lt;li&gt;Also a natural element can be specified&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Incident energy: 1 meV - 1 GeV
+&lt;ul&gt;
+&lt;li&gt;Reliability: few keV - 200 MeV
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/talys/assets/Talys/Screenshot_20250103_164428.png&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;input-discription&#34;&gt;Input Discription&lt;/h1&gt;
+&lt;p&gt;Minimal input file:(Also others parameters)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cu靶计算</title>
+      <link>http://localhost:1313/posts/cu%E9%9D%B6%E8%AE%A1%E7%AE%97/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cu%E9%9D%B6%E8%AE%A1%E7%AE%97/</guid>
+      <description>&lt;p&gt;原天然铁19号靶中57Co活度为122Bq&lt;/p&gt;
+&lt;p&gt;预估65Zn的1115.5 keV效率为122 keV 的1/4，半衰期243.93d&lt;/p&gt;
+&lt;p&gt;活度达500Bq左右可达相似计数，且活度不确定度较小。&lt;/p&gt;
+&lt;p&gt;$$
+N = \frac {A} {\lambda} = \frac{500 ~\mathrm{Bq}}{3.2888684507999854\times 10^{-8}\mathrm{s^{-1}}} = 15202797177.2
+$$&lt;/p&gt;
+&lt;p&gt;4 MeV质子入射截面预计为$0.15 \mathrm{barns} = 1.5 \times 10^{-25} \mathrm{cm^2}$， 15小时1000enA流量估计&lt;/p&gt;
+&lt;p&gt;按公式
+$$
+N = \sigma T \Phi \frac{1-\mathrm e ^{-\lambda t}}{\lambda}
+$$
+$$
+N = 1.5 \times 10^{-25}\times T\times\frac{1\times10^{-6}}{1.6\times10^{-19}}\times\frac{1-\mathrm{e}^{-3.2888684507999854e-08~\mathrm{s}^{-1}\times 15*3600}}{3.2888684507999854e-08~\mathrm{s}^{-1}}\ = 5.058 \times 10^{-8} T
+$$&lt;/p&gt;
+&lt;p&gt;为达到15202797177个剩余核，靶中65Cu的厚度至少为：
+$$
+T = 15202797177 \div 5.058 \times 10^{-8} = 3 \times 10^{17}
+$$&lt;/p&gt;
+&lt;p&gt;65Cu在天然Cu中丰度30.8%，天然Cu靶厚：
+$$
+T = 3 \times 10^{17} \div 0.308 = 9.75 \times 10^{17} \mathrm{cm}^{-2}
+$$
+$$
+T = \frac{9.75 \times 10^{17}}{6.02\times10^{23}}\times63500 = 0.103\mathrm{mg/cm^2}= 1.94*10^{-5}\mathrm{\mu g/cm^2}
+$$&lt;/p&gt;</description>
+    </item>
     <item>
       <title>FIB SEM测厚</title>
       <link>http://localhost:1313/posts/fib-sem%E6%B5%8B%E5%8E%9A/</link>
-      <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/fib-sem%E6%B5%8B%E5%8E%9A/</guid>
       <description>&lt;p&gt;绝对测量550μg/cm²靶厚，预估699nm&lt;/p&gt;
 &lt;h1 id=&#34;原子力显微镜afm类设备&#34;&gt;原子力显微镜AFM类设备&lt;/h1&gt;
@@ -50,9 +114,236 @@
 &lt;p&gt;M楼超净间千级区&lt;/p&gt;</description>
     </item>
     <item>
+      <title>半导体中的杂质和缺陷能级</title>
+      <link>http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/</link>
+      <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/</guid>
+      <description>&lt;p&gt;本征半导体：即为理想纯净半导体。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;晶体：原子严格周期性排列，具有完整的晶格结构&lt;/li&gt;
+&lt;li&gt;晶体中无杂质无缺陷-&amp;gt;禁带中无能级，电子只处在允带中&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;本征半导体的载流子只能由本征激发提供ref[[半导体中的电子状态#4. 本征半导体的导电机构——载流子|载流子]]&lt;/p&gt;
+&lt;p&gt;实际半导体含有杂质和缺陷，且原子在晶格位置热振动
+因此会在禁带中引入能级，对半导体性质产生决定性影响。&lt;/p&gt;
+&lt;h1 id=&#34;sige晶体中的杂质能级&#34;&gt;Si、Ge晶体中的杂质能级&lt;/h1&gt;
+&lt;h2 id=&#34;杂质与杂质能级&#34;&gt;杂质与杂质能级&lt;/h2&gt;
+&lt;p&gt;杂质包含替位式杂质和间隙式杂质&lt;/p&gt;
+&lt;p&gt;间隙式杂质，杂质原子较小，位于间隙位置&lt;/p&gt;
+&lt;p&gt;替位式杂质，杂质原子与被代替原子的大小比拟，价电子壳层结构相似，杂质替位后处于格点位置&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;杂质分类：
+&lt;ul&gt;
+&lt;li&gt;浅能级杂质
+&lt;ul&gt;
+&lt;li&gt;N型半导体&lt;/li&gt;
+&lt;li&gt;P型半导体&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;深能级杂质
+&lt;ul&gt;
+&lt;li&gt;复合中心&lt;/li&gt;
+&lt;li&gt;陷阱&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;杂质能级根据在禁带中的位置不同，分为浅能级杂质和深能级杂质。
+浅能级又分为施主杂质/施主能级和受主杂质/受主能级
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/2024-10-11-16-19-09.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/2024-10-11-16-19-25.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;施主杂质能级&#34;&gt;施主杂质能级&lt;/h2&gt;
+&lt;p&gt;以在Si中掺P为例&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;施主杂质：掺入的杂质原子电离时，释放电子而产生导电电子，并形成正电中心的杂质（又称N型杂质）。&lt;/li&gt;
+&lt;li&gt;施主能级$E_D$：被施主杂质束缚电子的能量状态（比导带底Ec低）。&lt;/li&gt;
+&lt;li&gt;施主电离能：$\Delta E_D = E_C-E_D$，是施主杂质中弱束缚的电子摆脱杂质原子束缚成为晶格中自由电子所需要的能量
+&lt;ul&gt;
+&lt;li&gt;施主杂质的电离能小，在常温下基本上电离。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/2024-10-11-16-20-02.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/2024-10-11-16-36-49.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;P原子替代Si原子，形成共价键，出现1个&lt;strong&gt;正电中心P＋&lt;/strong&gt;（不可移动）和1个多余的&lt;strong&gt;价电子&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;多余的价电子挣脱束缚，在晶格中自由运动→&lt;strong&gt;杂质电离&lt;/strong&gt;；&lt;/p&gt;
+&lt;p&gt;用能带图表述施主杂质的电离过程：
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/2024-10-11-16-21-45.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;电离结果：导致导带中的电子数增加——施主掺杂的意义。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;含有施主杂质的半导体，其导电的载流子主要是电子&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;受主杂质能级&#34;&gt;受主杂质能级&lt;/h2&gt;
+&lt;p&gt;以Si中掺B为例&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E6%9D%82%E8%B4%A8%E5%92%8C%E7%BC%BA%E9%99%B7%E8%83%BD%E7%BA%A7/2024-10-11-16-37-10.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>布里渊区</title>
+      <link>http://localhost:1313/posts/%E5%B8%83%E9%87%8C%E6%B8%8A%E5%8C%BA/</link>
+      <pubDate>Thu, 10 Oct 2024 15:14:25 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E5%B8%83%E9%87%8C%E6%B8%8A%E5%8C%BA/</guid>
+      <description>&lt;p&gt;ref:半导体物理刘恩科&lt;/p&gt;
+&lt;h1 id=&#34;半导体&#34;&gt;半导体&lt;/h1&gt;
+&lt;p&gt;晶体中的电子是在具有周期性的等效势场中运动——单电子近似&lt;/p&gt;
+&lt;p&gt;晶体中电子的波动方程:
+$$\left[-\frac{\hbar^2}{2m}\nabla^2+V(r)\right]\psi=E\psi $$&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;布洛赫定理——当势场具有周期性时，波动方程的解具有如下布洛赫波函数的形式：
+$\psi(r)=u(r)e^{i2\pi kr}$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;相位因子反映电子的共有化运动。&lt;/li&gt;
+&lt;li&gt;u(r) 反映周期势场对共有化运动的影响，具有和晶格一样的周期性。$u(r)=u(r+R_n)$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;电子在晶体中的分布$\begin{vmatrix}\psi(r)\end{vmatrix}^2=\left|\psi \psi^{*}\right|=\begin{vmatrix}u(r)u(r)^*\end{vmatrix}$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;电子在晶体中的分布几率是晶格的周期函数&lt;/li&gt;
+&lt;li&gt;晶体中各处分布几率不同，但不同原胞的等价位置上出现的几率相同。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;电子不再局限与某一个原子上，而可以从晶胞中某一点自由运动到其他晶胞的等价位置，因而电子可以在整个晶体中运动（共有化运动）&lt;/li&gt;
+&lt;li&gt;外层电子的共有化运动程度强，与自由电子相似，称为准自由电子；内层电子的共有化运动程度弱，与孤立原子中的电子相似&lt;/li&gt;
+&lt;li&gt;波矢$\vec k$同样描述晶体中电子的共有化运动状态&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;求解上述薛定谔方程可得如图解的形式,当
+$$k=\frac{n\pi}{a}\quad(n=0,\pm1,\pm2,\cdots)$$
+时能量出现不连续, 形成一系列允带和禁带.&lt;strong&gt;一个允带对应的k值范围称为布里渊区&lt;/strong&gt;.
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%B8%83%E9%87%8C%E6%B8%8A%E5%8C%BA/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-10-10-14-14-21.png&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;固体物理&#34;&gt;固体物理&lt;/h1&gt;
+&lt;p&gt;已经忘了，待补充&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>半导体中的电子状态</title>
+      <link>http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/</link>
+      <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/</guid>
+      <description>&lt;h1 id=&#34;1-半导体的晶格结构和结合性质&#34;&gt;1. 半导体的晶格结构和结合性质&lt;/h1&gt;
+&lt;h2 id=&#34;11-半导体材料&#34;&gt;1.1. 半导体材料&lt;/h2&gt;
+&lt;h3 id=&#34;111-什么是半导体材料&#34;&gt;1.1.1. 什么是半导体材料&lt;/h3&gt;
+&lt;p&gt;定义参考&lt;a href=&#34;../%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%AE%80%E4%BB%8B/index.md&#34;&gt;半导体简介&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;半导体材料的类型：元素半导体Si Ge，化合物半导体GaAs InP等&lt;/p&gt;
+&lt;h3 id=&#34;112-元素半导体材料&#34;&gt;1.1.2. 元素半导体材料&lt;/h3&gt;
+&lt;p&gt;硅、锗都是由单一原子所组成的元素半导体，均为周期表第IV族元素。
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-21-59-04.png&#34;&gt;
+60年代Si取代Ge成为半导体制造的主要材料
+硅的优势在于：室温下特性良好；高品质的硅氧化层可由热成长的方式产生，成本低；储量丰富。&lt;/p&gt;
+&lt;h3 id=&#34;113-化合物半导体&#34;&gt;1.1.3. 化合物半导体&lt;/h3&gt;
+&lt;p&gt;有二元、三元、多元化合物半导体&lt;/p&gt;
+&lt;p&gt;二元化合物半导体：
+IV－IV族化合物半导体：碳化硅（SiC）； III-V族化合物半导体：砷化镓（GaAs）、磷化镓（GaP）、磷化铟（InP）
+II-VI族化合物半导体：氧化锌（ZnO）、硫化锌（ZnS）、碲化镉（CdTe）
+IV-VI族化合物半导体：硫化铅（PbS）、硒化铅（PbSe）、碲化铅（PbTe）&lt;/p&gt;
+&lt;p&gt;多元化合物半导体：
+具有 $A_xB_{1-x}C_yD_{1-y}$ 形式的四元化合物半导体。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;特性区别&lt;/strong&gt; ：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;与元素半导体有不同的电特性及光特性&lt;/li&gt;
+&lt;li&gt;制作单晶化合物半导体的工艺更复杂&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;12-晶格结构&#34;&gt;1.2. 晶格结构&lt;/h2&gt;
+&lt;h3 id=&#34;121-晶格简介&#34;&gt;1.2.1. 晶格简介：&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;晶格：晶体中原子的周期性排列&lt;/li&gt;
+&lt;li&gt;单胞：周期性排列的最小单元，代表整个晶格，
+将此单胞向晶体的四面八方连续延伸，即可产生整个晶格。&lt;/li&gt;
+&lt;li&gt;特点：单晶体，三维空间周期性排列
+当原子热振动时，仍以其中心位置作微振动。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;单胞及其表示&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-00-04.png&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;晶格常数：单胞与晶格的关系用三个向量a、b及c表示，
+它们彼此之间不需要正交，而且在长度上不一定相同，称为晶格常数。&lt;/li&gt;
+&lt;li&gt;每个三维空间晶体中的等效格点可用下面的向量组表示:  $\vec{R} = m \vec{a} + n \vec{b} + p \vec{c}$ 其中m、n、p是整数。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;122-基本晶格结构&#34;&gt;1.2.2. 基本晶格结构&lt;/h3&gt;
+&lt;p&gt;简单立方晶格：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-01-58.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;体心立方晶格：&lt;br&gt;
+比如 Na， 钨&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-02-22.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;面心立方晶格：&lt;br&gt;
+比如：Al，Co，Au，铂&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-03-05.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;金刚石晶格结构：&lt;br&gt;
+可以视为两个相互套构的面心立方副晶格，比如：Si Ge&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%8A%B6%E6%80%81/2024-09-28-22-03-30.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>半导体简介</title>
+      <link>http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%AE%80%E4%BB%8B/</link>
+      <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%AE%80%E4%BB%8B/</guid>
+      <description>&lt;h1 id=&#34;什么是半导体&#34;&gt;什么是半导体&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;半导体：电阻率 $\rho$ 介于导体和绝缘体之间，&lt;em&gt;并且具有富的电阻温度系数&lt;/em&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%AE%80%E4%BB%8B/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%AE%80%E4%BB%8B/2024-09-28-21-53-46.png&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;从导电性，固体材料可分成：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;超导体&lt;/li&gt;
+&lt;li&gt;导体&lt;/li&gt;
+&lt;li&gt;半导体&lt;/li&gt;
+&lt;li&gt;绝缘体&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;电阻率：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;导体：$\rho &amp;lt; 10^{-4}\Omega\textrm{cm}$ ，如 $\rho_{Cu} = 10^{-6}\Omega\textrm{cm}$&lt;/li&gt;
+&lt;li&gt;半导体：$10^{-3}\Omega\textrm{cm} &amp;lt; \rho &amp;lt; 10^8\Omega\textrm{cm}$ ，如 $\rho_{Ge} = 0.2\Omega\textrm{cm}$&lt;/li&gt;
+&lt;li&gt;绝缘体： $\rho &amp;gt; 10^8\Omega\textrm{cm}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;微电子=集成电路=芯片&amp;lt;半导体
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%AE%80%E4%BB%8B/assets/science_%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%AE%80%E4%BB%8B/2024-09-28-21-54-27.png&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;半导体材料的基本特性&#34;&gt;半导体材料的基本特性&lt;/h1&gt;
+&lt;p&gt;半导体材料是微电子和光电子技术的基础，用半导体材料制作（光）电子元器件，不是因为它的导电能力介于导体和绝缘体之间，而是由于其导电机理不同于其它物质，&lt;em&gt;其导电能力可调谐&lt;/em&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;当受外界热、光、磁、压力、电压变化等作用时，它的导电能力明显变化。
+&lt;ul&gt;
+&lt;li&gt;热电特性、光电特性、磁阻效应、压电效应、电光效应等&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;往纯净的半导体中掺入某些杂质，会使它的导电能力明显改变。
+&lt;ul&gt;
+&lt;li&gt;掺杂特性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;半导体材料的性质主要取决于半导体的能带结构和电子的运动规律。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>自由电子的运动状态</title>
+      <link>http://localhost:1313/posts/%E8%87%AA%E7%94%B1%E7%94%B5%E5%AD%90%E7%9A%84%E8%BF%90%E5%8A%A8%E7%8A%B6%E6%80%81/</link>
+      <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E8%87%AA%E7%94%B1%E7%94%B5%E5%AD%90%E7%9A%84%E8%BF%90%E5%8A%A8%E7%8A%B6%E6%80%81/</guid>
+      <description>&lt;p&gt;自由粒子用平面波表述（德布罗意）
+$$\Phi(\vec r,t)=A\mathrm{e}^{\mathrm{i}(\vec k \bullet \vec r-\omega t)}$$
+考虑一维情况：
+$$\begin{aligned}\Phi(x,t)=&amp;amp;A\mathrm{e}^{\mathrm{i}kx}\mathrm{e}^{-\mathrm{i}at}=\Psi(x)\mathrm{e}^{-\mathrm{i}at}\\Psi(x)=&amp;amp;A\mathrm{e}^{\mathrm{i}kx}\end{aligned}$$
+后式为自由粒子波函数，代表沿x方向传播的平面波，且遵守定态薛定谔方程
+$$-\frac{\hbar^2}{2m_0}\frac{\mathrm{d}^2\Psi(x)}{\mathrm{d}x^2}=E\Psi(x)$$&lt;/p&gt;
+&lt;p&gt;再考虑
+$$\vec p = \hbar \vec k $$
+可得
+$$ E = \frac{\hbar ^2 k^2}{2m_0}$$&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/%E8%87%AA%E7%94%B1%E7%94%B5%E5%AD%90%E7%9A%84%E8%BF%90%E5%8A%A8%E7%8A%B6%E6%80%81/assets/science_%E8%87%AA%E7%94%B1%E7%94%B5%E5%AD%90%E7%9A%84%E8%BF%90%E5%8A%A8%E7%8A%B6%E6%80%81/2024-09-28-22-16-08.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;波矢$\vec k$用于描述自由电子的运动状态。图中可以看出一维情况下自由电子的能量是连续的。&lt;/p&gt;
+&lt;p&gt;空间分布$\left|\psi(r)\right|^2=\left|\psi\psi^*\right|=A^2$&lt;/p&gt;
+&lt;p&gt;自由电子在空间是等几率分布的, 自由运动。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>SummerSchool2024Tongliao</title>
       <link>http://localhost:1313/posts/summerschool2024tongliao/</link>
-      <pubDate>Sat, 27 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/summerschool2024tongliao/</guid>
       <description>&lt;h1 id=&#34;柳卫平&#34;&gt;柳卫平&lt;/h1&gt;
 &lt;p&gt;次级束流线  7Li 电荷交换    老回旋的分析磁铁和四级透镜&lt;/p&gt;
@@ -128,7 +419,7 @@
     <item>
       <title>LSB_resolution(repost)</title>
       <link>http://localhost:1313/posts/lsb_resolution/</link>
-      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/lsb_resolution/</guid>
       <description>&lt;p&gt;Least Significant Bit, 模数转换，
 主要参考&lt;a href=&#34;https://masteringelectronicsdesign.com/an-adc-and-dac-least-significant-bit-lsb/&#34;&gt;以下内容&lt;/a&gt;&lt;/p&gt;
@@ -449,6 +740,216 @@ $$\Sigma = \sum_{i=1}^{m}N_i\sigma_i $$
 $$\sigma = m\sigma_X+n\sigma_Y$$&lt;/p&gt;</description>
     </item>
     <item>
+      <title>科研论文写作</title>
+      <link>http://localhost:1313/posts/%E7%A7%91%E7%A0%94%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/</link>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E7%A7%91%E7%A0%94%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/</guid>
+      <description>&lt;h1 id=&#34;科研论文写作&#34;&gt;科研论文写作&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;南开大学 胡金牛 b站视频&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;科研论文的类型&#34;&gt;科研论文的类型&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;快报 Letter&lt;/li&gt;
+&lt;li&gt;快讯 Rapid communication&lt;/li&gt;
+&lt;li&gt;简要报告 Brief report&lt;/li&gt;
+&lt;li&gt;正式论文 Regular article&lt;/li&gt;
+&lt;li&gt;最常写的&lt;/li&gt;
+&lt;li&gt;综述 Review report&lt;/li&gt;
+&lt;li&gt;全面了解&lt;/li&gt;
+&lt;li&gt;会议文集 Proceeding&lt;/li&gt;
+&lt;li&gt;论文 Thesis,Essay,Dissertation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;具体格式&#34;&gt;具体格式&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;题目 TItle&lt;/li&gt;
+&lt;li&gt;摘要 Abstract&lt;/li&gt;
+&lt;li&gt;引言 Introduction&lt;/li&gt;
+&lt;li&gt;方法或理论框架 Method and Theoretical framework&lt;/li&gt;
+&lt;li&gt;结果讨论 Result an discussion&lt;/li&gt;
+&lt;li&gt;总结 Summary(可能有展望)&lt;/li&gt;
+&lt;li&gt;致谢 Acknowledgements&lt;/li&gt;
+&lt;li&gt;参考文献 Reference&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;工具&#34;&gt;工具&lt;/h1&gt;
+&lt;h2 id=&#34;文字工具&#34;&gt;文字工具&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;word（非专业）&lt;/li&gt;
+&lt;li&gt;latex ctex(专业)
+&lt;ul&gt;
+&lt;li&gt;winedit texstudio overleaf&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Scientific workspace, Lyx(比较专业的)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;画图工具jpg-png-gif-eps&#34;&gt;画图工具jpg png gif eps&lt;/h2&gt;
+&lt;p&gt;建议使用矢量图eps或pdf&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Excel&lt;/li&gt;
+&lt;li&gt;originlab 基本够用
+&lt;ul&gt;
+&lt;li&gt;收费，消耗内存，只有window&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;gnuplot, matplotlib 高阶工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;文献整理软件bib&#34;&gt;文献整理软件bib&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;evernote, endnote(可能有用)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;论文写作流程&#34;&gt;论文写作流程&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;调整正确心态&lt;/li&gt;
+&lt;li&gt;充分构思&lt;/li&gt;
+&lt;li&gt;认真准备&lt;/li&gt;
+&lt;li&gt;抓紧时间写&lt;/li&gt;
+&lt;li&gt;避免忘记，前后不自洽&lt;/li&gt;
+&lt;li&gt;不断修改完善&lt;/li&gt;
+&lt;li&gt;请人审阅&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;要有信用，对自己严格要求&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;具体要求&#34;&gt;具体要求&lt;/h1&gt;
+&lt;h2 id=&#34;标题&#34;&gt;标题&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;一语中的，清晰简明，扣人心弦
+&lt;ul&gt;
+&lt;li&gt;The limits of the nuclear landscape&lt;/li&gt;
+&lt;li&gt;How atomic nuclei cluster&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;长短适中，可以是陈述句，反问句，感叹句&lt;/li&gt;
+&lt;li&gt;不要太长或太短&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;作者&#34;&gt;作者&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;作者有什么用？
+&lt;ul&gt;
+&lt;li&gt;有福同享有难同当&lt;/li&gt;
+&lt;li&gt;必须对论文写作有实际贡献&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;作者排序
+&lt;ol&gt;
+&lt;li&gt;alpha字母排序&lt;/li&gt;
+&lt;li&gt;贡献大小排序&lt;/li&gt;
+&lt;li&gt;通讯作者：回答答复，传达消息，有问题联系通讯作者&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;摘要&#34;&gt;摘要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;迷你版的论文&lt;/li&gt;
+&lt;li&gt;背景 目的 方法 结果 结论&lt;/li&gt;
+&lt;li&gt;Backgroud Purpose Methods Results Conclusions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;首先需要问题的必要性以及重要性
+&lt;ul&gt;
+&lt;li&gt;任何问题都有研究的必要性与重要性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;其次论述前人在该问题所做的工作
+&lt;ul&gt;
+&lt;li&gt;基本没有任何问题是前人没思考过的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;指出目前还没解决的问题
+&lt;ul&gt;
+&lt;li&gt;任何问题都没有完全解决&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;陈述该工作的出发点，创新之处&lt;/li&gt;
+&lt;li&gt;本论文的整体内容安排&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;理论框架和方法&#34;&gt;理论框架和方法&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;公式要尽可能详尽(可重复性)&lt;/li&gt;
+&lt;li&gt;公式必须要有简洁性&lt;/li&gt;
+&lt;li&gt;公式必须保证正确性&lt;/li&gt;
+&lt;li&gt;公式必须要有可重复性&lt;/li&gt;
+&lt;li&gt;公式是作为一句话存在的情况，要以标点符号结尾&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;结果讨论&#34;&gt;结果讨论&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;清楚描述实验或者数值计算的步骤以及详细参数&lt;/li&gt;
+&lt;li&gt;利用图表等方式清晰、明确、简洁表达工作结果&lt;/li&gt;
+&lt;li&gt;对图表所展现的内容进行合理的描述&lt;/li&gt;
+&lt;li&gt;结合相关的物理知识进行分析，提出工作的创新点&lt;/li&gt;
+&lt;li&gt;与其他工作认真比较，寻找异同，给予合理解释&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;用尽可能少的语句描述做了什么&lt;/li&gt;
+&lt;li&gt;分条论述得到了什么&lt;/li&gt;
+&lt;li&gt;总结工作创新了什么&lt;/li&gt;
+&lt;li&gt;未来可以做的是什么&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;致谢&#34;&gt;致谢&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;感谢党和国家感谢cctv感谢家人&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参考文献&#34;&gt;参考文献&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;学术论文&lt;/li&gt;
+&lt;li&gt;书籍&lt;/li&gt;
+&lt;li&gt;学位论文&lt;/li&gt;
+&lt;li&gt;预印本&lt;/li&gt;
+&lt;li&gt;私人交流&lt;/li&gt;
+&lt;li&gt;在正文中无法详细阐述的内容&lt;/li&gt;
+&lt;li&gt;民科是不需要参考文献的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;关于数学符号&#34;&gt;关于数学符号&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;绝大多数数学符号应当用斜体&lt;/li&gt;
+&lt;li&gt;公式中特定的函数符号要用正体，比如sin、cos、exp、Tr&lt;/li&gt;
+&lt;li&gt;数学单位必须用正体，单位与数字之间需要空格&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;关于图表问题&#34;&gt;关于图表问题&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;一般的图需要四边封口，即上下左右都需要把坐标轴画出来&lt;/li&gt;
+&lt;li&gt;轴上必须有相应的刻度，刻度又分大刻度和小刻度&lt;/li&gt;
+&lt;li&gt;清晰地表明横纵坐标所表示的物理量以及相应的单位&lt;/li&gt;
+&lt;li&gt;每一条曲线都需要用不同的线型来表示&lt;/li&gt;
+&lt;li&gt;专业作图软件&lt;/li&gt;
+&lt;li&gt;边框轴以及曲线的粗细在比例协调&lt;/li&gt;
+&lt;li&gt;曲线以及边框线尽量画的粗一些&lt;/li&gt;
+&lt;li&gt;线型的标示要清楚&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;引用其他的图不建议截图，建议自己重画&lt;/li&gt;
+&lt;li&gt;表格最上面一行或者最左面一列通常都是填写数据表示的物理量以及单位&lt;/li&gt;
+&lt;li&gt;图表的说明必须详细、清楚&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;标点符号与空格&#34;&gt;标点符号与空格&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;英文里面是没有顿号的，冒号用的也很少&lt;/li&gt;
+&lt;li&gt;公式末尾是需要添加标点符号的&lt;/li&gt;
+&lt;li&gt;公式中的括号必须是可伸缩的&lt;/li&gt;
+&lt;li&gt;文字中的相邻数学符号，除了要用逗号隔开，还需要添加空格&lt;/li&gt;
+&lt;li&gt;数字与单位之间要有空格&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;参考文献-1&#34;&gt;参考文献&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;学术论文的参考文献格式千奇百怪&lt;/li&gt;
+&lt;li&gt;避免重复编写相同的参考文献&lt;/li&gt;
+&lt;li&gt;尽量不要直接引用连接&lt;/li&gt;
+&lt;li&gt;不要引用百度百科！！！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;学术端正&#34;&gt;学术端正&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;保证实验或者理论计算结果的可重复性&lt;/li&gt;
+&lt;li&gt;引用别人的工作时不能直接复制粘贴&lt;/li&gt;
+&lt;li&gt;论文图片不要ps&lt;/li&gt;
+&lt;li&gt;客观表述工作的创新点&lt;/li&gt;
+&lt;li&gt;切忌一稿多投，虚拟审稿人&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;规范千百条，诚信第一条。
+论文千万篇，严谨第一篇。&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
       <title>Geant4常用信息</title>
       <link>http://localhost:1313/posts/geant4%E5%B8%B8%E7%94%A8%E4%BF%A1%E6%81%AF/</link>
       <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
@@ -496,6 +997,83 @@ else creatorName = step-&amp;gt;GetTrack()-&amp;gt;GetCreatorProcess()-&amp;gt;G
 if (step-&amp;gt;GetPostStepPoint()-&amp;gt;GetStepStatus() == fWorldBoundary) postName=&amp;#34;out&amp;#34;;
 else postName = step-&amp;gt;GetPostStepPoint()-&amp;gt;GetTouchableHandle()-&amp;gt;GetVolume()-&amp;gt;GetName();
 &lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>增肌笔记</title>
+      <link>http://localhost:1313/posts/%E5%A2%9E%E8%82%8C%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E5%A2%9E%E8%82%8C%E7%AC%94%E8%AE%B0/</guid>
+      <description>&lt;p&gt;1.三个要素：抗阻力训练、足够的营养、休息时间&lt;/p&gt;
+&lt;p&gt;2.基础体能储备：多样化训练奠定，有较强适应性和进步素素&lt;/p&gt;
+&lt;p&gt;个体肌纤维分布比例，i型和ii型&lt;/p&gt;
+&lt;p&gt;个体激素水平：睾酮雄性激素 生长激素&lt;/p&gt;
+&lt;p&gt;3.训练 饮食（蛋白和碳水） 睡眠&lt;/p&gt;
+&lt;p&gt;训练方向：肌肉含量和体积提高，以大重量和爆发力训练（安全和避免受伤） 动作的选择和安排（不能硬套别人）（多关节参与、符合人体工程学的复合型动作：深蹲、硬拉、卧推、推举、引体向上、杠铃划船、双杠臂屈伸）&lt;/p&gt;
+&lt;p&gt;多关节复合动作，大重量训练会提高睾酮和生长激素水平&lt;/p&gt;
+&lt;p&gt;4.训练计划&lt;/p&gt;
+&lt;p&gt;RM：可重复最大次数。初学者5RM&lt;/p&gt;
+&lt;p&gt;热身组（非运动前热身）（使身体适应该运动模式） 正式组（三个等重组）&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>健身动作总结</title>
+      <link>http://localhost:1313/posts/%E5%81%A5%E8%BA%AB%E5%8A%A8%E4%BD%9C%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E5%81%A5%E8%BA%AB%E5%8A%A8%E4%BD%9C%E6%80%BB%E7%BB%93/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;后编：感谢hit健身社团组织的200元学长一对一包终身的健身学习，让我从小白开始健身。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;一全身动作&#34;&gt;一、全身动作&lt;/h1&gt;
+&lt;h2 id=&#34;1引体向上&#34;&gt;1.引体向上&lt;/h2&gt;
+&lt;p&gt;背部、肱三头肌&lt;/p&gt;
+&lt;p&gt;宽距偏背，窄距偏三头肌&lt;/p&gt;
+&lt;h2 id=&#34;2深蹲&#34;&gt;2.深蹲&lt;/h2&gt;
+&lt;p&gt;臀、腿&lt;/p&gt;
+&lt;h2 id=&#34;3卧推&#34;&gt;3.卧推&lt;/h2&gt;
+&lt;p&gt;胸部&lt;/p&gt;
+&lt;p&gt;上趟偏胸上部，下躺偏胸下部&lt;/p&gt;
+&lt;h1 id=&#34;二肩三角肌&#34;&gt;二、肩（三角肌）&lt;/h1&gt;
+&lt;h2 id=&#34;1器械推肩&#34;&gt;1.器械推肩&lt;/h2&gt;
+&lt;p&gt;宽距偏中束，窄距偏前束&lt;/p&gt;
+&lt;h2 id=&#34;2坐姿哑铃推肩&#34;&gt;2.坐姿哑铃推肩&lt;/h2&gt;
+&lt;h2 id=&#34;3杠铃推肩&#34;&gt;3.杠铃推肩&lt;/h2&gt;
+&lt;h2 id=&#34;4杠铃划船&#34;&gt;4.杠铃划船&lt;/h2&gt;
+&lt;h2 id=&#34;5哑铃侧拉&#34;&gt;5.哑铃侧拉&lt;/h2&gt;
+&lt;h2 id=&#34;6哑铃前拉&#34;&gt;6.哑铃前拉&lt;/h2&gt;
+&lt;p&gt;三角肌前束&lt;/p&gt;
+&lt;h2 id=&#34;7负重前拉旋转&#34;&gt;7.负重前拉旋转&lt;/h2&gt;
+&lt;p&gt;三角肌前束 臂&lt;/p&gt;
+&lt;h2 id=&#34;8器械后拉肩&#34;&gt;8.器械后拉肩&lt;/h2&gt;
+&lt;p&gt;三角肌后束&lt;/p&gt;
+&lt;h1 id=&#34;三三头肌&#34;&gt;三、三头肌&lt;/h1&gt;
+&lt;h2 id=&#34;1器械下压&#34;&gt;1.器械下压&lt;/h2&gt;
+&lt;p&gt;三头肌 腹肌&lt;/p&gt;
+&lt;h2 id=&#34;2双手哑铃颈后臂屈伸&#34;&gt;2.双手哑铃颈后臂屈伸&lt;/h2&gt;
+&lt;h2 id=&#34;3单手哑铃侧举&#34;&gt;3.单手哑铃侧举&lt;/h2&gt;
+&lt;h2 id=&#34;4平躺杠铃弯举&#34;&gt;4.平躺杠铃弯举&lt;/h2&gt;
+&lt;h2 id=&#34;5拉力器下拉杆-绳&#34;&gt;5.拉力器下拉（杆 绳）&lt;/h2&gt;
+&lt;h1 id=&#34;四腰背&#34;&gt;四、腰背&lt;/h1&gt;
+&lt;h2 id=&#34;1硬拉&#34;&gt;1.硬拉&lt;/h2&gt;
+&lt;p&gt;双手握向相反，下背部 腰&lt;/p&gt;
+&lt;h2 id=&#34;2杠铃划船&#34;&gt;2.杠铃划船&lt;/h2&gt;
+&lt;p&gt;反弓&lt;/p&gt;
+&lt;h2 id=&#34;3哑铃趴着提&#34;&gt;3.哑铃趴着提&lt;/h2&gt;
+&lt;p&gt;贴紧身体两侧&lt;/p&gt;
+&lt;h2 id=&#34;4器械下拉&#34;&gt;4.器械下拉&lt;/h2&gt;
+&lt;p&gt;背阔宽度&lt;/p&gt;
+&lt;h2 id=&#34;5器械后拉&#34;&gt;5.器械后拉&lt;/h2&gt;
+&lt;p&gt;背阔厚度&lt;/p&gt;
+&lt;h2 id=&#34;6辅助引体向上&#34;&gt;6.辅助引体向上&lt;/h2&gt;
+&lt;p&gt;背阔宽度&lt;/p&gt;
+&lt;h1 id=&#34;五二三头连续列举二头动作&#34;&gt;五、二三头连续（列举二头动作）&lt;/h1&gt;
+&lt;h2 id=&#34;1杠铃弯举&#34;&gt;1.杠铃弯举&lt;/h2&gt;
+&lt;p&gt;宽距 窄距&lt;/p&gt;
+&lt;h2 id=&#34;2哑铃弯举&#34;&gt;2.哑铃弯举&lt;/h2&gt;
+&lt;h2 id=&#34;3器械弯举&#34;&gt;3.器械弯举&lt;/h2&gt;
+&lt;h1 id=&#34;六胸&#34;&gt;六、胸&lt;/h1&gt;
+&lt;h2 id=&#34;1卧推&#34;&gt;1.卧推&lt;/h2&gt;
+&lt;p&gt;平 上斜 下斜&lt;/p&gt;
+&lt;h2 id=&#34;2固定器械推胸&#34;&gt;2.固定器械推胸&lt;/h2&gt;
+&lt;h2 id=&#34;3哑铃仰卧推&#34;&gt;3.哑铃仰卧推&lt;/h2&gt;</description>
     </item>
     <item>
       <title>🤝 友链</title>

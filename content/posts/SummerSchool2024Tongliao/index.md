@@ -1,5 +1,5 @@
 +++
-date = '2024-07-27'
+date = '2024-07-22'
 draft = false
 title = 'SummerSchool2024Tongliao'
 tags = ['Science', 'Conferences']
