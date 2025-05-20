@@ -283,4 +283,3 @@ back propagation to train the neural network
 
 ![](./assets/Summer%20School/2024-07-29-11-31-28.png)
 
-讲的不如张英逊
