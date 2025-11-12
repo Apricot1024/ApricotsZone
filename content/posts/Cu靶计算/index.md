@@ -1,6 +1,6 @@
 +++
 date = '2024-11-28'
-draft = false
+draft = true
 title = 'Cu靶计算'
 tags = ['Science', 'Activation']
 +++
